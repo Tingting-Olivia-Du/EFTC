@@ -63,9 +63,6 @@ python3 analysis/run_level1_reproduction.py
 #    expanded Level 2-6 lists and BNC/COCA supplementary lists no longer
 #    in the repo, see report) against the pipeline's own cached output.
 python3 analysis/verify_cached_tables.py
-
-# 3. Flag any in-text citation in the paper with no matching reference-list entry.
-python3 analysis/check_citations.py paper/paper.md
 ```
 
 Each script prints a pass/fail summary and writes a detailed CSV to `output/`.
