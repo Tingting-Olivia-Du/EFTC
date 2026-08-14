@@ -1,0 +1,50 @@
+{
+    "AVL.json": {
+        "wordlist_size": 18558,
+        "words_found_in_corpus": 15125,
+        "wordlist_usage": 81.5012393576894,
+        "unique_words_covered_by_wl": 12.51706873008648,
+        "total_wordlist_frequency_in_corpus": 14225935,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 86.98569229853923,
+        "words_not_covered": [
+            "hsde",
+            "geneli",
+            "kadant",
+            "rinthian",
+            "helmsley"
+        ]
+    },
+    "AWL.json": {
+        "wordlist_size": 3107,
+        "words_found_in_corpus": 1946,
+        "wordlist_usage": 62.63276472481494,
+        "unique_words_covered_by_wl": 1.610460545371788,
+        "total_wordlist_frequency_in_corpus": 3302148,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 20.19126544949325,
+        "words_not_covered": [
+            "hsde",
+            "geneli",
+            "kadant",
+            "rinthian",
+            "helmsley"
+        ]
+    },
+    "NAWL.json": {
+        "wordlist_size": 2598,
+        "words_found_in_corpus": 1249,
+        "wordlist_usage": 48.075442648190915,
+        "unique_words_covered_by_wl": 1.03364091529772,
+        "total_wordlist_frequency_in_corpus": 841570,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 5.145851507664113,
+        "words_not_covered": [
+            "hsde",
+            "geneli",
+            "kadant",
+            "rinthian",
+            "helmsley"
+        ]
+    }
+}

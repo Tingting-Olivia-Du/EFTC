@@ -1,0 +1,66 @@
+{
+    "BEAWL.json": {
+        "wordlist_size": 415,
+        "words_found_in_corpus": 409,
+        "wordlist_usage": 98.55421686746988,
+        "unique_words_covered_by_wl": 0.33847808995737994,
+        "total_wordlist_frequency_in_corpus": 2577978,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 15.763266250014752,
+        "words_not_covered": [
+            "omx",
+            "moneyandbanking",
+            "demandand",
+            "simultane",
+            "schauer"
+        ]
+    },
+    "BWL1.json": {
+        "wordlist_size": 474,
+        "words_found_in_corpus": 389,
+        "wordlist_usage": 82.0675105485232,
+        "unique_words_covered_by_wl": 0.3219265941159432,
+        "total_wordlist_frequency_in_corpus": 549881,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 3.3622942510852933,
+        "words_not_covered": [
+            "omx",
+            "moneyandbanking",
+            "demandand",
+            "simultane",
+            "schauer"
+        ]
+    },
+    "BWL2.json": {
+        "wordlist_size": 426,
+        "words_found_in_corpus": 421,
+        "wordlist_usage": 98.82629107981221,
+        "unique_words_covered_by_wl": 0.3484089874622419,
+        "total_wordlist_frequency_in_corpus": 1134680,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 6.938097589881193,
+        "words_not_covered": [
+            "omx",
+            "moneyandbanking",
+            "demandand",
+            "simultane",
+            "schauer"
+        ]
+    },
+    "EAWL.json": {
+        "wordlist_size": 1763,
+        "words_found_in_corpus": 1090,
+        "wordlist_usage": 61.82643221781055,
+        "unique_words_covered_by_wl": 0.9020565233582986,
+        "total_wordlist_frequency_in_corpus": 1243649,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 7.604397829835861,
+        "words_not_covered": [
+            "omx",
+            "moneyandbanking",
+            "demandand",
+            "simultane",
+            "schauer"
+        ]
+    }
+}

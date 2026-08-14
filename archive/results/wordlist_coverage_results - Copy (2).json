@@ -1,0 +1,1218 @@
+{
+    "cet4_1.json": {
+        "wordlist_size": 4543,
+        "words_found_in_corpus": 4267,
+        "coverage_percentage": 93.92471934844816,
+        "unique_words_covered_by_wl": 3.5312616377705135,
+        "total_wordlist_frequency_in_corpus": 11817115,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.25675706000713,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet4_2.json": {
+        "wordlist_size": 12885,
+        "words_found_in_corpus": 6631,
+        "coverage_percentage": 51.46294140473419,
+        "unique_words_covered_by_wl": 5.487648446228328,
+        "total_wordlist_frequency_in_corpus": 12204672,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.62650737519871,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet4_3.json": {
+        "wordlist_size": 16359,
+        "words_found_in_corpus": 8605,
+        "coverage_percentage": 52.601014731951835,
+        "unique_words_covered_by_wl": 7.1212810857781275,
+        "total_wordlist_frequency_in_corpus": 12580291,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.92326177169252,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet4_4.json": {
+        "wordlist_size": 17595,
+        "words_found_in_corpus": 9373,
+        "coverage_percentage": 53.270815572605855,
+        "unique_words_covered_by_wl": 7.756858526089296,
+        "total_wordlist_frequency_in_corpus": 12798458,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.25726249162378,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet4_5.json": {
+        "wordlist_size": 18991,
+        "words_found_in_corpus": 10014,
+        "coverage_percentage": 52.73024064030331,
+        "unique_words_covered_by_wl": 8.28733396780734,
+        "total_wordlist_frequency_in_corpus": 12881321,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.76393536907851,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet4_66.json": {
+        "wordlist_size": 22664,
+        "words_found_in_corpus": 10837,
+        "coverage_percentage": 47.81591951994352,
+        "unique_words_covered_by_wl": 8.96842802168246,
+        "total_wordlist_frequency_in_corpus": 13100356,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.10324354900555,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet6_1.json": {
+        "wordlist_size": 8074,
+        "words_found_in_corpus": 7580,
+        "coverage_percentage": 93.88159524399306,
+        "unique_words_covered_by_wl": 6.273016923904498,
+        "total_wordlist_frequency_in_corpus": 13462590,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 82.31815422194686,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet6_2.json": {
+        "wordlist_size": 16390,
+        "words_found_in_corpus": 9920,
+        "coverage_percentage": 60.52471018913972,
+        "unique_words_covered_by_wl": 8.209541937352588,
+        "total_wordlist_frequency_in_corpus": 13738162,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 84.00316270807399,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet6_3.json": {
+        "wordlist_size": 19572,
+        "words_found_in_corpus": 11624,
+        "coverage_percentage": 59.39096668710403,
+        "unique_words_covered_by_wl": 9.619729383042992,
+        "total_wordlist_frequency_in_corpus": 13980983,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 85.48791241272423,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet6_4.json": {
+        "wordlist_size": 20478,
+        "words_found_in_corpus": 12080,
+        "coverage_percentage": 58.990135755444875,
+        "unique_words_covered_by_wl": 9.997103488227749,
+        "total_wordlist_frequency_in_corpus": 14019522,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 85.72356241362002,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet6_5.json": {
+        "wordlist_size": 21762,
+        "words_found_in_corpus": 12615,
+        "coverage_percentage": 57.968017645437,
+        "unique_words_covered_by_wl": 10.439856001986179,
+        "total_wordlist_frequency_in_corpus": 14069525,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 86.02931001980575,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "cet6_6.json": {
+        "wordlist_size": 25243,
+        "words_found_in_corpus": 13272,
+        "coverage_percentage": 52.576952026304326,
+        "unique_words_covered_by_wl": 10.983572640377375,
+        "total_wordlist_frequency_in_corpus": 14181876,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 86.71628978707119,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "HighSchool_1.json": {
+        "wordlist_size": 3448,
+        "words_found_in_corpus": 3206,
+        "coverage_percentage": 92.98143851508121,
+        "unique_words_covered_by_wl": 2.6532047833822983,
+        "total_wordlist_frequency_in_corpus": 9915422,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 60.62869309484168,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "HighSchool_2.json": {
+        "wordlist_size": 9854,
+        "words_found_in_corpus": 5103,
+        "coverage_percentage": 51.78607672011366,
+        "unique_words_covered_by_wl": 4.223114163942567,
+        "total_wordlist_frequency_in_corpus": 10276985,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 62.83950088108116,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "HighSchool_3.json": {
+        "wordlist_size": 12792,
+        "words_found_in_corpus": 6856,
+        "coverage_percentage": 53.59599749843652,
+        "unique_words_covered_by_wl": 5.673852774444491,
+        "total_wordlist_frequency_in_corpus": 10789572,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 65.97375778990518,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "HighSchool_4.json": {
+        "wordlist_size": 13750,
+        "words_found_in_corpus": 7489,
+        "coverage_percentage": 54.46545454545455,
+        "unique_words_covered_by_wl": 6.1977076178259605,
+        "total_wordlist_frequency_in_corpus": 11104584,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 67.8999255182371,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "HighSchool_5.json": {
+        "wordlist_size": 14951,
+        "words_found_in_corpus": 8061,
+        "coverage_percentage": 53.91612601163802,
+        "unique_words_covered_by_wl": 6.67108039889105,
+        "total_wordlist_frequency_in_corpus": 11180400,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 68.36350891344493,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "HighSchool_6.json": {
+        "wordlist_size": 18023,
+        "words_found_in_corpus": 8782,
+        "coverage_percentage": 48.726627087610275,
+        "unique_words_covered_by_wl": 7.267761823974841,
+        "total_wordlist_frequency_in_corpus": 11399678,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 69.70430293758739,
+        "words_not_covered": [
+            "unstate",
+            "oyserman",
+            "catnap",
+            "embrac",
+            "ircorp"
+        ]
+    },
+    "basewrd31_pn_low.json": {
+        "wordlist_size": 22409,
+        "words_found_in_corpus": 9354,
+        "wordlist_usage": 41.742157168994595,
+        "unique_words_covered_by_wl": 7.74113460503993,
+        "total_wordlist_frequency_in_corpus": 557106,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 3.4064721295064264,
+        "words_not_covered": [
+            "bree",
+            "hisamerican",
+            "following",
+            "anj",
+            "kenblanchard"
+        ]
+    },
+    "basewrd32_mw_low.json": {
+        "wordlist_size": 196,
+        "words_found_in_corpus": 67,
+        "wordlist_usage": 34.183673469387756,
+        "unique_words_covered_by_wl": 0.055447511068812835,
+        "total_wordlist_frequency_in_corpus": 9924,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 0.06068114400710417,
+        "words_not_covered": [
+            "bree",
+            "hisamerican",
+            "following",
+            "anj",
+            "kenblanchard"
+        ]
+    },
+    "basewrd33_tc_low.json": {
+        "wordlist_size": 6044,
+        "words_found_in_corpus": 1543,
+        "wordlist_usage": 25.52945069490404,
+        "unique_words_covered_by_wl": 1.276947904166839,
+        "total_wordlist_frequency_in_corpus": 107453,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 0.6570305287177917,
+        "words_not_covered": [
+            "bree",
+            "hisamerican",
+            "following",
+            "anj",
+            "kenblanchard"
+        ]
+    },
+    "basewrd34_ab_low.json": {
+        "wordlist_size": 1149,
+        "words_found_in_corpus": 850,
+        "wordlist_usage": 73.97737162750218,
+        "unique_words_covered_by_wl": 0.7034385732610585,
+        "total_wordlist_frequency_in_corpus": 211548,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 1.2935282801707852,
+        "words_not_covered": [
+            "bree",
+            "hisamerican",
+            "following",
+            "anj",
+            "kenblanchard"
+        ]
+    },
+    "AWL_list.json": {
+        "wordlist_size": 3107,
+        "words_found_in_corpus": 1946,
+        "wordlist_usage": 62.63276472481494,
+        "unique_words_covered_by_wl": 1.610460545371788,
+        "total_wordlist_frequency_in_corpus": 3302148,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 20.19126544949325,
+        "words_not_covered": [
+            "kmph",
+            "spawn",
+            "tergroup",
+            "eachbin",
+            "dimovski"
+        ]
+    },
+    "high_cet4_cet6_level6.json": {
+        "wordlist_size": 26411,
+        "words_found_in_corpus": 13598,
+        "wordlist_usage": 51.48612320623982,
+        "unique_words_covered_by_wl": 11.25336202259279,
+        "total_wordlist_frequency_in_corpus": 14207971,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 86.87584988913339,
+        "words_not_covered": [
+            "wds",
+            "hebei",
+            "kaydon",
+            "ibute",
+            "membersopte"
+        ]
+    },
+    "high_cet4_6_awl.json": {
+        "wordlist_size": 26864,
+        "words_found_in_corpus": 13791,
+        "wordlist_usage": 51.33636092912448,
+        "unique_words_covered_by_wl": 11.413083957462655,
+        "total_wordlist_frequency_in_corpus": 14231835,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.02176835150598,
+        "words_not_covered": [
+            "pruning",
+            "incorrigible",
+            "ket",
+            "lahan",
+            "radnet"
+        ]
+    },
+    "combined_additional.json": {
+        "wordlist_size": 29798,
+        "words_found_in_corpus": 11814,
+        "wordlist_usage": 39.64695617155514,
+        "unique_words_covered_by_wl": 9.77696859353664,
+        "total_wordlist_frequency_in_corpus": 886031,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 5.417712082402107,
+        "words_not_covered": [
+            "paperno",
+            "broadband",
+            "torment",
+            "oflose",
+            "escalation"
+        ]
+    },
+    "combined_5.json": {
+        "wordlist_size": 56254,
+        "words_found_in_corpus": 25354,
+        "wordlist_usage": 45.07057275927045,
+        "unique_words_covered_by_wl": 20.982331278189267,
+        "total_wordlist_frequency_in_corpus": 15034273,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.9283439092219,
+        "words_not_covered": [
+            "unq",
+            "custo",
+            "sirum",
+            "xkts",
+            "xr"
+        ]
+    },
+    "combined_AVL.json": {
+        "wordlist_size": 34274,
+        "words_found_in_corpus": 18795,
+        "wordlist_usage": 54.83748614109821,
+        "unique_words_covered_by_wl": 15.554268216990112,
+        "total_wordlist_frequency_in_corpus": 14649106,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 89.57320745277445,
+        "words_not_covered": [
+            "invertibility",
+            "decommis",
+            "aris",
+            "subcritera",
+            "styron"
+        ]
+    },
+    "gen_AVL_add.json": {
+        "wordlist_size": 63153,
+        "words_found_in_corpus": 29913,
+        "wordlist_usage": 47.36592085886656,
+        "unique_words_covered_by_wl": 24.755244755244753,
+        "total_wordlist_frequency_in_corpus": 15388251,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 94.09277256635073,
+        "words_not_covered": [
+            "dollarpricechange",
+            "lemak",
+            "waitingin",
+            "vjc",
+            "garmentdesign"
+        ]
+    },
+    "gen_BEAWL_add.json": {
+        "wordlist_size": 55808,
+        "words_found_in_corpus": 25161,
+        "wordlist_usage": 45.08493405963303,
+        "unique_words_covered_by_wl": 20.822609343319403,
+        "total_wordlist_frequency_in_corpus": 15010409,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.7824254468493,
+        "words_not_covered": [
+            "ramnath",
+            "multiplecountrie",
+            "uran",
+            "extrawide",
+            "antillean"
+        ]
+    },
+    "gen_BEAWL_add_new.json": {
+        "wordlist_size": 55816,
+        "words_found_in_corpus": 25175,
+        "wordlist_usage": 45.10355453633367,
+        "unique_words_covered_by_wl": 20.834195390408407,
+        "total_wordlist_frequency_in_corpus": 15026445,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.88047893589585,
+        "words_not_covered": [
+            "monus",
+            "loray",
+            "capitalaccount",
+            "entertainme",
+            "casebook"
+        ]
+    },
+    "accumulated_level_1000.json": {
+        "wordlist_size": 1000,
+        "words_found_in_corpus": 897,
+        "wordlist_usage": 89.7,
+        "unique_words_covered_by_wl": 0.7423345884884347,
+        "total_wordlist_frequency_in_corpus": 4959098,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 30.322827477160647,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "accumulated_level_10000.json": {
+        "wordlist_size": 9998,
+        "words_found_in_corpus": 8985,
+        "wordlist_usage": 89.86797359471895,
+        "unique_words_covered_by_wl": 7.435759506765424,
+        "total_wordlist_frequency_in_corpus": 11670264,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.35882410166501,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "mcavoy"
+        ]
+    },
+    "accumulated_level_2000.json": {
+        "wordlist_size": 2000,
+        "words_found_in_corpus": 1885,
+        "wordlist_usage": 94.25,
+        "unique_words_covered_by_wl": 1.5599784830554062,
+        "total_wordlist_frequency_in_corpus": 8500414,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 51.97650605139101,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "accumulated_level_3000.json": {
+        "wordlist_size": 3000,
+        "words_found_in_corpus": 2871,
+        "wordlist_usage": 95.7,
+        "unique_words_covered_by_wl": 2.375967228038234,
+        "total_wordlist_frequency_in_corpus": 10610821,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 64.88076956213271,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "accumulated_level_4000.json": {
+        "wordlist_size": 4000,
+        "words_found_in_corpus": 3849,
+        "wordlist_usage": 96.22500000000001,
+        "unique_words_covered_by_wl": 3.1853353746844872,
+        "total_wordlist_frequency_in_corpus": 11093108,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 67.82975453792416,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "accumulated_level_5000.json": {
+        "wordlist_size": 5000,
+        "words_found_in_corpus": 4805,
+        "wordlist_usage": 96.1,
+        "unique_words_covered_by_wl": 3.9764968759051595,
+        "total_wordlist_frequency_in_corpus": 11347303,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 69.38405153519197,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "accumulated_level_6000.json": {
+        "wordlist_size": 6000,
+        "words_found_in_corpus": 5742,
+        "wordlist_usage": 95.7,
+        "unique_words_covered_by_wl": 4.751934456076468,
+        "total_wordlist_frequency_in_corpus": 11482285,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.20941048121847,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "accumulated_level_7000.json": {
+        "wordlist_size": 6998,
+        "words_found_in_corpus": 6630,
+        "wordlist_usage": 94.74135467276365,
+        "unique_words_covered_by_wl": 5.486820871436256,
+        "total_wordlist_frequency_in_corpus": 11549879,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.62271975651232,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "accumulated_level_8000.json": {
+        "wordlist_size": 7998,
+        "words_found_in_corpus": 7483,
+        "wordlist_usage": 93.56089022255564,
+        "unique_words_covered_by_wl": 6.19274216907353,
+        "total_wordlist_frequency_in_corpus": 11619789,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.05019041124193,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "mcavoy"
+        ]
+    },
+    "accumulated_level_9000.json": {
+        "wordlist_size": 8998,
+        "words_found_in_corpus": 8276,
+        "wordlist_usage": 91.97599466548122,
+        "unique_words_covered_by_wl": 6.849008979186494,
+        "total_wordlist_frequency_in_corpus": 11647557,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.21998021442505,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "mcavoy"
+        ]
+    },
+    "addi_accumulated_level_1000.json": {
+        "wordlist_size": 30798,
+        "words_found_in_corpus": 12711,
+        "wordlist_usage": 41.27216052990454,
+        "unique_words_covered_by_wl": 10.519303182025075,
+        "total_wordlist_frequency_in_corpus": 5845129,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 35.740539559562755,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "addi_accumulated_level_10000.json": {
+        "wordlist_size": 39795,
+        "words_found_in_corpus": 20799,
+        "wordlist_usage": 52.26535996984546,
+        "unique_words_covered_by_wl": 17.212728100302066,
+        "total_wordlist_frequency_in_corpus": 12556295,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.77653618406711,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "addi_accumulated_level_2000.json": {
+        "wordlist_size": 31798,
+        "words_found_in_corpus": 13699,
+        "wordlist_usage": 43.08132586955155,
+        "unique_words_covered_by_wl": 11.336947076592047,
+        "total_wordlist_frequency_in_corpus": 9386445,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 57.39421813379312,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "addi_accumulated_level_3000.json": {
+        "wordlist_size": 32798,
+        "words_found_in_corpus": 14685,
+        "wordlist_usage": 44.77407158973108,
+        "unique_words_covered_by_wl": 12.152935821574875,
+        "total_wordlist_frequency_in_corpus": 11496852,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.29848164453483,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "addi_accumulated_level_4000.json": {
+        "wordlist_size": 33798,
+        "words_found_in_corpus": 15663,
+        "wordlist_usage": 46.34297887448962,
+        "unique_words_covered_by_wl": 12.962303968221129,
+        "total_wordlist_frequency_in_corpus": 11979139,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.24746662032626,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "addi_accumulated_level_5000.json": {
+        "wordlist_size": 34798,
+        "words_found_in_corpus": 16619,
+        "wordlist_usage": 47.758491867348695,
+        "unique_words_covered_by_wl": 13.7534654694418,
+        "total_wordlist_frequency_in_corpus": 12233334,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.80176361759409,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "addi_accumulated_level_6000.json": {
+        "wordlist_size": 35798,
+        "words_found_in_corpus": 17556,
+        "wordlist_usage": 49.04184591317951,
+        "unique_words_covered_by_wl": 14.52890304961311,
+        "total_wordlist_frequency_in_corpus": 12368316,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.62712256362057,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "addi_accumulated_level_7000.json": {
+        "wordlist_size": 36796,
+        "words_found_in_corpus": 18444,
+        "wordlist_usage": 50.12501358843352,
+        "unique_words_covered_by_wl": 15.263789464972897,
+        "total_wordlist_frequency_in_corpus": 12435910,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.04043183891443,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "addi_accumulated_level_8000.json": {
+        "wordlist_size": 37796,
+        "words_found_in_corpus": 19297,
+        "wordlist_usage": 51.05566726637739,
+        "unique_words_covered_by_wl": 15.96971076261017,
+        "total_wordlist_frequency_in_corpus": 12505820,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.46790249364405,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "addi_accumulated_level_9000.json": {
+        "wordlist_size": 38796,
+        "words_found_in_corpus": 20090,
+        "wordlist_usage": 51.78368904010723,
+        "unique_words_covered_by_wl": 16.625977572723137,
+        "total_wordlist_frequency_in_corpus": 12533588,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.63769229682717,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "addi_high_cet4_cet6_level6.json": {
+        "wordlist_size": 55801,
+        "words_found_in_corpus": 25161,
+        "wordlist_usage": 45.0905897743768,
+        "unique_words_covered_by_wl": 20.822609343319403,
+        "total_wordlist_frequency_in_corpus": 15010409,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.7824254468493,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "add_cet4_1.json": {
+        "wordlist_size": 34257,
+        "words_found_in_corpus": 16001,
+        "wordlist_usage": 46.708701871150424,
+        "unique_words_covered_by_wl": 13.242024247941409,
+        "total_wordlist_frequency_in_corpus": 12664821,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.44012766275665,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "add_cet4_2.json": {
+        "wordlist_size": 42477,
+        "words_found_in_corpus": 18326,
+        "wordlist_usage": 43.14334816488923,
+        "unique_words_covered_by_wl": 15.166135639508422,
+        "total_wordlist_frequency_in_corpus": 13032534,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.68854014827502,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_cet4_3.json": {
+        "wordlist_size": 45951,
+        "words_found_in_corpus": 20300,
+        "wordlist_usage": 44.17749341690061,
+        "unique_words_covered_by_wl": 16.79976827905822,
+        "total_wordlist_frequency_in_corpus": 13408153,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.98529454476883,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_cet4_4.json": {
+        "wordlist_size": 47187,
+        "words_found_in_corpus": 21068,
+        "wordlist_usage": 44.64789030877148,
+        "unique_words_covered_by_wl": 17.435345719369387,
+        "total_wordlist_frequency_in_corpus": 13626320,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 83.31929526470009,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_cet4_5.json": {
+        "wordlist_size": 48583,
+        "words_found_in_corpus": 21709,
+        "wordlist_usage": 44.68435460963712,
+        "unique_words_covered_by_wl": 17.965821161087433,
+        "total_wordlist_frequency_in_corpus": 13709183,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 83.82596814215482,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_cet4_6.json": {
+        "wordlist_size": 52256,
+        "words_found_in_corpus": 22532,
+        "wordlist_usage": 43.11849357011635,
+        "unique_words_covered_by_wl": 18.646915214962554,
+        "total_wordlist_frequency_in_corpus": 13928218,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 85.16527632208187,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_cet6_1.json": {
+        "wordlist_size": 37719,
+        "words_found_in_corpus": 19250,
+        "wordlist_usage": 51.0352872557597,
+        "unique_words_covered_by_wl": 15.930814747382795,
+        "total_wordlist_frequency_in_corpus": 14307299,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.48319941270631,
+        "words_not_covered": [
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_cet6_2.json": {
+        "wordlist_size": 45895,
+        "words_found_in_corpus": 21533,
+        "wordlist_usage": 46.91796491992592,
+        "unique_words_covered_by_wl": 17.82016799768279,
+        "total_wordlist_frequency_in_corpus": 14548873,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.96032422955156,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "add_cet6_3.json": {
+        "wordlist_size": 49077,
+        "words_found_in_corpus": 23237,
+        "wordlist_usage": 47.34804490902052,
+        "unique_words_covered_by_wl": 19.230355443373195,
+        "total_wordlist_frequency_in_corpus": 14791694,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 90.4450739342018,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "add_cet6_4.json": {
+        "wordlist_size": 49983,
+        "words_found_in_corpus": 23693,
+        "wordlist_usage": 47.40211671968469,
+        "unique_words_covered_by_wl": 19.607729548557952,
+        "total_wordlist_frequency_in_corpus": 14830233,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 90.68072393509759,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "add_cet6_5.json": {
+        "wordlist_size": 51267,
+        "words_found_in_corpus": 24228,
+        "wordlist_usage": 47.25847036105097,
+        "unique_words_covered_by_wl": 20.050482062316384,
+        "total_wordlist_frequency_in_corpus": 14880236,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 90.98647154128332,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "add_cet6_6.json": {
+        "wordlist_size": 54748,
+        "words_found_in_corpus": 24885,
+        "wordlist_usage": 45.45371520420837,
+        "unique_words_covered_by_wl": 20.59419870070758,
+        "total_wordlist_frequency_in_corpus": 14992587,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.67345130854876,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "add_HighSchool_1.json": {
+        "wordlist_size": 33138,
+        "words_found_in_corpus": 14926,
+        "wordlist_usage": 45.041945802402076,
+        "unique_words_covered_by_wl": 12.352381346464187,
+        "total_wordlist_frequency_in_corpus": 10781700,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 65.9256237748282,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "add_HighSchool_2.json": {
+        "wordlist_size": 39413,
+        "words_found_in_corpus": 16794,
+        "wordlist_usage": 42.610306244132644,
+        "unique_words_covered_by_wl": 13.89829105805437,
+        "total_wordlist_frequency_in_corpus": 11124274,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 68.02032170178201,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_HighSchool_3.json": {
+        "wordlist_size": 42351,
+        "words_found_in_corpus": 18547,
+        "wordlist_usage": 43.793534981464425,
+        "unique_words_covered_by_wl": 15.349029668556296,
+        "total_wordlist_frequency_in_corpus": 11636861,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.15457861060604,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_HighSchool_4.json": {
+        "wordlist_size": 43309,
+        "words_found_in_corpus": 19180,
+        "wordlist_usage": 44.28640698238242,
+        "unique_words_covered_by_wl": 15.872884511937766,
+        "total_wordlist_frequency_in_corpus": 11951873,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.08074633893794,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_HighSchool_5.json": {
+        "wordlist_size": 44510,
+        "words_found_in_corpus": 19752,
+        "wordlist_usage": 44.37654459671984,
+        "unique_words_covered_by_wl": 16.346257293002857,
+        "total_wordlist_frequency_in_corpus": 12027689,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.54432973414579,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "add_HighSchool_6.json": {
+        "wordlist_size": 47582,
+        "words_found_in_corpus": 20473,
+        "wordlist_usage": 43.026774830818376,
+        "unique_words_covered_by_wl": 16.942938718086648,
+        "total_wordlist_frequency_in_corpus": 12246967,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.88512375828824,
+        "words_not_covered": [
+            "mediator",
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs"
+        ]
+    },
+    "BWL1.json": {
+        "wordlist_size": 474,
+        "words_found_in_corpus": 389,
+        "wordlist_usage": 82.0675105485232,
+        "unique_words_covered_by_wl": 0.3219265941159432,
+        "total_wordlist_frequency_in_corpus": 549881,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 3.3622942510852933,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "BWL2.json": {
+        "wordlist_size": 426,
+        "words_found_in_corpus": 421,
+        "wordlist_usage": 98.82629107981221,
+        "unique_words_covered_by_wl": 0.3484089874622419,
+        "total_wordlist_frequency_in_corpus": 1134680,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 6.938097589881193,
+        "words_not_covered": [
+            "mediator",
+            "casing",
+            "mpch",
+            "dyn",
+            "tucariz"
+        ]
+    },
+    "gen_addi_avl_BWL1.json": {
+        "wordlist_size": 63190,
+        "words_found_in_corpus": 29925,
+        "wordlist_usage": 47.35717676847602,
+        "unique_words_covered_by_wl": 24.76517565274962,
+        "total_wordlist_frequency_in_corpus": 15388706,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 94.09555470263885,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "gen_addi_avl_BWL2.json": {
+        "wordlist_size": 63161,
+        "words_found_in_corpus": 29921,
+        "wordlist_usage": 47.372587514447204,
+        "unique_words_covered_by_wl": 24.76186535358133,
+        "total_wordlist_frequency_in_corpus": 15393257,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 94.12338218010522,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "gen_addi_awl_BWL1.json": {
+        "wordlist_size": 56333,
+        "words_found_in_corpus": 25389,
+        "wordlist_usage": 45.06949745264765,
+        "unique_words_covered_by_wl": 21.01129639591178,
+        "total_wordlist_frequency_in_corpus": 15049609,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.02211718859441,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    },
+    "gen_addi_awl_BWL2.json": {
+        "wordlist_size": 56319,
+        "words_found_in_corpus": 25419,
+        "wordlist_usage": 45.13396899802908,
+        "unique_words_covered_by_wl": 21.036123639673935,
+        "total_wordlist_frequency_in_corpus": 15121971,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.4645808063536,
+        "words_not_covered": [
+            "mpch",
+            "dyn",
+            "tucariz",
+            "ircs",
+            "pythagorean"
+        ]
+    }
+}

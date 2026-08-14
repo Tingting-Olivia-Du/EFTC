@@ -1,0 +1,1922 @@
+{
+    "BEAWL_addi_addi_bnc_10000_AVL.json": {
+        "wordlist_size": 49300,
+        "words_found_in_corpus": 27423,
+        "wordlist_usage": 55.624746450304265,
+        "unique_words_covered_by_wl": 22.69458352298589,
+        "total_wordlist_frequency_in_corpus": 15237332,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.16996547521731,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_10000_AWL.json": {
+        "wordlist_size": 42229,
+        "words_found_in_corpus": 22082,
+        "wordlist_usage": 52.291079589855315,
+        "unique_words_covered_by_wl": 18.274506558530227,
+        "total_wordlist_frequency_in_corpus": 13380573,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.81665428361245,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_10000_NAWL.json": {
+        "wordlist_size": 41699,
+        "words_found_in_corpus": 21387,
+        "wordlist_usage": 51.28899973620471,
+        "unique_words_covered_by_wl": 17.699342078040303,
+        "total_wordlist_frequency_in_corpus": 12859131,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.62825272241207,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_1000_AVL.json": {
+        "wordlist_size": 47722,
+        "words_found_in_corpus": 26371,
+        "wordlist_usage": 55.259628682787806,
+        "unique_words_covered_by_wl": 21.823974841726322,
+        "total_wordlist_frequency_in_corpus": 15048197,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.0134833942234,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_1000_AWL.json": {
+        "wordlist_size": 33974,
+        "words_found_in_corpus": 14724,
+        "wordlist_usage": 43.33902395949844,
+        "unique_words_covered_by_wl": 12.185211238465676,
+        "total_wordlist_frequency_in_corpus": 9481233,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 57.97380744033739,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_1000_NAWL.json": {
+        "wordlist_size": 33702,
+        "words_found_in_corpus": 14276,
+        "wordlist_usage": 42.35950388700967,
+        "unique_words_covered_by_wl": 11.814457731617495,
+        "total_wordlist_frequency_in_corpus": 8980275,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 54.91065704336935,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_2000_AVL.json": {
+        "wordlist_size": 47750,
+        "words_found_in_corpus": 26395,
+        "wordlist_usage": 55.27748691099477,
+        "unique_words_covered_by_wl": 21.843836636736043,
+        "total_wordlist_frequency_in_corpus": 15152857,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.65343588634184,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_2000_AWL.json": {
+        "wordlist_size": 34822,
+        "words_found_in_corpus": 15561,
+        "wordlist_usage": 44.68726667049566,
+        "unique_words_covered_by_wl": 12.8778913394298,
+        "total_wordlist_frequency_in_corpus": 11960401,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.132891521938,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_2000_NAWL.json": {
+        "wordlist_size": 34550,
+        "words_found_in_corpus": 15113,
+        "wordlist_usage": 43.74240231548481,
+        "unique_words_covered_by_wl": 12.50713783258162,
+        "total_wordlist_frequency_in_corpus": 11492284,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.27055021911922,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_3000_AVL.json": {
+        "wordlist_size": 47776,
+        "words_found_in_corpus": 26414,
+        "wordlist_usage": 55.28717347622237,
+        "unique_words_covered_by_wl": 21.85956055778541,
+        "total_wordlist_frequency_in_corpus": 15158263,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.68649133419578,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_3000_AWL.json": {
+        "wordlist_size": 35422,
+        "words_found_in_corpus": 16152,
+        "wordlist_usage": 45.59878041894868,
+        "unique_words_covered_by_wl": 13.366988041544253,
+        "total_wordlist_frequency_in_corpus": 12603134,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.06293724252627,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_3000_NAWL.json": {
+        "wordlist_size": 35183,
+        "words_found_in_corpus": 15736,
+        "wordlist_usage": 44.726146150129324,
+        "unique_words_covered_by_wl": 13.022716928042371,
+        "total_wordlist_frequency_in_corpus": 12272479,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.04111905715052,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_4000_AVL.json": {
+        "wordlist_size": 47818,
+        "words_found_in_corpus": 26442,
+        "wordlist_usage": 55.297168430298214,
+        "unique_words_covered_by_wl": 21.882732651963423,
+        "total_wordlist_frequency_in_corpus": 15168287,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.74778393672773,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_4000_AWL.json": {
+        "wordlist_size": 36316,
+        "words_found_in_corpus": 17027,
+        "wordlist_usage": 46.88567022799867,
+        "unique_words_covered_by_wl": 14.091115984607109,
+        "total_wordlist_frequency_in_corpus": 12883877,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.77956424897393,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_4000_NAWL.json": {
+        "wordlist_size": 35931,
+        "words_found_in_corpus": 16466,
+        "wordlist_usage": 45.82672344215302,
+        "unique_words_covered_by_wl": 13.626846526254809,
+        "total_wordlist_frequency_in_corpus": 12456218,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.164606836143,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_5000_AVL.json": {
+        "wordlist_size": 47870,
+        "words_found_in_corpus": 26477,
+        "wordlist_usage": 55.310215166074784,
+        "unique_words_covered_by_wl": 21.911697769685937,
+        "total_wordlist_frequency_in_corpus": 15171815,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.7693561934848,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_5000_AWL.json": {
+        "wordlist_size": 37273,
+        "words_found_in_corpus": 17941,
+        "wordlist_usage": 48.134038043624074,
+        "unique_words_covered_by_wl": 14.847519344560764,
+        "total_wordlist_frequency_in_corpus": 13074702,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.94637997903797,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_5000_NAWL.json": {
+        "wordlist_size": 36827,
+        "words_found_in_corpus": 17322,
+        "wordlist_usage": 47.036141961061176,
+        "unique_words_covered_by_wl": 14.3352505482683,
+        "total_wordlist_frequency_in_corpus": 12581683,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.93177327435856,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_6000_AVL.json": {
+        "wordlist_size": 47976,
+        "words_found_in_corpus": 26557,
+        "wordlist_usage": 55.354760713690176,
+        "unique_words_covered_by_wl": 21.97790375305168,
+        "total_wordlist_frequency_in_corpus": 15186273,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.85776086700905,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_6000_AWL.json": {
+        "wordlist_size": 38256,
+        "words_found_in_corpus": 18861,
+        "wordlist_usage": 49.302070263488076,
+        "unique_words_covered_by_wl": 15.60888815326685,
+        "total_wordlist_frequency_in_corpus": 13198814,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.70527338341219,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_6000_NAWL.json": {
+        "wordlist_size": 37775,
+        "words_found_in_corpus": 18212,
+        "wordlist_usage": 48.211780277961616,
+        "unique_words_covered_by_wl": 15.071792113212231,
+        "total_wordlist_frequency_in_corpus": 12695140,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.62551577290895,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_7000_AVL.json": {
+        "wordlist_size": 48144,
+        "words_found_in_corpus": 26675,
+        "wordlist_usage": 55.40669657693586,
+        "unique_words_covered_by_wl": 22.075557578516158,
+        "total_wordlist_frequency_in_corpus": 15193752,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.90349185008333,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_7000_AWL.json": {
+        "wordlist_size": 39244,
+        "words_found_in_corpus": 19739,
+        "wordlist_usage": 50.298134746712876,
+        "unique_words_covered_by_wl": 16.335498820705922,
+        "total_wordlist_frequency_in_corpus": 13261879,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.09088970211515,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_7000_NAWL.json": {
+        "wordlist_size": 38738,
+        "words_found_in_corpus": 19067,
+        "wordlist_usage": 49.22040373793175,
+        "unique_words_covered_by_wl": 15.77936856043365,
+        "total_wordlist_frequency_in_corpus": 12751113,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.96776745302883,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_8000_AVL.json": {
+        "wordlist_size": 48422,
+        "words_found_in_corpus": 26866,
+        "wordlist_usage": 55.48304489694766,
+        "unique_words_covered_by_wl": 22.23362436380188,
+        "total_wordlist_frequency_in_corpus": 15221557,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.07350789292065,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_8000_AWL.json": {
+        "wordlist_size": 40239,
+        "words_found_in_corpus": 20587,
+        "wordlist_usage": 51.16180819602872,
+        "unique_words_covered_by_wl": 17.037282244382837,
+        "total_wordlist_frequency_in_corpus": 13331388,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.51590840816006,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_8000_NAWL.json": {
+        "wordlist_size": 39721,
+        "words_found_in_corpus": 19905,
+        "wordlist_usage": 50.112031419148565,
+        "unique_words_covered_by_wl": 16.472876236189844,
+        "total_wordlist_frequency_in_corpus": 12814481,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.3552364910621,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_9000_AVL.json": {
+        "wordlist_size": 48809,
+        "words_found_in_corpus": 27132,
+        "wordlist_usage": 55.588108750435374,
+        "unique_words_covered_by_wl": 22.453759258492987,
+        "total_wordlist_frequency_in_corpus": 15229726,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.12345793981646,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_9000_AWL.json": {
+        "wordlist_size": 41236,
+        "words_found_in_corpus": 21378,
+        "wordlist_usage": 51.84304976234358,
+        "unique_words_covered_by_wl": 17.691893904911655,
+        "total_wordlist_frequency_in_corpus": 13358798,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.68350918982418,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BEAWL_addi_addi_bnc_9000_NAWL.json": {
+        "wordlist_size": 40707,
+        "words_found_in_corpus": 20684,
+        "wordlist_usage": 50.811899673274866,
+        "unique_words_covered_by_wl": 17.117556999213804,
+        "total_wordlist_frequency_in_corpus": 12837935,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.49864797348276,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_10000_AVL.json": {
+        "wordlist_size": 49379,
+        "words_found_in_corpus": 27447,
+        "wordlist_usage": 55.584357722918654,
+        "unique_words_covered_by_wl": 22.71444531799561,
+        "total_wordlist_frequency_in_corpus": 15237917,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.17354250758774,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_10000_AWL.json": {
+        "wordlist_size": 42389,
+        "words_found_in_corpus": 22163,
+        "wordlist_usage": 52.28479086555474,
+        "unique_words_covered_by_wl": 18.341540116688044,
+        "total_wordlist_frequency_in_corpus": 13479337,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 82.42055518110514,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_10000_NAWL.json": {
+        "wordlist_size": 41849,
+        "words_found_in_corpus": 21462,
+        "wordlist_usage": 51.28437955506703,
+        "unique_words_covered_by_wl": 17.76141018744569,
+        "total_wordlist_frequency_in_corpus": 12940665,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.12679931607141,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_1000_AVL.json": {
+        "wordlist_size": 47804,
+        "words_found_in_corpus": 26399,
+        "wordlist_usage": 55.22341226675592,
+        "unique_words_covered_by_wl": 21.847146935904334,
+        "total_wordlist_frequency_in_corpus": 15013878,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.8036369430767,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_1000_AWL.json": {
+        "wordlist_size": 34315,
+        "words_found_in_corpus": 14986,
+        "wordlist_usage": 43.67186361649424,
+        "unique_words_covered_by_wl": 12.402035833988496,
+        "total_wordlist_frequency_in_corpus": 9546968,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 58.3757497016541,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_1000_NAWL.json": {
+        "wordlist_size": 33731,
+        "words_found_in_corpus": 14233,
+        "wordlist_usage": 42.19560641546352,
+        "unique_words_covered_by_wl": 11.778872015558406,
+        "total_wordlist_frequency_in_corpus": 7076899,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 43.272302231230505,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_2000_AVL.json": {
+        "wordlist_size": 47833,
+        "words_found_in_corpus": 26424,
+        "wordlist_usage": 55.24219680973387,
+        "unique_words_covered_by_wl": 21.867836305706128,
+        "total_wordlist_frequency_in_corpus": 15152942,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.65395562608798,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_2000_AWL.json": {
+        "wordlist_size": 35126,
+        "words_found_in_corpus": 15786,
+        "wordlist_usage": 44.9410692934009,
+        "unique_words_covered_by_wl": 13.064095667645963,
+        "total_wordlist_frequency_in_corpus": 12075232,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.83503546061996,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_2000_NAWL.json": {
+        "wordlist_size": 34638,
+        "words_found_in_corpus": 15128,
+        "wordlist_usage": 43.67457705410243,
+        "unique_words_covered_by_wl": 12.519551454462697,
+        "total_wordlist_frequency_in_corpus": 10555778,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 64.54420444629405,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_3000_AVL.json": {
+        "wordlist_size": 47858,
+        "words_found_in_corpus": 26442,
+        "wordlist_usage": 55.250950729240664,
+        "unique_words_covered_by_wl": 21.882732651963423,
+        "total_wordlist_frequency_in_corpus": 15158451,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.68764087622252,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_3000_AWL.json": {
+        "wordlist_size": 35672,
+        "words_found_in_corpus": 16323,
+        "wordlist_usage": 45.75857815653734,
+        "unique_words_covered_by_wl": 13.508503330988539,
+        "total_wordlist_frequency_in_corpus": 12733216,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.85833472083463,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_3000_NAWL.json": {
+        "wordlist_size": 35407,
+        "words_found_in_corpus": 15885,
+        "wordlist_usage": 44.864009941536985,
+        "unique_words_covered_by_wl": 13.146025572061076,
+        "total_wordlist_frequency_in_corpus": 12353369,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.53572785790976,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_4000_AVL.json": {
+        "wordlist_size": 47902,
+        "words_found_in_corpus": 26470,
+        "wordlist_usage": 55.25865308337856,
+        "unique_words_covered_by_wl": 21.905904746141434,
+        "total_wordlist_frequency_in_corpus": 15168475,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.74893347875448,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_4000_AWL.json": {
+        "wordlist_size": 36538,
+        "words_found_in_corpus": 17168,
+        "wordlist_usage": 46.986698779353006,
+        "unique_words_covered_by_wl": 14.207804030289237,
+        "total_wordlist_frequency_in_corpus": 13006152,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.52722516024646,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_4000_NAWL.json": {
+        "wordlist_size": 36140,
+        "words_found_in_corpus": 16598,
+        "wordlist_usage": 45.92695074709463,
+        "unique_words_covered_by_wl": 13.736086398808292,
+        "total_wordlist_frequency_in_corpus": 12555743,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.77316093300989,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_5000_AVL.json": {
+        "wordlist_size": 47952,
+        "words_found_in_corpus": 26503,
+        "wordlist_usage": 55.26985318651986,
+        "unique_words_covered_by_wl": 21.933214714279803,
+        "total_wordlist_frequency_in_corpus": 15171826,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.76942345392254,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_5000_AWL.json": {
+        "wordlist_size": 37459,
+        "words_found_in_corpus": 18046,
+        "wordlist_usage": 48.17533836995115,
+        "unique_words_covered_by_wl": 14.934414697728307,
+        "total_wordlist_frequency_in_corpus": 13183323,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.61055234332613,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_5000_NAWL.json": {
+        "wordlist_size": 37003,
+        "words_found_in_corpus": 17421,
+        "wordlist_usage": 47.07996648920358,
+        "unique_words_covered_by_wl": 14.417180452683413,
+        "total_wordlist_frequency_in_corpus": 12672737,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.48853071958457,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_6000_AVL.json": {
+        "wordlist_size": 48058,
+        "words_found_in_corpus": 26583,
+        "wordlist_usage": 55.31441175246577,
+        "unique_words_covered_by_wl": 21.99942069764555,
+        "total_wordlist_frequency_in_corpus": 15186284,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.85782812744678,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_6000_AWL.json": {
+        "wordlist_size": 38425,
+        "words_found_in_corpus": 18950,
+        "wordlist_usage": 49.31685100845804,
+        "unique_words_covered_by_wl": 15.682542309761244,
+        "total_wordlist_frequency_in_corpus": 13298087,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.31228660479644,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_6000_NAWL.json": {
+        "wordlist_size": 37934,
+        "words_found_in_corpus": 18295,
+        "wordlist_usage": 48.228502135287606,
+        "unique_words_covered_by_wl": 15.140480820954194,
+        "total_wordlist_frequency_in_corpus": 12777183,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.12717469045982,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_7000_AVL.json": {
+        "wordlist_size": 48226,
+        "words_found_in_corpus": 26701,
+        "wordlist_usage": 55.366399867291506,
+        "unique_words_covered_by_wl": 22.097074523110027,
+        "total_wordlist_frequency_in_corpus": 15193763,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.90355911052107,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_7000_AWL.json": {
+        "wordlist_size": 39409,
+        "words_found_in_corpus": 19824,
+        "wordlist_usage": 50.30323022659798,
+        "unique_words_covered_by_wl": 16.405842678032027,
+        "total_wordlist_frequency_in_corpus": 13360346,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.69297456778901,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_7000_NAWL.json": {
+        "wordlist_size": 38893,
+        "words_found_in_corpus": 19146,
+        "wordlist_usage": 49.227367392589926,
+        "unique_words_covered_by_wl": 15.844746969007323,
+        "total_wordlist_frequency_in_corpus": 12832350,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.46449801486932,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_8000_AVL.json": {
+        "wordlist_size": 48502,
+        "words_found_in_corpus": 26891,
+        "wordlist_usage": 55.44307451239124,
+        "unique_words_covered_by_wl": 22.254313733603677,
+        "total_wordlist_frequency_in_corpus": 15221492,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.07311044487949,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_8000_AWL.json": {
+        "wordlist_size": 40399,
+        "words_found_in_corpus": 20668,
+        "wordlist_usage": 51.15968217035075,
+        "unique_words_covered_by_wl": 17.104315802540654,
+        "total_wordlist_frequency_in_corpus": 13429359,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 82.11496043955063,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_8000_NAWL.json": {
+        "wordlist_size": 39871,
+        "words_found_in_corpus": 19980,
+        "wordlist_usage": 50.111609942063154,
+        "unique_words_covered_by_wl": 16.534944345595235,
+        "total_wordlist_frequency_in_corpus": 12895222,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.84893421861929,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_9000_AVL.json": {
+        "wordlist_size": 48888,
+        "words_found_in_corpus": 27156,
+        "wordlist_usage": 55.547373588610704,
+        "unique_words_covered_by_wl": 22.47362105350271,
+        "total_wordlist_frequency_in_corpus": 15229590,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.12262635622265,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_9000_AWL.json": {
+        "wordlist_size": 41395,
+        "words_found_in_corpus": 21458,
+        "wordlist_usage": 51.83717840318879,
+        "unique_words_covered_by_wl": 17.758099888277403,
+        "total_wordlist_frequency_in_corpus": 13456698,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 82.2821270856621,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL1_addi_addi_bnc_9000_NAWL.json": {
+        "wordlist_size": 40856,
+        "words_found_in_corpus": 20758,
+        "wordlist_usage": 50.80771490111612,
+        "unique_words_covered_by_wl": 17.17879753382712,
+        "total_wordlist_frequency_in_corpus": 12918605,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.9919115654873,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_10000_AVL.json": {
+        "wordlist_size": 49303,
+        "words_found_in_corpus": 27426,
+        "wordlist_usage": 55.627446605683225,
+        "unique_words_covered_by_wl": 22.697066247362105,
+        "total_wordlist_frequency_in_corpus": 15241331,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.19441770162646,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_10000_AWL.json": {
+        "wordlist_size": 42243,
+        "words_found_in_corpus": 22096,
+        "wordlist_usage": 52.30689108254622,
+        "unique_words_covered_by_wl": 18.286092605619235,
+        "total_wordlist_frequency_in_corpus": 13397548,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.92044936820743,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_10000_NAWL.json": {
+        "wordlist_size": 41714,
+        "words_found_in_corpus": 21402,
+        "wordlist_usage": 51.30651579805341,
+        "unique_words_covered_by_wl": 17.71175569992138,
+        "total_wordlist_frequency_in_corpus": 12876331,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.73342358868798,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_1000_AVL.json": {
+        "wordlist_size": 47728,
+        "words_found_in_corpus": 26378,
+        "wordlist_usage": 55.26734830707342,
+        "unique_words_covered_by_wl": 21.829767865270824,
+        "total_wordlist_frequency_in_corpus": 15021560,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.85060918695645,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_1000_AWL.json": {
+        "wordlist_size": 34130,
+        "words_found_in_corpus": 14879,
+        "wordlist_usage": 43.5950776443012,
+        "unique_words_covered_by_wl": 12.31348533123681,
+        "total_wordlist_frequency_in_corpus": 9628705,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 58.87553755611889,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_1000_NAWL.json": {
+        "wordlist_size": 33649,
+        "words_found_in_corpus": 14224,
+        "wordlist_usage": 42.27168712294571,
+        "unique_words_covered_by_wl": 11.77142384242976,
+        "total_wordlist_frequency_in_corpus": 7536066,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 46.079917996074315,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_2000_AVL.json": {
+        "wordlist_size": 47758,
+        "words_found_in_corpus": 26404,
+        "wordlist_usage": 55.28707232296159,
+        "unique_words_covered_by_wl": 21.85128480986469,
+        "total_wordlist_frequency_in_corpus": 15160628,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.70095232830872,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_2000_AWL.json": {
+        "wordlist_size": 34990,
+        "words_found_in_corpus": 15728,
+        "wordlist_usage": 44.94998571020292,
+        "unique_words_covered_by_wl": 13.016096329705798,
+        "total_wordlist_frequency_in_corpus": 12189470,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.5335534502495,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_2000_NAWL.json": {
+        "wordlist_size": 34601,
+        "words_found_in_corpus": 15164,
+        "wordlist_usage": 43.82532296754429,
+        "unique_words_covered_by_wl": 12.549344146977285,
+        "total_wordlist_frequency_in_corpus": 11046527,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 67.54493104245913,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_3000_AVL.json": {
+        "wordlist_size": 47784,
+        "words_found_in_corpus": 26423,
+        "wordlist_usage": 55.29675205089569,
+        "unique_words_covered_by_wl": 21.867008730914055,
+        "total_wordlist_frequency_in_corpus": 15164524,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.72477475243726,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_3000_AWL.json": {
+        "wordlist_size": 35553,
+        "words_found_in_corpus": 16284,
+        "wordlist_usage": 45.80204202177032,
+        "unique_words_covered_by_wl": 13.476227914097736,
+        "total_wordlist_frequency_in_corpus": 12797392,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.25074434374878,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_3000_NAWL.json": {
+        "wordlist_size": 35298,
+        "words_found_in_corpus": 15852,
+        "wordlist_usage": 44.909060003399624,
+        "unique_words_covered_by_wl": 13.118715603922704,
+        "total_wordlist_frequency_in_corpus": 12406297,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.85936062594764,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_4000_AVL.json": {
+        "wordlist_size": 47825,
+        "words_found_in_corpus": 26449,
+        "wordlist_usage": 55.30371144798746,
+        "unique_words_covered_by_wl": 21.888525675507925,
+        "total_wordlist_frequency_in_corpus": 15174172,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.78376827091574,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_4000_AWL.json": {
+        "wordlist_size": 36394,
+        "words_found_in_corpus": 17105,
+        "wordlist_usage": 46.99950541298016,
+        "unique_words_covered_by_wl": 14.155666818388713,
+        "total_wordlist_frequency_in_corpus": 13007160,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.53338866217705,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_4000_NAWL.json": {
+        "wordlist_size": 36002,
+        "words_found_in_corpus": 16537,
+        "wordlist_usage": 45.93355924670852,
+        "unique_words_covered_by_wl": 13.685604336491911,
+        "total_wordlist_frequency_in_corpus": 12536674,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.65656190690434,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_5000_AVL.json": {
+        "wordlist_size": 47876,
+        "words_found_in_corpus": 26483,
+        "wordlist_usage": 55.31581585763221,
+        "unique_words_covered_by_wl": 21.916663218438366,
+        "total_wordlist_frequency_in_corpus": 15177695,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.80530995474656,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_5000_AWL.json": {
+        "wordlist_size": 37321,
+        "words_found_in_corpus": 17989,
+        "wordlist_usage": 48.200744888936526,
+        "unique_words_covered_by_wl": 14.887242934580215,
+        "total_wordlist_frequency_in_corpus": 13132350,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.29887358944926,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_5000_NAWL.json": {
+        "wordlist_size": 36873,
+        "words_found_in_corpus": 17368,
+        "wordlist_usage": 47.10221571339462,
+        "unique_words_covered_by_wl": 14.373318988703604,
+        "total_wordlist_frequency_in_corpus": 12630250,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.22874033612732,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_6000_AVL.json": {
+        "wordlist_size": 47980,
+        "words_found_in_corpus": 26561,
+        "wordlist_usage": 55.35848270112547,
+        "unique_words_covered_by_wl": 21.98121405221997,
+        "total_wordlist_frequency_in_corpus": 15192134,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.89359845115109,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_6000_AWL.json": {
+        "wordlist_size": 38289,
+        "words_found_in_corpus": 18894,
+        "wordlist_usage": 49.34576510224869,
+        "unique_words_covered_by_wl": 15.636198121405224,
+        "total_wordlist_frequency_in_corpus": 13232497,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.91123095834078,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_6000_NAWL.json": {
+        "wordlist_size": 37806,
+        "words_found_in_corpus": 18243,
+        "wordlist_usage": 48.2542453578797,
+        "unique_words_covered_by_wl": 15.09744693176646,
+        "total_wordlist_frequency_in_corpus": 12725661,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.81213902928147,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_7000_AVL.json": {
+        "wordlist_size": 48146,
+        "words_found_in_corpus": 26677,
+        "wordlist_usage": 55.4085489968014,
+        "unique_words_covered_by_wl": 22.0772127281003,
+        "total_wordlist_frequency_in_corpus": 15196983,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.92324807502156,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_7000_AWL.json": {
+        "wordlist_size": 39267,
+        "words_found_in_corpus": 19762,
+        "wordlist_usage": 50.32724679756539,
+        "unique_words_covered_by_wl": 16.354533040923574,
+        "total_wordlist_frequency_in_corpus": 13286928,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.2440539480073,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_7000_NAWL.json": {
+        "wordlist_size": 38761,
+        "words_found_in_corpus": 19090,
+        "wordlist_usage": 49.25053533190578,
+        "unique_words_covered_by_wl": 15.798402780651303,
+        "total_wordlist_frequency_in_corpus": 12776028,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.1201123444977,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_8000_AVL.json": {
+        "wordlist_size": 48425,
+        "words_found_in_corpus": 26869,
+        "wordlist_usage": 55.485802787816205,
+        "unique_words_covered_by_wl": 22.236107088178095,
+        "total_wordlist_frequency_in_corpus": 15224837,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.09356373253605,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_8000_AWL.json": {
+        "wordlist_size": 40255,
+        "words_found_in_corpus": 20603,
+        "wordlist_usage": 51.18121972425785,
+        "unique_words_covered_by_wl": 17.050523441055983,
+        "total_wordlist_frequency_in_corpus": 13348660,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.62151952457387,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_8000_NAWL.json": {
+        "wordlist_size": 39737,
+        "words_found_in_corpus": 19921,
+        "wordlist_usage": 50.132118680323124,
+        "unique_words_covered_by_wl": 16.486117432862997,
+        "total_wordlist_frequency_in_corpus": 12831619,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.4600282530526,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_9000_AVL.json": {
+        "wordlist_size": 48811,
+        "words_found_in_corpus": 27134,
+        "wordlist_usage": 55.58992849972342,
+        "unique_words_covered_by_wl": 22.45541440807713,
+        "total_wordlist_frequency_in_corpus": 15232994,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.14344040440888,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_9000_AWL.json": {
+        "wordlist_size": 41250,
+        "words_found_in_corpus": 21392,
+        "wordlist_usage": 51.85939393939394,
+        "unique_words_covered_by_wl": 17.703479952000663,
+        "total_wordlist_frequency_in_corpus": 13375648,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.78653995126308,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "BWL2_addi_addi_bnc_9000_NAWL.json": {
+        "wordlist_size": 40721,
+        "words_found_in_corpus": 20698,
+        "wordlist_usage": 50.828810687360324,
+        "unique_words_covered_by_wl": 17.129143046302808,
+        "total_wordlist_frequency_in_corpus": 12854651,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.60085938049835,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_10000_AVL.json": {
+        "wordlist_size": 50102,
+        "words_found_in_corpus": 27602,
+        "wordlist_usage": 55.09161310925712,
+        "unique_words_covered_by_wl": 22.842719410766748,
+        "total_wordlist_frequency_in_corpus": 15251506,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.25663360653095,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_10000_AWL.json": {
+        "wordlist_size": 43191,
+        "words_found_in_corpus": 22517,
+        "wordlist_usage": 52.13354634067282,
+        "unique_words_covered_by_wl": 18.634501593081474,
+        "total_wordlist_frequency_in_corpus": 13695017,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 83.73934892752315,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_10000_NAWL.json": {
+        "wordlist_size": 42500,
+        "words_found_in_corpus": 21796,
+        "wordlist_usage": 51.284705882352945,
+        "unique_words_covered_by_wl": 18.037820167997683,
+        "total_wordlist_frequency_in_corpus": 13117663,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.20906867590307,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_1000_AVL.json": {
+        "wordlist_size": 48528,
+        "words_found_in_corpus": 26554,
+        "wordlist_usage": 54.718925156610624,
+        "unique_words_covered_by_wl": 21.975421028675466,
+        "total_wordlist_frequency_in_corpus": 15036043,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.9391667251119,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_1000_AWL.json": {
+        "wordlist_size": 35117,
+        "words_found_in_corpus": 15340,
+        "wordlist_usage": 43.68254691459977,
+        "unique_words_covered_by_wl": 12.694997310381925,
+        "total_wordlist_frequency_in_corpus": 9795346,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 59.894478156530816,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_1000_NAWL.json": {
+        "wordlist_size": 34345,
+        "words_found_in_corpus": 14531,
+        "wordlist_usage": 42.308924151987185,
+        "unique_words_covered_by_wl": 12.025489303595812,
+        "total_wordlist_frequency_in_corpus": 7194869,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 43.993639853007814,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_2000_AVL.json": {
+        "wordlist_size": 48557,
+        "words_found_in_corpus": 26579,
+        "wordlist_usage": 54.73773091418334,
+        "unique_words_covered_by_wl": 21.99611039847726,
+        "total_wordlist_frequency_in_corpus": 15171185,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.76550400477818,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_2000_AWL.json": {
+        "wordlist_size": 35973,
+        "words_found_in_corpus": 16185,
+        "wordlist_usage": 44.99207739137687,
+        "unique_words_covered_by_wl": 13.394298009682625,
+        "total_wordlist_frequency_in_corpus": 12345724,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.48898185368421,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_2000_NAWL.json": {
+        "wordlist_size": 35298,
+        "words_found_in_corpus": 15472,
+        "wordlist_usage": 43.83251175704006,
+        "unique_words_covered_by_wl": 12.804237182935408,
+        "total_wordlist_frequency_in_corpus": 10708742,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 65.47951586426085,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_3000_AVL.json": {
+        "wordlist_size": 48582,
+        "words_found_in_corpus": 26597,
+        "wordlist_usage": 54.7466139722531,
+        "unique_words_covered_by_wl": 22.011006744734555,
+        "total_wordlist_frequency_in_corpus": 15174729,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.78717409489921,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_3000_AWL.json": {
+        "wordlist_size": 36567,
+        "words_found_in_corpus": 16770,
+        "wordlist_usage": 45.861022233161044,
+        "unique_words_covered_by_wl": 13.878429263044648,
+        "total_wordlist_frequency_in_corpus": 13158911,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.46128308823731,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_3000_NAWL.json": {
+        "wordlist_size": 36118,
+        "words_found_in_corpus": 16280,
+        "wordlist_usage": 45.07447809956254,
+        "unique_words_covered_by_wl": 13.47291761492945,
+        "total_wordlist_frequency_in_corpus": 12658734,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.40290818234843,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_4000_AVL.json": {
+        "wordlist_size": 48622,
+        "words_found_in_corpus": 26622,
+        "wordlist_usage": 54.75299247254329,
+        "unique_words_covered_by_wl": 22.031696114536352,
+        "total_wordlist_frequency_in_corpus": 15184374,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.84614926962198,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_4000_AWL.json": {
+        "wordlist_size": 37376,
+        "words_found_in_corpus": 17559,
+        "wordlist_usage": 46.97934503424658,
+        "unique_words_covered_by_wl": 14.531385773989324,
+        "total_wordlist_frequency_in_corpus": 13333549,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.52912202688228,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_4000_NAWL.json": {
+        "wordlist_size": 36814,
+        "words_found_in_corpus": 16956,
+        "wordlist_usage": 46.05856467648177,
+        "unique_words_covered_by_wl": 14.032358174370007,
+        "total_wordlist_frequency_in_corpus": 12790010,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.20560647544362,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_5000_AVL.json": {
+        "wordlist_size": 48674,
+        "words_found_in_corpus": 26657,
+        "wordlist_usage": 54.76640506225089,
+        "unique_words_covered_by_wl": 22.060661232258866,
+        "total_wordlist_frequency_in_corpus": 15187902,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.86772152637901,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_5000_AWL.json": {
+        "wordlist_size": 38289,
+        "words_found_in_corpus": 18429,
+        "wordlist_usage": 48.13131708845882,
+        "unique_words_covered_by_wl": 15.251375843091818,
+        "total_wordlist_frequency_in_corpus": 13438475,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 82.17070099867686,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_5000_NAWL.json": {
+        "wordlist_size": 37677,
+        "words_found_in_corpus": 17779,
+        "wordlist_usage": 47.1879395917934,
+        "unique_words_covered_by_wl": 14.713452228245128,
+        "total_wordlist_frequency_in_corpus": 12873418,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.71561180185881,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_6000_AVL.json": {
+        "wordlist_size": 48779,
+        "words_found_in_corpus": 26736,
+        "wordlist_usage": 54.810471719387444,
+        "unique_words_covered_by_wl": 22.12603964083254,
+        "total_wordlist_frequency_in_corpus": 15202295,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.95572875186213,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_6000_AWL.json": {
+        "wordlist_size": 39250,
+        "words_found_in_corpus": 19327,
+        "wordlist_usage": 49.240764331210194,
+        "unique_words_covered_by_wl": 15.994538006372325,
+        "total_wordlist_frequency_in_corpus": 13542520,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 82.80689302086743,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_6000_NAWL.json": {
+        "wordlist_size": 38603,
+        "words_found_in_corpus": 18647,
+        "wordlist_usage": 48.30453591689765,
+        "unique_words_covered_by_wl": 15.43178714776348,
+        "total_wordlist_frequency_in_corpus": 12972639,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.32230706481013,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_7000_AVL.json": {
+        "wordlist_size": 48946,
+        "words_found_in_corpus": 26853,
+        "wordlist_usage": 54.8625015323009,
+        "unique_words_covered_by_wl": 22.222865891504945,
+        "total_wordlist_frequency_in_corpus": 15207147,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.98539671948832,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_7000_AWL.json": {
+        "wordlist_size": 40221,
+        "words_found_in_corpus": 20188,
+        "wordlist_usage": 50.19268541309266,
+        "unique_words_covered_by_wl": 16.707079902346177,
+        "total_wordlist_frequency_in_corpus": 13590772,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 83.10193398828287,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_7000_NAWL.json": {
+        "wordlist_size": 39551,
+        "words_found_in_corpus": 19487,
+        "wordlist_usage": 49.27056205911355,
+        "unique_words_covered_by_wl": 16.12694997310382,
+        "total_wordlist_frequency_in_corpus": 13017386,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.59591641092923,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_8000_AVL.json": {
+        "wordlist_size": 49224,
+        "words_found_in_corpus": 27045,
+        "wordlist_usage": 54.942710872745,
+        "unique_words_covered_by_wl": 22.381760251582737,
+        "total_wordlist_frequency_in_corpus": 15235001,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.15571237700281,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_8000_AWL.json": {
+        "wordlist_size": 41208,
+        "words_found_in_corpus": 21029,
+        "wordlist_usage": 51.03135313531353,
+        "unique_words_covered_by_wl": 17.40307030247859,
+        "total_wordlist_frequency_in_corpus": 13647278,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 83.44744474234025,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_8000_NAWL.json": {
+        "wordlist_size": 40527,
+        "words_found_in_corpus": 20319,
+        "wordlist_usage": 50.13694573987711,
+        "unique_words_covered_by_wl": 16.815492200107585,
+        "total_wordlist_frequency_in_corpus": 13072936,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.93558162148895,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_9000_AVL.json": {
+        "wordlist_size": 49610,
+        "words_found_in_corpus": 27310,
+        "wordlist_usage": 55.04938520459584,
+        "unique_words_covered_by_wl": 22.601067571481774,
+        "total_wordlist_frequency_in_corpus": 15243169,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.20565630931338,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_9000_AWL.json": {
+        "wordlist_size": 42200,
+        "words_found_in_corpus": 21815,
+        "wordlist_usage": 51.69431279620853,
+        "unique_words_covered_by_wl": 18.053544089047048,
+        "total_wordlist_frequency_in_corpus": 13672937,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 83.60433888523406,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    },
+    "EAWL_addi_addi_bnc_9000_NAWL.json": {
+        "wordlist_size": 41509,
+        "words_found_in_corpus": 21094,
+        "wordlist_usage": 50.81789491435592,
+        "unique_words_covered_by_wl": 17.456862663963253,
+        "total_wordlist_frequency_in_corpus": 13095922,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.07613147801327,
+        "words_not_covered": [
+            "lpportal",
+            "recapitulation",
+            "issuetheir",
+            "rogelio",
+            "dsa"
+        ]
+    }
+}

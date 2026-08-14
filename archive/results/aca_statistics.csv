@@ -1,0 +1,4 @@
+file_name,wordlist_size,words_found_in_corpus,wordlist_usage,unique_words_covered_by_wl,total_wordlist_frequency_in_corpus,total_corpus_frequency,frequency_coverage_percentage,words_not_covered
+AVL.json,18558,15125,81.50123936,12.51706873,14225935,16354339,86.9856923,"hsde, geneli, kadant, rinthian, helmsley"
+AWL.json,3107,1946,62.63276472,1.610460545,3302148,16354339,20.19126545,"hsde, geneli, kadant, rinthian, helmsley"
+NAWL.json,2598,1249,48.07544265,1.033640915,841570,16354339,5.145851508,"hsde, geneli, kadant, rinthian, helmsley"

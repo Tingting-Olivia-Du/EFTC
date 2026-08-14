@@ -1,0 +1,482 @@
+{
+    "bnc_10000_AVL.json": {
+        "wordlist_size": 20175,
+        "words_found_in_corpus": 16210,
+        "wordlist_usage": 80.3469640644362,
+        "unique_words_covered_by_wl": 13.414987379484423,
+        "total_wordlist_frequency_in_corpus": 14457990,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.40461237840307,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_10000_AWL.json": {
+        "wordlist_size": 12432,
+        "words_found_in_corpus": 10268,
+        "wordlist_usage": 82.5933075933076,
+        "unique_words_covered_by_wl": 8.497537964993587,
+        "total_wordlist_frequency_in_corpus": 12495029,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.4019200042264,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_10000_NAWL.json": {
+        "wordlist_size": 11942,
+        "words_found_in_corpus": 9598,
+        "wordlist_usage": 80.37179701892481,
+        "unique_words_covered_by_wl": 7.943062854305458,
+        "total_wordlist_frequency_in_corpus": 11981854,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.26406771927621,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_1000_AVL.json": {
+        "wordlist_size": 18588,
+        "words_found_in_corpus": 15152,
+        "wordlist_usage": 81.51495588551754,
+        "unique_words_covered_by_wl": 12.53941324947242,
+        "total_wordlist_frequency_in_corpus": 14233500,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.0319491359449,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_1000_AWL.json": {
+        "wordlist_size": 4088,
+        "words_found_in_corpus": 2824,
+        "wordlist_usage": 69.08023483365949,
+        "unique_words_covered_by_wl": 2.3370712128108577,
+        "total_wordlist_frequency_in_corpus": 8140569,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 49.77620312260863,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_1000_NAWL.json": {
+        "wordlist_size": 3594,
+        "words_found_in_corpus": 2142,
+        "wordlist_usage": 59.59933222036727,
+        "unique_words_covered_by_wl": 1.7726652046178675,
+        "total_wordlist_frequency_in_corpus": 5799803,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 35.46338986858472,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_2000_AVL.json": {
+        "wordlist_size": 18618,
+        "words_found_in_corpus": 15178,
+        "wordlist_usage": 81.52325706305726,
+        "unique_words_covered_by_wl": 12.56093019406629,
+        "total_wordlist_frequency_in_corpus": 14372568,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.88229227729717,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_2000_AWL.json": {
+        "wordlist_size": 4952,
+        "words_found_in_corpus": 3677,
+        "wordlist_usage": 74.25282714054927,
+        "unique_words_covered_by_wl": 3.0429925104481317,
+        "total_wordlist_frequency_in_corpus": 10706861,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 65.46801432940825,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_2000_NAWL.json": {
+        "wordlist_size": 4550,
+        "words_found_in_corpus": 3086,
+        "wordlist_usage": 67.82417582417582,
+        "unique_words_covered_by_wl": 2.553895808333678,
+        "total_wordlist_frequency_in_corpus": 9315791,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 56.96219822763855,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_3000_AVL.json": {
+        "wordlist_size": 18646,
+        "words_found_in_corpus": 15199,
+        "wordlist_usage": 81.51346133218921,
+        "unique_words_covered_by_wl": 12.578309264699797,
+        "total_wordlist_frequency_in_corpus": 14378141,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.91636886088762,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_3000_AWL.json": {
+        "wordlist_size": 5591,
+        "words_found_in_corpus": 4307,
+        "wordlist_usage": 77.03451976390627,
+        "unique_words_covered_by_wl": 3.564364629453387,
+        "total_wordlist_frequency_in_corpus": 11560107,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.68525973443501,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_3000_NAWL.json": {
+        "wordlist_size": 5400,
+        "words_found_in_corpus": 3924,
+        "wordlist_usage": 72.66666666666667,
+        "unique_words_covered_by_wl": 3.2474034840898747,
+        "total_wordlist_frequency_in_corpus": 11293075,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 69.0524698063309,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_4000_AVL.json": {
+        "wordlist_size": 18690,
+        "words_found_in_corpus": 15227,
+        "wordlist_usage": 81.47137506688068,
+        "unique_words_covered_by_wl": 12.601481358877809,
+        "total_wordlist_frequency_in_corpus": 14388165,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.9776614634196,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_4000_AWL.json": {
+        "wordlist_size": 6506,
+        "words_found_in_corpus": 5201,
+        "wordlist_usage": 79.94159237626806,
+        "unique_words_covered_by_wl": 4.304216493565606,
+        "total_wordlist_frequency_in_corpus": 11962533,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.14592781768802,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_4000_NAWL.json": {
+        "wordlist_size": 6165,
+        "words_found_in_corpus": 4669,
+        "wordlist_usage": 75.73398215733982,
+        "unique_words_covered_by_wl": 3.863946704183391,
+        "total_wordlist_frequency_in_corpus": 11553348,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.6439312527397,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_5000_AVL.json": {
+        "wordlist_size": 18742,
+        "words_found_in_corpus": 15262,
+        "wordlist_usage": 81.43207768647956,
+        "unique_words_covered_by_wl": 12.630446476600325,
+        "total_wordlist_frequency_in_corpus": 14391693,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.99923372017665,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_5000_AWL.json": {
+        "wordlist_size": 7468,
+        "words_found_in_corpus": 6120,
+        "wordlist_usage": 81.94965184788431,
+        "unique_words_covered_by_wl": 5.064757727479622,
+        "total_wordlist_frequency_in_corpus": 12185596,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.50986554699642,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_5000_NAWL.json": {
+        "wordlist_size": 7063,
+        "words_found_in_corpus": 5527,
+        "wordlist_usage": 78.25286705365991,
+        "unique_words_covered_by_wl": 4.574005875781024,
+        "total_wordlist_frequency_in_corpus": 11701209,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.54803994218292,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_6000_AVL.json": {
+        "wordlist_size": 18848,
+        "words_found_in_corpus": 15342,
+        "wordlist_usage": 81.39855687606112,
+        "unique_words_covered_by_wl": 12.69665245996607,
+        "total_wordlist_frequency_in_corpus": 14406151,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.0876383937009,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_6000_AWL.json": {
+        "wordlist_size": 8454,
+        "words_found_in_corpus": 7043,
+        "wordlist_usage": 83.30967589306837,
+        "unique_words_covered_by_wl": 5.828609260561923,
+        "total_wordlist_frequency_in_corpus": 12310915,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.27613925576571,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_6000_NAWL.json": {
+        "wordlist_size": 8013,
+        "words_found_in_corpus": 6419,
+        "wordlist_usage": 80.10732559590666,
+        "unique_words_covered_by_wl": 5.3122025903090995,
+        "total_wordlist_frequency_in_corpus": 11815508,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.24693092151263,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_7000_AVL.json": {
+        "wordlist_size": 19016,
+        "words_found_in_corpus": 15460,
+        "wordlist_usage": 81.29995793016407,
+        "unique_words_covered_by_wl": 12.794306285430546,
+        "total_wordlist_frequency_in_corpus": 14413630,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.13336937677518,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_7000_AWL.json": {
+        "wordlist_size": 9443,
+        "words_found_in_corpus": 7922,
+        "wordlist_usage": 83.89283066821984,
+        "unique_words_covered_by_wl": 6.556047502793065,
+        "total_wordlist_frequency_in_corpus": 12375412,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.67051166054463,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_7000_NAWL.json": {
+        "wordlist_size": 8977,
+        "words_found_in_corpus": 7275,
+        "wordlist_usage": 81.04043667149382,
+        "unique_words_covered_by_wl": 6.020606612322588,
+        "total_wordlist_frequency_in_corpus": 11872913,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.5979386877085,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_8000_AVL.json": {
+        "wordlist_size": 19295,
+        "words_found_in_corpus": 15652,
+        "wordlist_usage": 81.11946100025914,
+        "unique_words_covered_by_wl": 12.953200645508337,
+        "total_wordlist_frequency_in_corpus": 14441484,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.30368503428969,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_8000_AWL.json": {
+        "wordlist_size": 10439,
+        "words_found_in_corpus": 8771,
+        "wordlist_usage": 84.02145799406074,
+        "unique_words_covered_by_wl": 7.258658501262051,
+        "total_wordlist_frequency_in_corpus": 12444970,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.09582998126675,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_8000_NAWL.json": {
+        "wordlist_size": 9961,
+        "words_found_in_corpus": 8114,
+        "wordlist_usage": 81.45768497138842,
+        "unique_words_covered_by_wl": 6.714941862870857,
+        "total_wordlist_frequency_in_corpus": 11936330,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.98570734041895,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_9000_AVL.json": {
+        "wordlist_size": 19682,
+        "words_found_in_corpus": 15918,
+        "wordlist_usage": 80.87592724316634,
+        "unique_words_covered_by_wl": 13.173335540199446,
+        "total_wordlist_frequency_in_corpus": 14449653,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.35363508118549,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "andworld",
+            "jurvin",
+            "intramar"
+        ]
+    },
+    "bnc_9000_AWL.json": {
+        "wordlist_size": 11436,
+        "words_found_in_corpus": 9562,
+        "wordlist_usage": 83.61315145155649,
+        "unique_words_covered_by_wl": 7.913270161790872,
+        "total_wordlist_frequency_in_corpus": 12472380,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.26343076293087,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    },
+    "bnc_9000_NAWL.json": {
+        "wordlist_size": 10947,
+        "words_found_in_corpus": 8893,
+        "wordlist_usage": 81.23686854846076,
+        "unique_words_covered_by_wl": 7.359622625894816,
+        "total_wordlist_frequency_in_corpus": 11959784,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.12911882283962,
+        "words_not_covered": [
+            "oilprocurement",
+            "generalizable",
+            "misread",
+            "andworld",
+            "jurvin"
+        ]
+    }
+}

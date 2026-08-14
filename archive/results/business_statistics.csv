@@ -1,0 +1,5 @@
+file_name,wordlist_size,words_found_in_corpus,wordlist_usage,unique_words_covered_by_wl,total_wordlist_frequency_in_corpus,total_corpus_frequency,frequency_coverage_percentage,words_not_covered
+gen_addi_BEAWL.json,55816,25175,45.10355453633367,20.834195390408407,15026445,16354339,91.88047893589585,"disabil, sdv, parametric, fmv, cantlybelow"
+gen_addi_BWL1.json,55880,25196,45.08947745168218,20.851574461041917,15025745,16354339,91.87619872622183,"disabil, sdv, parametric, fmv, cantlybelow"
+gen_addi_BWL2.json,55869,25229,45.15742182605739,20.878884429180285,15105773,16354339,92.36553675449677,"disabil, sdv, parametric, fmv, cantlybelow"
+gen_addi_EAWL.json,56367,25380,45.026345201979886,21.003848222783134,15169792,16354339,92.75698638752688,"disabil, sdv, parametric, fmv, cantlybelow"

@@ -1,0 +1,1922 @@
+{
+    "BEAWL_bnc_10000_AVL.json": {
+        "wordlist_size": 20175,
+        "words_found_in_corpus": 16210,
+        "wordlist_usage": 80.3469640644362,
+        "unique_words_covered_by_wl": 13.414987379484423,
+        "total_wordlist_frequency_in_corpus": 14457990,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.40461237840307,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_10000_AWL.json": {
+        "wordlist_size": 12433,
+        "words_found_in_corpus": 10269,
+        "wordlist_usage": 82.59470763291242,
+        "unique_words_covered_by_wl": 8.49836553978566,
+        "total_wordlist_frequency_in_corpus": 12495056,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.40208509802811,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_10000_NAWL.json": {
+        "wordlist_size": 11943,
+        "words_found_in_corpus": 9599,
+        "wordlist_usage": 80.37344050908482,
+        "unique_words_covered_by_wl": 7.943890429097529,
+        "total_wordlist_frequency_in_corpus": 11981881,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.26423281307792,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_1000_AVL.json": {
+        "wordlist_size": 18596,
+        "words_found_in_corpus": 15158,
+        "wordlist_usage": 81.51215315121532,
+        "unique_words_covered_by_wl": 12.544378698224854,
+        "total_wordlist_frequency_in_corpus": 14268855,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.24813029740915,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_1000_AWL.json": {
+        "wordlist_size": 4177,
+        "words_found_in_corpus": 2911,
+        "wordlist_usage": 69.69116590854681,
+        "unique_words_covered_by_wl": 2.4090702197211074,
+        "total_wordlist_frequency_in_corpus": 8595716,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 52.55923825475307,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_1000_NAWL.json": {
+        "wordlist_size": 3945,
+        "words_found_in_corpus": 2488,
+        "wordlist_usage": 63.067173637515836,
+        "unique_words_covered_by_wl": 2.0590060826747214,
+        "total_wordlist_frequency_in_corpus": 8103025,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 49.546637134035194,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_2000_AVL.json": {
+        "wordlist_size": 18624,
+        "words_found_in_corpus": 15182,
+        "wordlist_usage": 81.518470790378,
+        "unique_words_covered_by_wl": 12.564240493234577,
+        "total_wordlist_frequency_in_corpus": 14373515,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.8880827895276,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_2000_AWL.json": {
+        "wordlist_size": 5025,
+        "words_found_in_corpus": 3748,
+        "wordlist_usage": 74.58706467661692,
+        "unique_words_covered_by_wl": 3.1017503206852317,
+        "total_wordlist_frequency_in_corpus": 11074884,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 67.71832233635368,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_2000_NAWL.json": {
+        "wordlist_size": 4793,
+        "words_found_in_corpus": 3325,
+        "wordlist_usage": 69.37200083455039,
+        "unique_words_covered_by_wl": 2.751686183638846,
+        "total_wordlist_frequency_in_corpus": 10615034,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 64.90653030978507,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_3000_AVL.json": {
+        "wordlist_size": 18650,
+        "words_found_in_corpus": 15201,
+        "wordlist_usage": 81.50670241286863,
+        "unique_words_covered_by_wl": 12.579964414283943,
+        "total_wordlist_frequency_in_corpus": 14378921,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.92113823738153,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_3000_AWL.json": {
+        "wordlist_size": 5625,
+        "words_found_in_corpus": 4339,
+        "wordlist_usage": 77.13777777777779,
+        "unique_words_covered_by_wl": 3.5908470227996854,
+        "total_wordlist_frequency_in_corpus": 11717617,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.64836805694196,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_3000_NAWL.json": {
+        "wordlist_size": 5426,
+        "words_found_in_corpus": 3948,
+        "wordlist_usage": 72.7607814227792,
+        "unique_words_covered_by_wl": 3.2672652790995986,
+        "total_wordlist_frequency_in_corpus": 11395229,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 69.67709914781636,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_4000_AVL.json": {
+        "wordlist_size": 18692,
+        "words_found_in_corpus": 15229,
+        "wordlist_usage": 81.4733575861331,
+        "unique_words_covered_by_wl": 12.60313650846195,
+        "total_wordlist_frequency_in_corpus": 14388945,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.98243083991349,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_4000_AWL.json": {
+        "wordlist_size": 6519,
+        "words_found_in_corpus": 5214,
+        "wordlist_usage": 79.98159226875288,
+        "unique_words_covered_by_wl": 4.31497496586254,
+        "total_wordlist_frequency_in_corpus": 11998360,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.3649950633896,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_4000_NAWL.json": {
+        "wordlist_size": 6174,
+        "words_found_in_corpus": 4678,
+        "wordlist_usage": 75.7693553611921,
+        "unique_words_covered_by_wl": 3.8713948773120372,
+        "total_wordlist_frequency_in_corpus": 11578968,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.80058692680883,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_5000_AVL.json": {
+        "wordlist_size": 18744,
+        "words_found_in_corpus": 15264,
+        "wordlist_usage": 81.43405889884762,
+        "unique_words_covered_by_wl": 12.632101626184467,
+        "total_wordlist_frequency_in_corpus": 14392473,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.00400309667056,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_5000_AWL.json": {
+        "wordlist_size": 7476,
+        "words_found_in_corpus": 6128,
+        "wordlist_usage": 81.96896736222578,
+        "unique_words_covered_by_wl": 5.0713783258161955,
+        "total_wordlist_frequency_in_corpus": 12189185,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.53181079345366,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_5000_NAWL.json": {
+        "wordlist_size": 7070,
+        "words_found_in_corpus": 5534,
+        "wordlist_usage": 78.27439886845828,
+        "unique_words_covered_by_wl": 4.579798899325526,
+        "total_wordlist_frequency_in_corpus": 11704433,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.56775336502442,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_6000_AVL.json": {
+        "wordlist_size": 18850,
+        "words_found_in_corpus": 15344,
+        "wordlist_usage": 81.40053050397879,
+        "unique_words_covered_by_wl": 12.698307609550213,
+        "total_wordlist_frequency_in_corpus": 14406931,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.09240777019481,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_6000_AWL.json": {
+        "wordlist_size": 8459,
+        "words_found_in_corpus": 7048,
+        "wordlist_usage": 83.31954131694054,
+        "unique_words_covered_by_wl": 5.8327471345222826,
+        "total_wordlist_frequency_in_corpus": 12313297,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.29070419782786,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_6000_NAWL.json": {
+        "wordlist_size": 8018,
+        "words_found_in_corpus": 6424,
+        "wordlist_usage": 80.1197306061362,
+        "unique_words_covered_by_wl": 5.316340464269458,
+        "total_wordlist_frequency_in_corpus": 11817890,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.2614958635748,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_7000_AVL.json": {
+        "wordlist_size": 19018,
+        "words_found_in_corpus": 15462,
+        "wordlist_usage": 81.30192449258598,
+        "unique_words_covered_by_wl": 12.795961435014688,
+        "total_wordlist_frequency_in_corpus": 14414410,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.13813875326909,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_7000_AWL.json": {
+        "wordlist_size": 9447,
+        "words_found_in_corpus": 7926,
+        "wordlist_usage": 83.89965068275643,
+        "unique_words_covered_by_wl": 6.559357801961352,
+        "total_wordlist_frequency_in_corpus": 12376362,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.67632051653081,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_7000_NAWL.json": {
+        "wordlist_size": 8981,
+        "words_found_in_corpus": 7279,
+        "wordlist_usage": 81.04888097093865,
+        "unique_words_covered_by_wl": 6.0239169114908755,
+        "total_wordlist_frequency_in_corpus": 11873863,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.60374754369468,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_8000_AVL.json": {
+        "wordlist_size": 19296,
+        "words_found_in_corpus": 15653,
+        "wordlist_usage": 81.12043946932008,
+        "unique_words_covered_by_wl": 12.95402822030041,
+        "total_wordlist_frequency_in_corpus": 14442215,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.30815479610641,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_8000_AWL.json": {
+        "wordlist_size": 10442,
+        "words_found_in_corpus": 8774,
+        "wordlist_usage": 84.02604864968397,
+        "unique_words_covered_by_wl": 7.261141225638267,
+        "total_wordlist_frequency_in_corpus": 12445871,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.10133922257573,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_8000_NAWL.json": {
+        "wordlist_size": 9964,
+        "words_found_in_corpus": 8117,
+        "wordlist_usage": 81.46326776395021,
+        "unique_words_covered_by_wl": 6.717424587247073,
+        "total_wordlist_frequency_in_corpus": 11937231,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.99121658172794,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_9000_AVL.json": {
+        "wordlist_size": 19683,
+        "words_found_in_corpus": 15919,
+        "wordlist_usage": 80.87689884672052,
+        "unique_words_covered_by_wl": 13.174163114991517,
+        "total_wordlist_frequency_in_corpus": 14450384,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.35810484300222,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_9000_AWL.json": {
+        "wordlist_size": 11439,
+        "words_found_in_corpus": 9565,
+        "wordlist_usage": 83.61744907771659,
+        "unique_words_covered_by_wl": 7.915752886167088,
+        "total_wordlist_frequency_in_corpus": 12473281,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.26894000423985,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BEAWL_bnc_9000_NAWL.json": {
+        "wordlist_size": 10950,
+        "words_found_in_corpus": 8896,
+        "wordlist_usage": 81.2420091324201,
+        "unique_words_covered_by_wl": 7.362105350271031,
+        "total_wordlist_frequency_in_corpus": 11960685,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.1346280641486,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_10000_AVL.json": {
+        "wordlist_size": 20260,
+        "words_found_in_corpus": 16236,
+        "wordlist_usage": 80.13820335636723,
+        "unique_words_covered_by_wl": 13.436504324078289,
+        "total_wordlist_frequency_in_corpus": 14458579,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.40821386911449,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_10000_AWL.json": {
+        "wordlist_size": 12625,
+        "words_found_in_corpus": 10378,
+        "wordlist_usage": 82.2019801980198,
+        "unique_words_covered_by_wl": 8.588571192121488,
+        "total_wordlist_frequency_in_corpus": 12615093,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.13606156751428,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_10000_NAWL.json": {
+        "wordlist_size": 12120,
+        "words_found_in_corpus": 9697,
+        "wordlist_usage": 80.0082508250825,
+        "unique_words_covered_by_wl": 8.02499275872057,
+        "total_wordlist_frequency_in_corpus": 12081524,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.87350843100415,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_1000_AVL.json": {
+        "wordlist_size": 18684,
+        "words_found_in_corpus": 15188,
+        "wordlist_usage": 81.28880325412118,
+        "unique_words_covered_by_wl": 12.569205941987008,
+        "total_wordlist_frequency_in_corpus": 14234540,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.03830830460345,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_1000_AWL.json": {
+        "wordlist_size": 4550,
+        "words_found_in_corpus": 3201,
+        "wordlist_usage": 70.35164835164835,
+        "unique_words_covered_by_wl": 2.649066909421939,
+        "total_wordlist_frequency_in_corpus": 8682724,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 53.09125608806323,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_1000_NAWL.json": {
+        "wordlist_size": 4001,
+        "words_found_in_corpus": 2468,
+        "wordlist_usage": 61.684578855286176,
+        "unique_words_covered_by_wl": 2.042454586833285,
+        "total_wordlist_frequency_in_corpus": 6217758,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 38.01901134616324,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_2000_AVL.json": {
+        "wordlist_size": 18713,
+        "words_found_in_corpus": 15213,
+        "wordlist_usage": 81.29642494522524,
+        "unique_words_covered_by_wl": 12.589895311788805,
+        "total_wordlist_frequency_in_corpus": 14373604,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.88862698761473,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_2000_AWL.json": {
+        "wordlist_size": 5361,
+        "words_found_in_corpus": 4001,
+        "wordlist_usage": 74.63159858235404,
+        "unique_words_covered_by_wl": 3.311126743079406,
+        "total_wordlist_frequency_in_corpus": 11210988,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 68.5505418470291,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_2000_NAWL.json": {
+        "wordlist_size": 4908,
+        "words_found_in_corpus": 3363,
+        "wordlist_usage": 68.52078239608802,
+        "unique_words_covered_by_wl": 2.783134025737576,
+        "total_wordlist_frequency_in_corpus": 9696637,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 59.29091356122677,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_3000_AVL.json": {
+        "wordlist_size": 18738,
+        "words_found_in_corpus": 15231,
+        "wordlist_usage": 81.28402177393532,
+        "unique_words_covered_by_wl": 12.604791658046096,
+        "total_wordlist_frequency_in_corpus": 14379113,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.92231223774925,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_3000_AWL.json": {
+        "wordlist_size": 5907,
+        "words_found_in_corpus": 4538,
+        "wordlist_usage": 76.82410699170475,
+        "unique_words_covered_by_wl": 3.75553440642198,
+        "total_wordlist_frequency_in_corpus": 11868972,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.57384110724378,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_3000_NAWL.json": {
+        "wordlist_size": 5677,
+        "words_found_in_corpus": 4120,
+        "wordlist_usage": 72.5735423639246,
+        "unique_words_covered_by_wl": 3.409608143335954,
+        "total_wordlist_frequency_in_corpus": 11494228,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.2824369728425,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_4000_AVL.json": {
+        "wordlist_size": 18782,
+        "words_found_in_corpus": 15259,
+        "wordlist_usage": 81.24267916089873,
+        "unique_words_covered_by_wl": 12.627963752224108,
+        "total_wordlist_frequency_in_corpus": 14389137,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.98360484028123,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_4000_AWL.json": {
+        "wordlist_size": 6773,
+        "words_found_in_corpus": 5383,
+        "wordlist_usage": 79.47733648309465,
+        "unique_words_covered_by_wl": 4.45483510572268,
+        "total_wordlist_frequency_in_corpus": 12141908,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.2427315466556,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_4000_NAWL.json": {
+        "wordlist_size": 6410,
+        "words_found_in_corpus": 4833,
+        "wordlist_usage": 75.3978159126365,
+        "unique_words_covered_by_wl": 3.9996689700831713,
+        "total_wordlist_frequency_in_corpus": 11696602,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.51987004794262,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_5000_AVL.json": {
+        "wordlist_size": 18832,
+        "words_found_in_corpus": 15292,
+        "wordlist_usage": 81.20220900594732,
+        "unique_words_covered_by_wl": 12.655273720362478,
+        "total_wordlist_frequency_in_corpus": 14392488,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.00409481544929,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_5000_AWL.json": {
+        "wordlist_size": 7694,
+        "words_found_in_corpus": 6261,
+        "wordlist_usage": 81.37509747855472,
+        "unique_words_covered_by_wl": 5.18144577316175,
+        "total_wordlist_frequency_in_corpus": 12319079,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.32605872973527,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_5000_NAWL.json": {
+        "wordlist_size": 7273,
+        "words_found_in_corpus": 5656,
+        "wordlist_usage": 77.76708373435997,
+        "unique_words_covered_by_wl": 4.68076302395829,
+        "total_wordlist_frequency_in_corpus": 11813596,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.2352398345173,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_6000_AVL.json": {
+        "wordlist_size": 18938,
+        "words_found_in_corpus": 15372,
+        "wordlist_usage": 81.17013412187137,
+        "unique_words_covered_by_wl": 12.721479703728225,
+        "total_wordlist_frequency_in_corpus": 14406946,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.09249948897354,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_6000_AWL.json": {
+        "wordlist_size": 8660,
+        "words_found_in_corpus": 7165,
+        "wordlist_usage": 82.73672055427251,
+        "unique_words_covered_by_wl": 5.929573385194687,
+        "total_wordlist_frequency_in_corpus": 12433843,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.02779299120557,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_6000_NAWL.json": {
+        "wordlist_size": 8204,
+        "words_found_in_corpus": 6530,
+        "wordlist_usage": 79.59531935641151,
+        "unique_words_covered_by_wl": 5.404063392229073,
+        "total_wordlist_frequency_in_corpus": 11918042,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.87388380539255,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_7000_AVL.json": {
+        "wordlist_size": 19106,
+        "words_found_in_corpus": 15490,
+        "wordlist_usage": 81.07400816497436,
+        "unique_words_covered_by_wl": 12.8191335291927,
+        "total_wordlist_frequency_in_corpus": 14414425,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.13823047204782,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_7000_AWL.json": {
+        "wordlist_size": 9644,
+        "words_found_in_corpus": 8039,
+        "wordlist_usage": 83.35752799668188,
+        "unique_words_covered_by_wl": 6.65287375346547,
+        "total_wordlist_frequency_in_corpus": 12496102,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.40848095419814,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_7000_NAWL.json": {
+        "wordlist_size": 9163,
+        "words_found_in_corpus": 7381,
+        "wordlist_usage": 80.55222088835534,
+        "unique_words_covered_by_wl": 6.108329540282202,
+        "total_wordlist_frequency_in_corpus": 11973209,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.21120712980206,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_8000_AVL.json": {
+        "wordlist_size": 19382,
+        "words_found_in_corpus": 15680,
+        "wordlist_usage": 80.89980394180168,
+        "unique_words_covered_by_wl": 12.976372739686347,
+        "total_wordlist_frequency_in_corpus": 14442154,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.30778180640624,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_8000_AWL.json": {
+        "wordlist_size": 10634,
+        "words_found_in_corpus": 8883,
+        "wordlist_usage": 83.53394771487682,
+        "unique_words_covered_by_wl": 7.3513468779740965,
+        "total_wordlist_frequency_in_corpus": 12565115,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.83046682595976,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_8000_NAWL.json": {
+        "wordlist_size": 10141,
+        "words_found_in_corpus": 8215,
+        "wordlist_usage": 81.00779015876147,
+        "unique_words_covered_by_wl": 6.798526916870112,
+        "total_wordlist_frequency_in_corpus": 12036081,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.59564333355203,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_9000_AVL.json": {
+        "wordlist_size": 19768,
+        "words_found_in_corpus": 15945,
+        "wordlist_usage": 80.66066369890731,
+        "unique_words_covered_by_wl": 13.195680059585385,
+        "total_wordlist_frequency_in_corpus": 14450252,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.35729771774939,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_9000_AWL.json": {
+        "wordlist_size": 11630,
+        "words_found_in_corpus": 9673,
+        "wordlist_usage": 83.17282889079965,
+        "unique_words_covered_by_wl": 8.005130963710846,
+        "total_wordlist_frequency_in_corpus": 12592454,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.99763347207124,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL1_bnc_9000_NAWL.json": {
+        "wordlist_size": 11126,
+        "words_found_in_corpus": 8993,
+        "wordlist_usage": 80.82868955599497,
+        "unique_words_covered_by_wl": 7.442380105101999,
+        "total_wordlist_frequency_in_corpus": 12059464,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.73862068042004,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_10000_AVL.json": {
+        "wordlist_size": 20179,
+        "words_found_in_corpus": 16214,
+        "wordlist_usage": 80.35085980474751,
+        "unique_words_covered_by_wl": 13.418297678652708,
+        "total_wordlist_frequency_in_corpus": 14473239,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.49785368885897,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_10000_AWL.json": {
+        "wordlist_size": 12464,
+        "words_found_in_corpus": 10300,
+        "wordlist_usage": 82.6379974326059,
+        "unique_words_covered_by_wl": 8.524020358339884,
+        "total_wordlist_frequency_in_corpus": 12552677,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.75441361463768,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_10000_NAWL.json": {
+        "wordlist_size": 11975,
+        "words_found_in_corpus": 9631,
+        "wordlist_usage": 80.4258872651357,
+        "unique_words_covered_by_wl": 7.970372822443829,
+        "total_wordlist_frequency_in_corpus": 12039727,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.61793711136842,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_1000_AVL.json": {
+        "wordlist_size": 18603,
+        "words_found_in_corpus": 15166,
+        "wordlist_usage": 81.5244852980702,
+        "unique_words_covered_by_wl": 12.550999296561427,
+        "total_wordlist_frequency_in_corpus": 14253468,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.15404517418894,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_1000_AWL.json": {
+        "wordlist_size": 4350,
+        "words_found_in_corpus": 3083,
+        "wordlist_usage": 70.8735632183908,
+        "unique_words_covered_by_wl": 2.551413083957463,
+        "total_wordlist_frequency_in_corpus": 8783834,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 53.709501802549156,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_1000_NAWL.json": {
+        "wordlist_size": 3909,
+        "words_found_in_corpus": 2453,
+        "wordlist_usage": 62.75262215400358,
+        "unique_words_covered_by_wl": 2.0300409649522075,
+        "total_wordlist_frequency_in_corpus": 6699462,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 40.96443151875474,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_2000_AVL.json": {
+        "wordlist_size": 18633,
+        "words_found_in_corpus": 15192,
+        "wordlist_usage": 81.53276445016905,
+        "unique_words_covered_by_wl": 12.572516241155293,
+        "total_wordlist_frequency_in_corpus": 14392536,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.00438831554122,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_2000_AWL.json": {
+        "wordlist_size": 5210,
+        "words_found_in_corpus": 3932,
+        "wordlist_usage": 75.47024952015356,
+        "unique_words_covered_by_wl": 3.2540240824264495,
+        "total_wordlist_frequency_in_corpus": 11344599,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 69.36751769667976,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_2000_NAWL.json": {
+        "wordlist_size": 4861,
+        "words_found_in_corpus": 3393,
+        "wordlist_usage": 69.8004525817733,
+        "unique_words_covered_by_wl": 2.807961269499731,
+        "total_wordlist_frequency_in_corpus": 10209923,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 62.429444565139555,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_3000_AVL.json": {
+        "wordlist_size": 18659,
+        "words_found_in_corpus": 15211,
+        "wordlist_usage": 81.52098183182378,
+        "unique_words_covered_by_wl": 12.58824016220466,
+        "total_wordlist_frequency_in_corpus": 14396432,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.02821073966976,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_3000_AWL.json": {
+        "wordlist_size": 5773,
+        "words_found_in_corpus": 4488,
+        "wordlist_usage": 77.74120907673652,
+        "unique_words_covered_by_wl": 3.714155666818389,
+        "total_wordlist_frequency_in_corpus": 11952521,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.08470859017903,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_3000_NAWL.json": {
+        "wordlist_size": 5558,
+        "words_found_in_corpus": 4081,
+        "wordlist_usage": 73.42569269521411,
+        "unique_words_covered_by_wl": 3.377332726445152,
+        "total_wordlist_frequency_in_corpus": 11569693,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.74387414862808,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_4000_AVL.json": {
+        "wordlist_size": 18700,
+        "words_found_in_corpus": 15237,
+        "wordlist_usage": 81.4812834224599,
+        "unique_words_covered_by_wl": 12.609757106798527,
+        "total_wordlist_frequency_in_corpus": 14406080,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.08720425814826,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_4000_AWL.json": {
+        "wordlist_size": 6614,
+        "words_found_in_corpus": 5309,
+        "wordlist_usage": 80.26912609615965,
+        "unique_words_covered_by_wl": 4.393594571109364,
+        "total_wordlist_frequency_in_corpus": 12162289,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.36735290860732,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_4000_NAWL.json": {
+        "wordlist_size": 6262,
+        "words_found_in_corpus": 4766,
+        "wordlist_usage": 76.10986905142127,
+        "unique_words_covered_by_wl": 3.9442214590143583,
+        "total_wordlist_frequency_in_corpus": 11700070,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 71.54107542958478,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_5000_AVL.json": {
+        "wordlist_size": 18751,
+        "words_found_in_corpus": 15271,
+        "wordlist_usage": 81.4409898138766,
+        "unique_words_covered_by_wl": 12.63789464972897,
+        "total_wordlist_frequency_in_corpus": 14409603,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.10874594197907,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_5000_AWL.json": {
+        "wordlist_size": 7541,
+        "words_found_in_corpus": 6193,
+        "wordlist_usage": 82.1243866861159,
+        "unique_words_covered_by_wl": 5.125170687300865,
+        "total_wordlist_frequency_in_corpus": 12287479,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.13283783587951,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_5000_NAWL.json": {
+        "wordlist_size": 7133,
+        "words_found_in_corpus": 5597,
+        "wordlist_usage": 78.46628347119025,
+        "unique_words_covered_by_wl": 4.631936111226052,
+        "total_wordlist_frequency_in_corpus": 11793646,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.11325385880775,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_6000_AVL.json": {
+        "wordlist_size": 18855,
+        "words_found_in_corpus": 15349,
+        "wordlist_usage": 81.40546274197825,
+        "unique_words_covered_by_wl": 12.702445483510571,
+        "total_wordlist_frequency_in_corpus": 14424042,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.19703443838361,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_6000_AWL.json": {
+        "wordlist_size": 8509,
+        "words_found_in_corpus": 7098,
+        "wordlist_usage": 83.41755787989187,
+        "unique_words_covered_by_wl": 5.874125874125874,
+        "total_wordlist_frequency_in_corpus": 12387626,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.74519520477104,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_6000_NAWL.json": {
+        "wordlist_size": 8066,
+        "words_found_in_corpus": 6472,
+        "wordlist_usage": 80.23803620133896,
+        "unique_words_covered_by_wl": 5.356064054288907,
+        "total_wordlist_frequency_in_corpus": 11889057,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.69665255196189,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_7000_AVL.json": {
+        "wordlist_size": 19021,
+        "words_found_in_corpus": 15465,
+        "wordlist_usage": 81.30487356080121,
+        "unique_words_covered_by_wl": 12.798444159390904,
+        "total_wordlist_frequency_in_corpus": 14428891,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.22668406225405,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_7000_AWL.json": {
+        "wordlist_size": 9487,
+        "words_found_in_corpus": 7966,
+        "wordlist_usage": 83.96753452092337,
+        "unique_words_covered_by_wl": 6.592460793644225,
+        "total_wordlist_frequency_in_corpus": 12442057,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.07801819443758,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_7000_NAWL.json": {
+        "wordlist_size": 9021,
+        "words_found_in_corpus": 7319,
+        "wordlist_usage": 81.13291209400289,
+        "unique_words_covered_by_wl": 6.0570199031737495,
+        "total_wordlist_frequency_in_corpus": 11939424,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.00462586717812,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_8000_AVL.json": {
+        "wordlist_size": 19300,
+        "words_found_in_corpus": 15657,
+        "wordlist_usage": 81.12435233160622,
+        "unique_words_covered_by_wl": 12.957338519468697,
+        "total_wordlist_frequency_in_corpus": 14456745,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.39699971976856,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_8000_AWL.json": {
+        "wordlist_size": 10475,
+        "words_found_in_corpus": 8807,
+        "wordlist_usage": 84.0763723150358,
+        "unique_words_covered_by_wl": 7.288451193776638,
+        "total_wordlist_frequency_in_corpus": 12503789,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.45548377100414,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_8000_NAWL.json": {
+        "wordlist_size": 9997,
+        "words_found_in_corpus": 8150,
+        "wordlist_usage": 81.52445733720116,
+        "unique_words_covered_by_wl": 6.744734555385443,
+        "total_wordlist_frequency_in_corpus": 11995015,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.34454177573303,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_9000_AVL.json": {
+        "wordlist_size": 19686,
+        "words_found_in_corpus": 15922,
+        "wordlist_usage": 80.87981306512242,
+        "unique_words_covered_by_wl": 13.176645839367731,
+        "total_wordlist_frequency_in_corpus": 14464902,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.44687639164138,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_9000_AWL.json": {
+        "wordlist_size": 11470,
+        "words_found_in_corpus": 9596,
+        "wordlist_usage": 83.6617262423714,
+        "unique_words_covered_by_wl": 7.941407704721313,
+        "total_wordlist_frequency_in_corpus": 12530777,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.62050419769335,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "BWL2_bnc_9000_NAWL.json": {
+        "wordlist_size": 10981,
+        "words_found_in_corpus": 8927,
+        "wordlist_usage": 81.29496402877699,
+        "unique_words_covered_by_wl": 7.387760168825258,
+        "total_wordlist_frequency_in_corpus": 12018047,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.48537290317879,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_10000_AVL.json": {
+        "wordlist_size": 20999,
+        "words_found_in_corpus": 16400,
+        "wordlist_usage": 78.09895709319491,
+        "unique_words_covered_by_wl": 13.57222658997807,
+        "total_wordlist_frequency_in_corpus": 14473421,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.49896654337421,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_10000_AWL.json": {
+        "wordlist_size": 13435,
+        "words_found_in_corpus": 10733,
+        "wordlist_usage": 79.88835132117603,
+        "unique_words_covered_by_wl": 8.882360243306989,
+        "total_wordlist_frequency_in_corpus": 12836398,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.48924985595566,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_10000_NAWL.json": {
+        "wordlist_size": 12782,
+        "words_found_in_corpus": 10035,
+        "wordlist_usage": 78.50884055703334,
+        "unique_words_covered_by_wl": 8.304713038440848,
+        "total_wordlist_frequency_in_corpus": 12263976,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.98912673878168,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_1000_AVL.json": {
+        "wordlist_size": 19424,
+        "words_found_in_corpus": 15352,
+        "wordlist_usage": 79.03624382207578,
+        "unique_words_covered_by_wl": 12.704928207886788,
+        "total_wordlist_frequency_in_corpus": 14257958,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 87.18149966195516,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_1000_AWL.json": {
+        "wordlist_size": 5360,
+        "words_found_in_corpus": 3556,
+        "wordlist_usage": 66.34328358208955,
+        "unique_words_covered_by_wl": 2.94285596060744,
+        "total_wordlist_frequency_in_corpus": 8936727,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 54.644379084963326,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_1000_NAWL.json": {
+        "wordlist_size": 4626,
+        "words_found_in_corpus": 2770,
+        "wordlist_usage": 59.878945092952875,
+        "unique_words_covered_by_wl": 2.2923821740389787,
+        "total_wordlist_frequency_in_corpus": 6341182,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 38.773697915886416,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_2000_AVL.json": {
+        "wordlist_size": 19453,
+        "words_found_in_corpus": 15377,
+        "wordlist_usage": 79.04693363491492,
+        "unique_words_covered_by_wl": 12.725617577688583,
+        "total_wordlist_frequency_in_corpus": 14393100,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.00783694162142,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_2000_AWL.json": {
+        "wordlist_size": 6216,
+        "words_found_in_corpus": 4401,
+        "wordlist_usage": 70.8011583011583,
+        "unique_words_covered_by_wl": 3.642156659908139,
+        "total_wordlist_frequency_in_corpus": 11487105,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.23888278211672,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_2000_NAWL.json": {
+        "wordlist_size": 5579,
+        "words_found_in_corpus": 3711,
+        "wordlist_usage": 66.51729700663202,
+        "unique_words_covered_by_wl": 3.071130053378574,
+        "total_wordlist_frequency_in_corpus": 9855055,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 60.259573927139456,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_3000_AVL.json": {
+        "wordlist_size": 19478,
+        "words_found_in_corpus": 15395,
+        "wordlist_usage": 79.03788890029777,
+        "unique_words_covered_by_wl": 12.740513923945876,
+        "total_wordlist_frequency_in_corpus": 14396644,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.02950703174245,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_3000_AWL.json": {
+        "wordlist_size": 6810,
+        "words_found_in_corpus": 4986,
+        "wordlist_usage": 73.21585903083701,
+        "unique_words_covered_by_wl": 4.126287913270161,
+        "total_wordlist_frequency_in_corpus": 12300292,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 75.21118401666983,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_3000_NAWL.json": {
+        "wordlist_size": 6399,
+        "words_found_in_corpus": 4519,
+        "wordlist_usage": 70.62040943897485,
+        "unique_words_covered_by_wl": 3.7398104853726153,
+        "total_wordlist_frequency_in_corpus": 11805047,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.18296624522704,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_4000_AVL.json": {
+        "wordlist_size": 19518,
+        "words_found_in_corpus": 15420,
+        "wordlist_usage": 79.00399631109745,
+        "unique_words_covered_by_wl": 12.761203293747672,
+        "total_wordlist_frequency_in_corpus": 14406289,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.08848220646522,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_4000_AWL.json": {
+        "wordlist_size": 7619,
+        "words_found_in_corpus": 5775,
+        "wordlist_usage": 75.79734873342959,
+        "unique_words_covered_by_wl": 4.779244424214838,
+        "total_wordlist_frequency_in_corpus": 12474930,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.27902295531479,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_4000_NAWL.json": {
+        "wordlist_size": 7095,
+        "words_found_in_corpus": 5195,
+        "wordlist_usage": 73.22057787174067,
+        "unique_words_covered_by_wl": 4.299251044813175,
+        "total_wordlist_frequency_in_corpus": 11936323,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 72.98566453832221,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_5000_AVL.json": {
+        "wordlist_size": 19570,
+        "words_found_in_corpus": 15455,
+        "wordlist_usage": 78.97291773122126,
+        "unique_words_covered_by_wl": 12.790168411470187,
+        "total_wordlist_frequency_in_corpus": 14409817,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.11005446322227,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_5000_AWL.json": {
+        "wordlist_size": 8532,
+        "words_found_in_corpus": 6645,
+        "wordlist_usage": 77.8832630098453,
+        "unique_words_covered_by_wl": 5.499234493317333,
+        "total_wordlist_frequency_in_corpus": 12579856,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.92060192710937,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_5000_NAWL.json": {
+        "wordlist_size": 7958,
+        "words_found_in_corpus": 6018,
+        "wordlist_usage": 75.62201558180448,
+        "unique_words_covered_by_wl": 4.980345098688295,
+        "total_wordlist_frequency_in_corpus": 12019731,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 73.49566986473742,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_6000_AVL.json": {
+        "wordlist_size": 19675,
+        "words_found_in_corpus": 15534,
+        "wordlist_usage": 78.95298602287167,
+        "unique_words_covered_by_wl": 12.855546820043863,
+        "total_wordlist_frequency_in_corpus": 14424210,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.19806168870537,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_6000_AWL.json": {
+        "wordlist_size": 9493,
+        "words_found_in_corpus": 7543,
+        "wordlist_usage": 79.45854840408722,
+        "unique_words_covered_by_wl": 6.24239665659784,
+        "total_wordlist_frequency_in_corpus": 12683901,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.55679394929994,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_6000_NAWL.json": {
+        "wordlist_size": 8884,
+        "words_found_in_corpus": 6886,
+        "wordlist_usage": 77.5101305718145,
+        "unique_words_covered_by_wl": 5.6986800182066455,
+        "total_wordlist_frequency_in_corpus": 12118952,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.10236512768874,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_7000_AVL.json": {
+        "wordlist_size": 19842,
+        "words_found_in_corpus": 15651,
+        "wordlist_usage": 78.87813728454793,
+        "unique_words_covered_by_wl": 12.952373070716266,
+        "total_wordlist_frequency_in_corpus": 14429062,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.22772965633156,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_7000_AWL.json": {
+        "wordlist_size": 10464,
+        "words_found_in_corpus": 8404,
+        "wordlist_usage": 80.31345565749236,
+        "unique_words_covered_by_wl": 6.954938552571689,
+        "total_wordlist_frequency_in_corpus": 12732153,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.85183491671538,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_7000_NAWL.json": {
+        "wordlist_size": 9832,
+        "words_found_in_corpus": 7726,
+        "wordlist_usage": 78.58014646053702,
+        "unique_words_covered_by_wl": 6.393842843546986,
+        "total_wordlist_frequency_in_corpus": 12163699,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.37597447380784,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_8000_AVL.json": {
+        "wordlist_size": 20120,
+        "words_found_in_corpus": 15843,
+        "wordlist_usage": 78.74254473161034,
+        "unique_words_covered_by_wl": 13.111267430794058,
+        "total_wordlist_frequency_in_corpus": 14456916,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.39804531384607,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_8000_AWL.json": {
+        "wordlist_size": 11451,
+        "words_found_in_corpus": 9245,
+        "wordlist_usage": 80.73530696009082,
+        "unique_words_covered_by_wl": 7.6509289527041,
+        "total_wordlist_frequency_in_corpus": 12788659,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.19734567077276,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_8000_NAWL.json": {
+        "wordlist_size": 10808,
+        "words_found_in_corpus": 8558,
+        "wordlist_usage": 79.18208734270911,
+        "unique_words_covered_by_wl": 7.0823850705507505,
+        "total_wordlist_frequency_in_corpus": 12219249,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.71563968436755,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_9000_AVL.json": {
+        "wordlist_size": 20506,
+        "words_found_in_corpus": 16108,
+        "wordlist_usage": 78.55261874573296,
+        "unique_words_covered_by_wl": 13.330574750693094,
+        "total_wordlist_frequency_in_corpus": 14465084,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 88.44798924615664,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_9000_AWL.json": {
+        "wordlist_size": 12443,
+        "words_found_in_corpus": 10031,
+        "wordlist_usage": 80.61560716868922,
+        "unique_words_covered_by_wl": 8.301402739272563,
+        "total_wordlist_frequency_in_corpus": 12814318,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.35423981366657,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    },
+    "EAWL_bnc_9000_NAWL.json": {
+        "wordlist_size": 11790,
+        "words_found_in_corpus": 9333,
+        "wordlist_usage": 79.16030534351145,
+        "unique_words_covered_by_wl": 7.723755534406422,
+        "total_wordlist_frequency_in_corpus": 12242235,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.85618954089188,
+        "words_not_covered": [
+            "aboutllbean",
+            "diebold",
+            "ofwhether",
+            "pliment",
+            "hypotheticalcd"
+        ]
+    }
+}

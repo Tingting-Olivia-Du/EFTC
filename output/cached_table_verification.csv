@@ -1,0 +1,50 @@
+table,row,source_file,paper_size,cached_size,size_check,paper_attest%,cached_attest%,paper_type%,cached_type%,paper_token%,cached_token%,overall
+Table 6,HSWL Level 1,HighSchool_1.json,3448,3448,OK,92.98,92.98,2.65,2.65,60.63,60.63,OK
+Table 6,HSWL Level 1+,add_HighSchool_1.json,33138,33138,OK,45.04,45.04,12.35,12.35,65.93,65.93,OK
+Table 6,HSWL Level 2,HighSchool_2.json,9854,9854,OK,51.79,51.79,4.22,4.22,62.84,62.84,OK
+Table 6,HSWL Level 2+,add_HighSchool_2.json,39413,39413,OK,42.61,42.61,13.90,13.90,68.02,68.02,OK
+Table 6,HSWL Level 3,HighSchool_3.json,12792,12792,OK,53.60,53.60,5.67,5.67,65.97,65.97,OK
+Table 6,HSWL Level 3+,add_HighSchool_3.json,42351,42351,OK,43.79,43.79,15.35,15.35,71.15,71.15,OK
+Table 6,HSWL Level 4,HighSchool_4.json,13750,13750,OK,54.47,54.47,6.20,6.20,67.90,67.90,OK
+Table 6,HSWL Level 4+,add_HighSchool_4.json,43309,43309,OK,44.29,44.29,15.87,15.87,73.08,73.08,OK
+Table 6,HSWL Level 5,HighSchool_5.json,14951,14951,OK,53.92,53.92,6.67,6.67,68.36,68.36,OK
+Table 6,HSWL Level 5+,add_HighSchool_5.json,44510,44510,OK,44.38,44.38,16.35,16.35,73.54,73.54,OK
+Table 6,HSWL Level 6,HighSchool_6.json,18023,18023,OK,48.73,48.73,7.27,7.27,69.70,69.70,OK
+Table 6,HSWL Level 6+,add_HighSchool_6.json,47582,47582,OK,43.03,43.03,16.94,16.94,74.89,74.89,OK
+Table 7,CET-4 WL Level 1,cet4_1.json,4543,4543,OK,93.92,93.92,3.53,3.53,72.26,72.26,OK
+Table 7,CET-4 WL Level 1+,add_cet4_1.json,34257,34257,OK,46.71,46.71,13.24,13.24,77.44,77.44,OK
+Table 7,CET-4 WL Level 2,cet4_2.json,12885,12885,OK,51.46,51.46,5.49,5.49,74.63,74.63,OK
+Table 7,CET-4 WL Level 2+,add_cet4_2.json,42477,42477,OK,43.14,43.14,15.17,15.17,79.69,79.69,OK
+Table 7,CET-4 WL Level 3,cet4_3.json,16359,16359,OK,52.60,52.60,7.12,7.12,76.92,76.92,OK
+Table 7,CET-4 WL Level 3+,add_cet4_3.json,45951,45951,OK,44.18,44.18,16.80,16.80,81.99,81.99,OK
+Table 7,CET-4 WL Level 4,cet4_4.json,17595,17595,OK,53.27,53.27,7.76,7.76,78.26,78.26,OK
+Table 7,CET-4 WL Level 4+,add_cet4_4.json,47187,47187,OK,44.65,44.65,17.44,17.44,83.32,83.32,OK
+Table 7,CET-4 WL Level 5,cet4_5.json,18991,18991,OK,52.73,52.73,8.29,8.29,78.76,78.76,OK
+Table 7,CET-4 WL Level 5+,add_cet4_5.json,48583,48583,OK,44.68,44.68,17.97,17.97,83.83,83.83,OK
+Table 7,CET-4 WL Level 6,cet4_66.json,22664,22664,OK,47.82,47.82,8.97,8.97,80.10,80.10,OK
+Table 7,CET-4 WL Level 6+,add_cet4_6.json,52256,52256,OK,43.12,43.12,18.65,18.65,85.17,85.17,OK
+Table 8,CET-6 WL Level 1,cet6_1.json,8074,8074,OK,93.88,93.88,6.27,6.27,82.32,82.32,OK
+Table 8,CET-6 WL Level 1+,add_cet6_1.json,37719,37719,OK,51.04,51.04,15.93,15.93,87.48,87.48,OK
+Table 8,CET-6 WL Level 2,cet6_2.json,16390,16390,OK,60.52,60.52,8.21,8.21,84.00,84.00,OK
+Table 8,CET-6 WL Level 2+,add_cet6_2.json,45895,45895,OK,46.92,46.92,17.82,17.82,88.96,88.96,OK
+Table 8,CET-6 WL Level 3,cet6_3.json,19572,19572,OK,59.39,59.39,9.62,9.62,85.49,85.49,OK
+Table 8,CET-6 WL Level 3+,add_cet6_3.json,49077,49077,OK,47.35,47.35,19.23,19.23,90.45,90.45,OK
+Table 8,CET-6 WL Level 4,cet6_4.json,20478,20478,OK,58.99,58.99,9.99,10.00,85.72,85.72,OK
+Table 8,CET-6 WL Level 4+,add_cet6_4.json,49983,49983,OK,47.40,47.40,19.61,19.61,90.68,90.68,OK
+Table 8,CET-6 WL Level 5,cet6_5.json,21762,21762,OK,57.97,57.97,10.44,10.44,86.03,86.03,OK
+Table 8,CET-6 WL Level 5+,add_cet6_5.json,51267,51267,OK,47.26,47.26,20.05,20.05,90.99,90.99,OK
+Table 8,CET-6 WL Level 6,cet6_6.json,25243,25243,OK,52.58,52.58,10.98,10.98,86.72,86.72,OK
+Table 8,CET-6 WL Level 6+,add_cet6_6.json,54748,54748,OK,45.45,45.45,20.59,20.59,91.67,91.67,OK
+Table 9,General Composite Word List,high_cet4_cet6_level6.json,26411,26411,OK,51.49,51.49,11.25,11.25,86.88,86.88,OK
+Table 9,General Composite Word List+,addi_high_cet4_cet6_level6.json,55801,55801,OK,45.09,45.09,20.82,20.82,91.78,91.78,OK
+Table 10,AWL*,combined_5.json,56254,56254,OK,45.07,45.07,20.98,20.98,91.93,91.93,OK
+Table 10,NAWL*,gen_addi_nawl.json,56775,56775,OK,44.75,44.75,21.03,21.03,92.50,92.50,OK
+Table 10,AVL*,gen_AVL_add.json,63153,63153,OK,47.37,47.37,24.76,24.76,94.09,94.09,OK
+Table 5,Proper names,basewrd31_pn_low.json,22409,22409,OK,41.74,41.74,7.74,7.74,3.41,3.41,OK
+Table 5,Marginal words,basewrd32_mw_low.json,196,196,OK,34.18,34.18,0.06,0.06,0.06,0.06,OK
+Table 5,Transparent compounds,basewrd33_tc_low.json,6044,6044,OK,25.53,25.53,1.28,1.28,0.66,0.66,OK
+Table 5,Acronyms,basewrd34_ab_low.json,1149,1149,OK,73.98,73.98,0.70,0.70,1.29,1.29,OK
+Table 5,Combined supplementary list,combined_additional.json,29798,29798,OK,39.65,39.65,9.78,9.78,5.42,5.42,OK
+Table 10,AWL,AWL.json,3107,3107,OK,62.63,62.63,1.61,1.61,20.19,20.19,OK
+Table 10,NAWL,NAWL.json,2598,2598,OK,48.08,48.08,1.03,1.03,5.15,5.15,OK
+Table 10,AVL,AVL.json,18558,18558,OK,81.50,81.50,12.52,12.52,86.99,86.99,OK

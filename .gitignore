@@ -1,0 +1,16 @@
+# secrets
+.env
+
+# OS / editor cruft
+.DS_Store
+__pycache__/
+*.pyc
+
+# Raw copyrighted textbook text extracted from the source PDFs.
+# Word-frequency JSON derived from these (corpus/, output/, data/) is kept;
+# only the full/near-full prose extracts are excluded.
+/paper/
+archive/Textbooks_all/*.txt
+archive/Test/*.txt
+archive/Test_2/*.txt
+.DS_Store

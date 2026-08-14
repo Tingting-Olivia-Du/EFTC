@@ -1,0 +1,114 @@
+{
+    "gen_addi_avl_BEAWL.json": {
+        "wordlist_size": 63157,
+        "words_found_in_corpus": 29916,
+        "wordlist_usage": 47.36767104200643,
+        "unique_words_covered_by_wl": 24.757727479620968,
+        "total_wordlist_frequency_in_corpus": 15389197,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 94.09855696399592,
+        "words_not_covered": [
+            "bty",
+            "fptinancr",
+            "oftheloan",
+            "gumpper",
+            "uubzfx"
+        ]
+    },
+    "gen_addi_avl_BWL1.json": {
+        "wordlist_size": 63190,
+        "words_found_in_corpus": 29925,
+        "wordlist_usage": 47.35717676847602,
+        "unique_words_covered_by_wl": 24.76517565274962,
+        "total_wordlist_frequency_in_corpus": 15388706,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 94.09555470263885,
+        "words_not_covered": [
+            "bty",
+            "fptinancr",
+            "oftheloan",
+            "gumpper",
+            "uubzfx"
+        ]
+    },
+    "gen_addi_avl_BWL2.json": {
+        "wordlist_size": 63161,
+        "words_found_in_corpus": 29921,
+        "wordlist_usage": 47.372587514447204,
+        "unique_words_covered_by_wl": 24.76186535358133,
+        "total_wordlist_frequency_in_corpus": 15393257,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 94.12338218010522,
+        "words_not_covered": [
+            "bty",
+            "fptinancr",
+            "oftheloan",
+            "gumpper",
+            "uubzfx"
+        ]
+    },
+    "gen_addi_awl_BEAWL.json": {
+        "wordlist_size": 56267,
+        "words_found_in_corpus": 25366,
+        "wordlist_usage": 45.081486484084806,
+        "unique_words_covered_by_wl": 20.99226217569413,
+        "total_wordlist_frequency_in_corpus": 15046420,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.00261777623663,
+        "words_not_covered": [
+            "bty",
+            "fptinancr",
+            "oftheloan",
+            "gumpper",
+            "buzzword"
+        ]
+    },
+    "gen_addi_awl_BWL1.json": {
+        "wordlist_size": 56333,
+        "words_found_in_corpus": 25389,
+        "wordlist_usage": 45.06949745264765,
+        "unique_words_covered_by_wl": 21.01129639591178,
+        "total_wordlist_frequency_in_corpus": 15049609,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.02211718859441,
+        "words_not_covered": [
+            "bty",
+            "fptinancr",
+            "oftheloan",
+            "gumpper",
+            "buzzword"
+        ]
+    },
+    "gen_addi_awl_BWL2.json": {
+        "wordlist_size": 56319,
+        "words_found_in_corpus": 25419,
+        "wordlist_usage": 45.13396899802908,
+        "unique_words_covered_by_wl": 21.036123639673935,
+        "total_wordlist_frequency_in_corpus": 15121971,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.4645808063536,
+        "words_not_covered": [
+            "bty",
+            "fptinancr",
+            "oftheloan",
+            "gumpper",
+            "buzzword"
+        ]
+    },
+    "gen_addi_EAWL.json": {
+        "wordlist_size": 56367,
+        "words_found_in_corpus": 25380,
+        "wordlist_usage": 45.026345201979886,
+        "unique_words_covered_by_wl": 21.003848222783134,
+        "total_wordlist_frequency_in_corpus": 15169792,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.75698638752688,
+        "words_not_covered": [
+            "noncan",
+            "schlank",
+            "sprinter",
+            "pfandbriefe",
+            "gabel"
+        ]
+    }
+}

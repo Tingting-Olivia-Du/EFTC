@@ -1,0 +1,12 @@
+Comparison Name,Overlap Rate,Overlap Word Count,Total Unique Words
+AVL.json vs AWL.json,0.0804,1613,20052
+AWL.json vs cet6_1.json,0.1029,1043,10138
+BEAWL.json vs BWL1.json,0.0508,43,846
+BEAWL.json vs BWL2.json,0.1442,106,735
+BEAWL.json vs EAWL.json,0.0288,61,2117
+BWL1.json vs BWL2.json,0.0551,47,853
+BWL1.json vs EAWL.json,0.0347,75,2162
+BWL2.json vs EAWL.json,0.0831,168,2021
+cet4_1.json vs cet6_1.json,0.519,4311,8306
+cet4_1.json vs HighSchool_1.json,0.558,2862,5129
+cet6_1.json vs HighSchool_1.json,0.39,3233,8289

@@ -1,0 +1,306 @@
+{
+    "1": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 16839,
+        "wordlist_usage": 26.485993362379478,
+        "unique_words_covered_by_wl": 44.9339559706471,
+        "total_wordlist_frequency_in_corpus": 1858730,
+        "total_corpus_frequency": 1975404,
+        "frequency_coverage_percentage": 94.09366387837628,
+        "words_not_covered": [
+            "amicably",
+            "hannifin",
+            "pollman",
+            "beforeit",
+            "cochair"
+        ]
+    },
+    "2": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 14764,
+        "wordlist_usage": 23.22223445585668,
+        "unique_words_covered_by_wl": 48.96199509186177,
+        "total_wordlist_frequency_in_corpus": 1100871,
+        "total_corpus_frequency": 1168648,
+        "frequency_coverage_percentage": 94.20039224813631,
+        "words_not_covered": [
+            "andpolitical",
+            "occurin",
+            "thusincrease",
+            "orem",
+            "carliner"
+        ]
+    },
+    "3": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 10357,
+        "wordlist_usage": 16.29048240715982,
+        "unique_words_covered_by_wl": 70.78805276467773,
+        "total_wordlist_frequency_in_corpus": 417551,
+        "total_corpus_frequency": 436346,
+        "frequency_coverage_percentage": 95.69263841080243,
+        "words_not_covered": [
+            "frieden",
+            "amicably",
+            "rueff",
+            "hammersley",
+            "zeph"
+        ]
+    },
+    "4": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 9964,
+        "wordlist_usage": 15.672334334743695,
+        "unique_words_covered_by_wl": 54.29972752043597,
+        "total_wordlist_frequency_in_corpus": 788555,
+        "total_corpus_frequency": 834343,
+        "frequency_coverage_percentage": 94.51208915278248,
+        "words_not_covered": [
+            "stmicroelectronic",
+            "classof",
+            "vti",
+            "recapitulation",
+            "sustainably"
+        ]
+    },
+    "5": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 6425,
+        "wordlist_usage": 10.105855891281438,
+        "unique_words_covered_by_wl": 78.39189848706685,
+        "total_wordlist_frequency_in_corpus": 241384,
+        "total_corpus_frequency": 248684,
+        "frequency_coverage_percentage": 97.06454777951134,
+        "words_not_covered": [
+            "shfe",
+            "sear",
+            "jersey",
+            "krainer",
+            "spong"
+        ]
+    },
+    "6": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 13971,
+        "wordlist_usage": 21.974928040014472,
+        "unique_words_covered_by_wl": 48.34925249169435,
+        "total_wordlist_frequency_in_corpus": 1284169,
+        "total_corpus_frequency": 1352198,
+        "frequency_coverage_percentage": 94.96900601834939,
+        "words_not_covered": [
+            "wesubtract",
+            "stmicroelectronic",
+            "thusincrease",
+            "heckel",
+            "sear"
+        ]
+    },
+    "7": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 15500,
+        "wordlist_usage": 24.37988580776067,
+        "unique_words_covered_by_wl": 61.595930694643144,
+        "total_wordlist_frequency_in_corpus": 1385808,
+        "total_corpus_frequency": 1449236,
+        "frequency_coverage_percentage": 95.62334913016237,
+        "words_not_covered": [
+            "mysteri",
+            "sear",
+            "hannifin",
+            "defazio",
+            "bmwgroup"
+        ]
+    },
+    "8": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 14137,
+        "wordlist_usage": 22.236028752536292,
+        "unique_words_covered_by_wl": 61.66630316248637,
+        "total_wordlist_frequency_in_corpus": 1037176,
+        "total_corpus_frequency": 1091138,
+        "frequency_coverage_percentage": 95.05452105966431,
+        "words_not_covered": [
+            "sear",
+            "vti",
+            "orem",
+            "hinske",
+            "gruel"
+        ]
+    },
+    "9": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 7672,
+        "wordlist_usage": 12.067257026912248,
+        "unique_words_covered_by_wl": 57.68854801112866,
+        "total_wordlist_frequency_in_corpus": 551015,
+        "total_corpus_frequency": 603744,
+        "frequency_coverage_percentage": 91.26633142523983,
+        "words_not_covered": [
+            "libvol",
+            "parture",
+            "bnmle",
+            "ceoten",
+            "eytzt"
+        ]
+    },
+    "10": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 9848,
+        "wordlist_usage": 15.489878415150132,
+        "unique_words_covered_by_wl": 61.91763596353348,
+        "total_wordlist_frequency_in_corpus": 605929,
+        "total_corpus_frequency": 648516,
+        "frequency_coverage_percentage": 93.43316124814191,
+        "words_not_covered": [
+            "infrare",
+            "nstacke",
+            "orem",
+            "parture",
+            "pcw"
+        ]
+    },
+    "11": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 14810,
+        "wordlist_usage": 23.294587665350676,
+        "unique_words_covered_by_wl": 56.84347892837952,
+        "total_wordlist_frequency_in_corpus": 2217024,
+        "total_corpus_frequency": 2344894,
+        "frequency_coverage_percentage": 94.54687503998048,
+        "words_not_covered": [
+            "rta",
+            "stmicroelectronic",
+            "asfuoasf",
+            "sear",
+            "finalization"
+        ]
+    },
+    "12": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 8604,
+        "wordlist_usage": 13.533195967095018,
+        "unique_words_covered_by_wl": 69.9000731172313,
+        "total_wordlist_frequency_in_corpus": 349455,
+        "total_corpus_frequency": 366626,
+        "frequency_coverage_percentage": 95.31648055511612,
+        "words_not_covered": [
+            "taine",
+            "pecte",
+            "equi",
+            "securi",
+            "kronholz"
+        ]
+    },
+    "13": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 10467,
+        "wordlist_usage": 16.463500951601993,
+        "unique_words_covered_by_wl": 50.13891550105384,
+        "total_wordlist_frequency_in_corpus": 635931,
+        "total_corpus_frequency": 681864,
+        "frequency_coverage_percentage": 93.26361268522754,
+        "words_not_covered": [
+            "manir",
+            "iondiectat",
+            "uih",
+            "sear",
+            "usbanke"
+        ]
+    },
+    "14": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 6734,
+        "wordlist_usage": 10.591880711578087,
+        "unique_words_covered_by_wl": 63.31327566754419,
+        "total_wordlist_frequency_in_corpus": 309617,
+        "total_corpus_frequency": 347437,
+        "frequency_coverage_percentage": 89.11457328954602,
+        "words_not_covered": [
+            "infrare",
+            "taine",
+            "bendixson",
+            "equi",
+            "sigmoid"
+        ]
+    },
+    "15": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 6454,
+        "wordlist_usage": 10.15146987117983,
+        "unique_words_covered_by_wl": 63.47364280094414,
+        "total_wordlist_frequency_in_corpus": 350627,
+        "total_corpus_frequency": 379398,
+        "frequency_coverage_percentage": 92.41667062029848,
+        "words_not_covered": [
+            "taine",
+            "lesheng",
+            "equi",
+            "lesterol",
+            "securi"
+        ]
+    },
+    "16": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 4275,
+        "wordlist_usage": 6.724129795366249,
+        "unique_words_covered_by_wl": 75.43673901535203,
+        "total_wordlist_frequency_in_corpus": 279533,
+        "total_corpus_frequency": 293167,
+        "frequency_coverage_percentage": 95.34940835769373,
+        "words_not_covered": [
+            "rta",
+            "shfe",
+            "venience",
+            "jersey",
+            "grinblatt"
+        ]
+    },
+    "17": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 15121,
+        "wordlist_usage": 23.783758277364456,
+        "unique_words_covered_by_wl": 56.696662917135356,
+        "total_wordlist_frequency_in_corpus": 639562,
+        "total_corpus_frequency": 689306,
+        "frequency_coverage_percentage": 92.78346626897198,
+        "words_not_covered": [
+            "mcenrue",
+            "ruona",
+            "minishi",
+            "hayday",
+            "sear"
+        ]
+    },
+    "18": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 8822,
+        "wordlist_usage": 13.876087264262232,
+        "unique_words_covered_by_wl": 65.39174264324365,
+        "total_wordlist_frequency_in_corpus": 532100,
+        "total_corpus_frequency": 564104,
+        "frequency_coverage_percentage": 94.32657807780126,
+        "words_not_covered": [
+            "dealogic",
+            "stopin",
+            "equi",
+            "taine",
+            "pecte"
+        ]
+    },
+    "19": {
+        "wordlist_size": 63577,
+        "words_found_in_corpus": 16564,
+        "wordlist_usage": 26.053447001274044,
+        "unique_words_covered_by_wl": 53.61385337433242,
+        "total_wordlist_frequency_in_corpus": 817799,
+        "total_corpus_frequency": 879286,
+        "frequency_coverage_percentage": 93.00716717882463,
+        "words_not_covered": [
+            "wernle",
+            "wanasika",
+            "udemy",
+            "sear",
+            "rapper"
+        ]
+    }
+}

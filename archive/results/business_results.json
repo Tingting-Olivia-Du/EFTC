@@ -1,0 +1,66 @@
+{
+    "gen_addi_BEAWL.json": {
+        "wordlist_size": 55816,
+        "words_found_in_corpus": 25175,
+        "wordlist_usage": 45.10355453633367,
+        "unique_words_covered_by_wl": 20.834195390408407,
+        "total_wordlist_frequency_in_corpus": 15026445,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.88047893589585,
+        "words_not_covered": [
+            "disabil",
+            "sdv",
+            "parametric",
+            "fmv",
+            "cantlybelow"
+        ]
+    },
+    "gen_addi_BWL1.json": {
+        "wordlist_size": 55880,
+        "words_found_in_corpus": 25196,
+        "wordlist_usage": 45.08947745168218,
+        "unique_words_covered_by_wl": 20.851574461041917,
+        "total_wordlist_frequency_in_corpus": 15025745,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.87619872622183,
+        "words_not_covered": [
+            "disabil",
+            "sdv",
+            "parametric",
+            "fmv",
+            "cantlybelow"
+        ]
+    },
+    "gen_addi_BWL2.json": {
+        "wordlist_size": 55869,
+        "words_found_in_corpus": 25229,
+        "wordlist_usage": 45.15742182605739,
+        "unique_words_covered_by_wl": 20.878884429180285,
+        "total_wordlist_frequency_in_corpus": 15105773,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.36553675449677,
+        "words_not_covered": [
+            "disabil",
+            "sdv",
+            "parametric",
+            "fmv",
+            "cantlybelow"
+        ]
+    },
+    "gen_addi_EAWL.json": {
+        "wordlist_size": 56367,
+        "words_found_in_corpus": 25380,
+        "wordlist_usage": 45.026345201979886,
+        "unique_words_covered_by_wl": 21.003848222783134,
+        "total_wordlist_frequency_in_corpus": 15169792,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.75698638752688,
+        "words_not_covered": [
+            "disabil",
+            "sdv",
+            "parametric",
+            "fmv",
+            "cantlybelow"
+        ]
+    }
+}

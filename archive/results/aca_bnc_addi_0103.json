@@ -1,0 +1,482 @@
+{
+    "addi_bnc_10000_AVL.json": {
+        "wordlist_size": 49300,
+        "words_found_in_corpus": 27423,
+        "wordlist_usage": 55.624746450304265,
+        "unique_words_covered_by_wl": 22.69458352298589,
+        "total_wordlist_frequency_in_corpus": 15237332,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.16996547521731,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_10000_AWL.json": {
+        "wordlist_size": 42228,
+        "words_found_in_corpus": 22081,
+        "wordlist_usage": 52.28994979634366,
+        "unique_words_covered_by_wl": 18.273678983738158,
+        "total_wordlist_frequency_in_corpus": 13380546,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.81648918981072,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_10000_NAWL.json": {
+        "wordlist_size": 41698,
+        "words_found_in_corpus": 21386,
+        "wordlist_usage": 51.28783155067389,
+        "unique_words_covered_by_wl": 17.69851450324823,
+        "total_wordlist_frequency_in_corpus": 12859104,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.62808762861036,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_1000_AVL.json": {
+        "wordlist_size": 47714,
+        "words_found_in_corpus": 26365,
+        "wordlist_usage": 55.25631890011318,
+        "unique_words_covered_by_wl": 21.81900939297389,
+        "total_wordlist_frequency_in_corpus": 15012842,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 91.79730223275915,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_1000_AWL.json": {
+        "wordlist_size": 33885,
+        "words_found_in_corpus": 14637,
+        "wordlist_usage": 43.19610447100487,
+        "unique_words_covered_by_wl": 12.113212231555428,
+        "total_wordlist_frequency_in_corpus": 9026086,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 55.19077230819295,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_1000_NAWL.json": {
+        "wordlist_size": 33351,
+        "words_found_in_corpus": 13930,
+        "wordlist_usage": 41.76786303259273,
+        "unique_words_covered_by_wl": 11.528116853560642,
+        "total_wordlist_frequency_in_corpus": 6677053,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 40.827409777918874,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_2000_AVL.json": {
+        "wordlist_size": 47744,
+        "words_found_in_corpus": 26391,
+        "wordlist_usage": 55.27605563002681,
+        "unique_words_covered_by_wl": 21.84052633756776,
+        "total_wordlist_frequency_in_corpus": 15151910,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.64764537411142,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_2000_AWL.json": {
+        "wordlist_size": 34749,
+        "words_found_in_corpus": 15490,
+        "wordlist_usage": 44.57682235460013,
+        "unique_words_covered_by_wl": 12.8191335291927,
+        "total_wordlist_frequency_in_corpus": 11592378,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 70.88258351499258,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_2000_NAWL.json": {
+        "wordlist_size": 34307,
+        "words_found_in_corpus": 14874,
+        "wordlist_usage": 43.355583408633805,
+        "unique_words_covered_by_wl": 12.30934745727645,
+        "total_wordlist_frequency_in_corpus": 10193041,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 62.3262181369727,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_3000_AVL.json": {
+        "wordlist_size": 47772,
+        "words_found_in_corpus": 26412,
+        "wordlist_usage": 55.28761617683999,
+        "unique_words_covered_by_wl": 21.857905408201265,
+        "total_wordlist_frequency_in_corpus": 15157483,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.68172195770187,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_3000_AWL.json": {
+        "wordlist_size": 35388,
+        "words_found_in_corpus": 16120,
+        "wordlist_usage": 45.55216457556234,
+        "unique_words_covered_by_wl": 13.340505648197956,
+        "total_wordlist_frequency_in_corpus": 12445624,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.09982892001933,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_3000_NAWL.json": {
+        "wordlist_size": 35157,
+        "words_found_in_corpus": 15712,
+        "wordlist_usage": 44.69095770401342,
+        "unique_words_covered_by_wl": 13.002855133032648,
+        "total_wordlist_frequency_in_corpus": 12170325,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 74.41648971566505,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_4000_AVL.json": {
+        "wordlist_size": 47816,
+        "words_found_in_corpus": 26440,
+        "wordlist_usage": 55.295298644805094,
+        "unique_words_covered_by_wl": 21.881077502379277,
+        "total_wordlist_frequency_in_corpus": 15167507,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.74301456023383,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_4000_AWL.json": {
+        "wordlist_size": 36303,
+        "words_found_in_corpus": 17014,
+        "wordlist_usage": 46.866650139106966,
+        "unique_words_covered_by_wl": 14.080357512310174,
+        "total_wordlist_frequency_in_corpus": 12848050,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.56049700327235,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_4000_NAWL.json": {
+        "wordlist_size": 35922,
+        "words_found_in_corpus": 16457,
+        "wordlist_usage": 45.81315071543901,
+        "unique_words_covered_by_wl": 13.619398353126163,
+        "total_wordlist_frequency_in_corpus": 12430598,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.00795116207387,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_5000_AVL.json": {
+        "wordlist_size": 47868,
+        "words_found_in_corpus": 26475,
+        "wordlist_usage": 55.30834795688142,
+        "unique_words_covered_by_wl": 21.91004262010179,
+        "total_wordlist_frequency_in_corpus": 15171035,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.76458681699089,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_5000_AWL.json": {
+        "wordlist_size": 37265,
+        "words_found_in_corpus": 17933,
+        "wordlist_usage": 48.122903528780355,
+        "unique_words_covered_by_wl": 14.840898746224191,
+        "total_wordlist_frequency_in_corpus": 13071113,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 79.92443473258075,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_5000_NAWL.json": {
+        "wordlist_size": 36820,
+        "words_found_in_corpus": 17315,
+        "wordlist_usage": 47.02607278652906,
+        "unique_words_covered_by_wl": 14.329457524723797,
+        "total_wordlist_frequency_in_corpus": 12578459,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 76.91205985151709,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_6000_AVL.json": {
+        "wordlist_size": 47974,
+        "words_found_in_corpus": 26555,
+        "wordlist_usage": 55.35289948722224,
+        "unique_words_covered_by_wl": 21.97624860346754,
+        "total_wordlist_frequency_in_corpus": 15185493,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.85299149051515,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_6000_AWL.json": {
+        "wordlist_size": 38251,
+        "words_found_in_corpus": 18856,
+        "wordlist_usage": 49.295443256385454,
+        "unique_words_covered_by_wl": 15.604750279306492,
+        "total_wordlist_frequency_in_corpus": 13196432,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 80.69070844135004,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_6000_NAWL.json": {
+        "wordlist_size": 37770,
+        "words_found_in_corpus": 18207,
+        "wordlist_usage": 48.20492454328832,
+        "unique_words_covered_by_wl": 15.067654239251874,
+        "total_wordlist_frequency_in_corpus": 12692758,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.61095083084678,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_7000_AVL.json": {
+        "wordlist_size": 48142,
+        "words_found_in_corpus": 26673,
+        "wordlist_usage": 55.40484400315733,
+        "unique_words_covered_by_wl": 22.073902428932016,
+        "total_wordlist_frequency_in_corpus": 15192972,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 92.89872247358943,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_7000_AWL.json": {
+        "wordlist_size": 39240,
+        "words_found_in_corpus": 19735,
+        "wordlist_usage": 50.29306829765545,
+        "unique_words_covered_by_wl": 16.33218852153763,
+        "total_wordlist_frequency_in_corpus": 13260929,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.08508084612896,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_7000_NAWL.json": {
+        "wordlist_size": 38734,
+        "words_found_in_corpus": 19063,
+        "wordlist_usage": 49.21515980792069,
+        "unique_words_covered_by_wl": 15.77605826126536,
+        "total_wordlist_frequency_in_corpus": 12750163,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 77.96195859704265,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_8000_AVL.json": {
+        "wordlist_size": 48421,
+        "words_found_in_corpus": 26865,
+        "wordlist_usage": 55.482125524049486,
+        "unique_words_covered_by_wl": 22.232796789009807,
+        "total_wordlist_frequency_in_corpus": 15220826,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.06903813110392,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_8000_AWL.json": {
+        "wordlist_size": 40236,
+        "words_found_in_corpus": 20584,
+        "wordlist_usage": 51.158166815786856,
+        "unique_words_covered_by_wl": 17.034799520006622,
+        "total_wordlist_frequency_in_corpus": 13330487,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.51039916685107,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_8000_NAWL.json": {
+        "wordlist_size": 39718,
+        "words_found_in_corpus": 19902,
+        "wordlist_usage": 50.108263255954476,
+        "unique_words_covered_by_wl": 16.47039351181363,
+        "total_wordlist_frequency_in_corpus": 12813580,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.34972724975312,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_9000_AVL.json": {
+        "wordlist_size": 48808,
+        "words_found_in_corpus": 27131,
+        "wordlist_usage": 55.58719881986559,
+        "unique_words_covered_by_wl": 22.452931683700914,
+        "total_wordlist_frequency_in_corpus": 15228995,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 93.11898817799974,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_9000_AWL.json": {
+        "wordlist_size": 41233,
+        "words_found_in_corpus": 21375,
+        "wordlist_usage": 51.83954599471298,
+        "unique_words_covered_by_wl": 17.68941118053544,
+        "total_wordlist_frequency_in_corpus": 13357897,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 81.6779999485152,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    },
+    "addi_bnc_9000_NAWL.json": {
+        "wordlist_size": 40704,
+        "words_found_in_corpus": 20681,
+        "wordlist_usage": 50.80827437106918,
+        "unique_words_covered_by_wl": 17.11507427483759,
+        "total_wordlist_frequency_in_corpus": 12837034,
+        "total_corpus_frequency": 16354339,
+        "frequency_coverage_percentage": 78.49313873217378,
+        "words_not_covered": [
+            "echoedthis",
+            "zez",
+            "kur",
+            "laan",
+            "keck"
+        ]
+    }
+}

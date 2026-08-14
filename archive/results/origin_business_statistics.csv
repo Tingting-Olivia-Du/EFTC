@@ -1,0 +1,5 @@
+file_name,wordlist_size,words_found_in_corpus,wordlist_usage,unique_words_covered_by_wl,total_wordlist_frequency_in_corpus,total_corpus_frequency,frequency_coverage_percentage,words_not_covered
+BEAWL.json,415,409,98.55421686746988,0.33847808995737994,2577978,16354339,15.763266250014752,"omx, moneyandbanking, demandand, simultane, schauer"
+BWL1.json,474,389,82.0675105485232,0.3219265941159432,549881,16354339,3.3622942510852933,"omx, moneyandbanking, demandand, simultane, schauer"
+BWL2.json,426,421,98.82629107981221,0.3484089874622419,1134680,16354339,6.938097589881193,"omx, moneyandbanking, demandand, simultane, schauer"
+EAWL.json,1763,1090,61.82643221781055,0.9020565233582986,1243649,16354339,7.604397829835861,"omx, moneyandbanking, demandand, simultane, schauer"

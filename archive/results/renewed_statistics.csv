@@ -1,0 +1,7 @@
+file_name,wordlist_size,words_found_in_corpus,wordlist_usage,unique_words_covered_by_wl,total_wordlist_frequency_in_corpus,total_corpus_frequency,frequency_coverage_percentage,words_not_covered
+gen_addi_avl_BEAWL.json,63157,29916,47.36767104,24.75772748,15389197,16354339,94.09855696,"bty, fptinancr, oftheloan, gumpper, uubzfx"
+gen_addi_avl_BWL1.json,63190,29925,47.35717677,24.76517565,15388706,16354339,94.0955547,"bty, fptinancr, oftheloan, gumpper, uubzfx"
+gen_addi_avl_BWL2.json,63161,29921,47.37258751,24.76186535,15393257,16354339,94.12338218,"bty, fptinancr, oftheloan, gumpper, uubzfx"
+gen_addi_awl_BEAWL.json,56267,25366,45.08148648,20.99226218,15046420,16354339,92.00261778,"bty, fptinancr, oftheloan, gumpper, buzzword"
+gen_addi_awl_BWL1.json,56333,25389,45.06949745,21.0112964,15049609,16354339,92.02211719,"bty, fptinancr, oftheloan, gumpper, buzzword"
+gen_addi_awl_BWL2.json,56319,25419,45.133969,21.03612364,15121971,16354339,92.46458081,"bty, fptinancr, oftheloan, gumpper, buzzword"
