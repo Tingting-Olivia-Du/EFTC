@@ -39,10 +39,13 @@ see the critical data-integrity finding below before citing that number.
 >
 > **Update (2026-08-20):** the official BNC/COCA word-family data and
 > supplementary lists were tracked down and recovered, closing most of the
-> "reproducibility gap" (Finding R1) and yielding a validated estimate for
-> the corrected `AVL*` figure: **~92.86%**, down from the paper's reported
-> 94.09% — and now only narrowly ahead of NAWL\* (~92.73%), not the clear
-> win the paper describes. See
+> "reproducibility gap" (Finding R1). The original Java source code and
+> working data files were then also located, giving a high-confidence
+> corrected `AVL*` figure: **~92.81%**, down from the paper's reported
+> 94.09% (a sanity check with this data reproduces the paper's own
+> published 94.09% *exactly*) — and now only narrowly ahead of NAWL\*
+> (92.50%, exact match to the paper), not the clear win the paper
+> describes. See
 > [`report/level_reconstruction_attempt.md`](report/level_reconstruction_attempt.md).
 
 ## Repository layout
@@ -96,9 +99,13 @@ python3 analysis/avl_data_integrity_check.py
 python3 analysis/data_source_audit.py
 
 # 5. Rebuild Level 2-6 (HSWL/CET-4/CET-6) from the recovered official
-#    BNC/COCA data and re-derive a corrected AVL* estimate.
+#    BNC/COCA data (independent cross-check method).
 python3 analysis/build_bnc_coca_resources.py
 python3 analysis/build_leveled_wordlists.py
+
+# 6. Verify against the ground-truth word lists recovered from the original
+#    Java project's working files, and get the high-confidence AVL* estimate.
+python3 analysis/verify_ground_truth_levels.py
 ```
 
 Each script prints a pass/fail summary and writes a detailed CSV to `output/`.

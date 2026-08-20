@@ -14,3 +14,4 @@ archive/Textbooks_all/*.txt
 archive/Test/*.txt
 archive/Test_2/*.txt
 .DS_Store
+/java_source/
