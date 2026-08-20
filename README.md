@@ -106,6 +106,11 @@ python3 analysis/build_leveled_wordlists.py
 # 6. Verify against the ground-truth word lists recovered from the original
 #    Java project's working files, and get the high-confidence AVL* estimate.
 python3 analysis/verify_ground_truth_levels.py
+
+# 7. A faithful Python port of the actual Java leveling pipeline (debugging
+#    exercise -- documents two real bugs found; less accurate than #6
+#    because it can't reproduce the missing Level-2 lemmatizer file).
+python3 analysis/java_port_pipeline.py
 ```
 
 Each script prints a pass/fail summary and writes a detailed CSV to `output/`.

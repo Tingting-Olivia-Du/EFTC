@@ -210,12 +210,60 @@ for Level 2, iterative Level 3-5 merge procedure) is unchanged in
   way to get a final publication-ready number, though at this point the
   gap between "estimate" and "final number" is small.
 
-## 7. Files added
+## 7. Debugging exercise: a faithful Python port of the Java pipeline
+
+`analysis/java_port_pipeline.py` is a line-for-line Python port of
+`LevelList`, `AffixLevel`/`AffixLevelHandler`, and `LevelListHandler`,
+generalized to run for all three lists (the Java source only has HighSchool
+live) and wired to the data this repo actually has in place of the two
+external files the Java code depended on but that were never provided
+(`*_family_horizontal.txt` → rebuilt from the real BNC/COCA family
+database; `*_lemmas_horizontal.txt` → approximated with the same regular-
+inflection heuristic `build_leveled_wordlists.py` used, since Tom Cobb's
+Familizer/Lemmatizer tool isn't available). Two bugs found while porting,
+both handled explicitly rather than silently:
+
+- **The Level-3 affix quirk is real and was replicated faithfully**:
+  `level3prefixes = {}`, and `non`/`un` sit in `level3suffixes`, checked
+  via `endsWith` — i.e. Level 3 does *not* do a `non-`/`un-` prefix check
+  at all, contrary to Table 1's description.
+- **`buildLevel()`'s hardcoded `HighSchool_levelList6` reference is a
+  copy-paste bug that was fixed, not replicated** — generalizing the method
+  to scan each list's own Level 6 (which is clearly the intended behavior,
+  and required for CET-4/CET-6 to work at all).
+
+**Debugging result: the faithful port does not reproduce the paper any
+better than an approximate one.** Token coverage vs. the paper across all
+18 Table 6/7/8 rows: mean −0.10pp, stdev 0.42pp — actually slightly *worse*
+than the earlier, deliberately-approximate `build_leveled_wordlists.py`
+(stdev 0.38pp), and both are much worse than simply using the recovered
+real `gen_leveled` files (stdev 0.11pp, §2). A second variant was tested
+with `non-`/`un-` moved to Level-3 *prefixes* (matching Table 1's
+description instead of the literal code) — that lands at stdev 0.39pp,
+statistically indistinguishable from the faithful-quirk version. **The
+Level-3 prefix/suffix bug turns out not to be the dominant source of
+error either way** — it matters at the margin (mainly for Level 3
+specifically) but the bigger, harder-to-close gap is the missing Level-2
+lemma file: without Tom Cobb's actual tool output, no regular-inflection
+heuristic gets particularly close, and that error propagates into every
+level above it via the cumulative merge.
+
+**Practical conclusion**: this port is a useful, fully transparent,
+reproducible artifact (and would immediately become much more accurate if
+the real `*_lemmas_horizontal.txt` files ever turn up), but for actually
+citable numbers, the recovered `gen_leveled/` ground-truth files (§2-3)
+remain strictly better than anything this repo can compute from first
+principles, precisely because they don't depend on reconstructing the
+missing Level-2 lemmatizer step at all.
+
+## 8. Files added
 
 ```
 archive/java_source/hyponym/*.java, main/Main.java, Utils/FileUtils.java   recovered Java source (14 files)
 data/wordlists/leveled_ground_truth/{HSWL,CET4,CET6}/level{1-6}.json       parsed real gen_leveled/ word lists
 analysis/verify_ground_truth_levels.py                                     ground-truth verification + Table 9/10 rebuild
+analysis/java_port_pipeline.py                                             faithful Python port of the Java classes + debugging notes
+data/wordlists/leveled_java_port/{HSWL,CET4,CET6}/level{1-6}.json          output of the Python port (for comparison; gen_leveled is authoritative)
 ```
 
 (§5's from-scratch files -- `data/wordlists/bnc_coca_source/`,
