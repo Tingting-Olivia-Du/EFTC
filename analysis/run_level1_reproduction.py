@@ -59,7 +59,7 @@ def main():
     lists = {
         "AWL": load_wordlist(WL / "AWL.json"),
         "NAWL": load_wordlist(WL / "NAWL.json"),
-        "AVL": load_wordlist(WL / "AVL.json"),
+        "AVL": load_wordlist(WL / "AVL_old_wrong.json"),
         "HSWL_level1": load_wordlist(WL / "HSWL_level1.json"),
         "CET4_level1": load_wordlist(WL / "CET4_level1.json"),
         "CET6_level1": load_wordlist(WL / "CET6_level1.json"),

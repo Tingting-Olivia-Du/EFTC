@@ -80,7 +80,7 @@ def main():
     avl_correct = build_correct_avl_wordlist()
 
     corpus = Corpus(WL / "eftc_corpus.json")
-    avl_wrong = load_wordlist(WL / "AVL.json")
+    avl_wrong = load_wordlist(WL / "AVL_old_wrong.json")
     awl = load_wordlist(WL / "AWL.json")
     nawl = load_wordlist(WL / "NAWL.json")
     cet6 = load_wordlist(WL / "CET6_level1.json")

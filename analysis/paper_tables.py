@@ -82,7 +82,7 @@ TABLE10_ACADEMIC_STARRED = [
 TABLE10_ACADEMIC_STANDALONE = [
     ("Table 10", "AWL",  "AWL.json",  3107,  62.63, 1.61,  20.19),
     ("Table 10", "NAWL", "NAWL.json", 2598,  48.08, 1.03,  5.15),
-    ("Table 10", "AVL",  "AVL.json",  18558, 81.50, 12.52, 86.99),
+    ("Table 10", "AVL",  "AVL.json",  18558, 81.50, 12.52, 86.99),  # historical cache key -- do not rename, doesn't refer to a file on disk
 ]
 
 ALL_STATISTICS_CSV_ROWS = (

@@ -57,7 +57,7 @@ def audit_awl_nawl():
 
 def audit_avl():
     print("\n=== AVL: see analysis/avl_data_integrity_check.py for full detail ===")
-    avl_wrong = load_wordlist(WL / "AVL.json")
+    avl_wrong = load_wordlist(WL / "AVL_old_wrong.json")
     avl_correct = load_wordlist(WL / "AVL_correct.json") if (WL / "AVL_correct.json").exists() else None
     print(f"AVL.json (used in paper): {len(avl_wrong)} entries -- CONFIRMED WRONG (see report, Finding V1)")
     if avl_correct:

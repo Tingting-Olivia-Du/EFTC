@@ -10,6 +10,12 @@ data source used in the study — see
 (AWL and NAWL independently confirmed correct; HSWL/CET-4/CET-6/corpus show
 no red flags but aren't as rigorously checkable; the BNC/COCA supplementary
 lists and Level 2–6 expansion remain unverifiable, per Finding R1).
+**Updated 2026-08-20**: the official BNC/COCA word-family data and
+supplementary lists behind most of Finding R1's "reproducibility gap" have
+been recovered and used to rebuild Level 2–6 and re-derive a validated
+estimate for the corrected `AVL*` figure (**~92.86%**, down from the
+paper's reported 94.09%) — see
+[`level_reconstruction_attempt.md`](level_reconstruction_attempt.md).
 
 **What this report covers:** (1) a full re-run of every number in the paper that
 can be independently recomputed from the raw files present in the repository,
@@ -47,13 +53,17 @@ used. Recomputed with the correct list:
 This invalidates the paper's central claim that "the CET-6 WL (86.72%) and
 the AVL (86.99%) yield similar levels of token coverage" and the framing of
 AVL as the strongest-performing academic word list — the real AVL covers
-about half the corpus's tokens on its own, far below CET-6. The starred
-"AVL\*" combined row (94.09%, the paper's headline best result) cannot be
-recomputed with data currently in the repository (it needs the missing Level
-2–6 / BNC-COCA-supplement composite lists, see Finding R1 below), but given
-this drop in standalone coverage it should be expected to fall substantially
-too, and the relative ranking of AVL vs. AWL vs. NAWL needs to be
-re-examined once the full pipeline is re-run with the corrected AVL source
+about half the corpus's tokens on its own, far below CET-6. **Update
+2026-08-20:** the starred "AVL\*" combined row (94.09%, the paper's headline
+best result) has now been re-derived — see
+[`level_reconstruction_attempt.md`](level_reconstruction_attempt.md) — using
+recovered official BNC/COCA data to rebuild the Level 2–6 lists that Finding
+R1 originally said were unrecoverable. Validated estimate: **AVL\* drops to
+~92.86%**, only marginally ahead of NAWL\* (~92.73% in the same
+reconstruction) and AWL\* (~92.11%) — a far cry from the clear win the
+paper reports, though the overall "nothing reaches 95%" conclusion still
+holds. The relative ranking of AVL vs. AWL vs. NAWL still needs a full
+re-run of the original pipeline with the corrected AVL source
 file. See Finding V1 for full detail and `analysis/avl_data_integrity_check.py`
 to reproduce.
 
@@ -211,13 +221,15 @@ WL (86.72%) and the AVL (86.99%) yield similar levels of token coverage,
 which further validates the potential of the CET-6 WL as a practical academic
 vocabulary resource" — and the abstract frames AVL as the strongest-performing
 academic word list. With the corrected data, standalone AVL token coverage is
-50.48%, not comparable to CET-6 at all. The starred "AVL\*" combination
-(94.09%, the paper's headline best result) cannot be recomputed with what's
-currently in the repository — it needs the missing Level 2–6 general-list
-expansions and BNC/COCA supplementary lists (Finding R1) — but a standalone
-coverage drop of this size means AVL\* should be expected to fall well below
-94.09% too, and the paper's ranking of AVL above AWL/NAWL needs to be
-re-examined once the full pipeline is re-run with the corrected AVL source.
+50.48%, not comparable to CET-6 at all. **Update 2026-08-20:** the starred
+"AVL\*" combination (94.09%, the paper's headline best result) has now been
+re-derived using recovered official BNC/COCA data — see
+`level_reconstruction_attempt.md`. Validated estimate: AVL\* drops to
+~92.86%, essentially tied with NAWL\* (~92.73%) and only narrowly ahead of
+AWL\* (~92.11%) in the same reconstruction — the paper's ranking of AVL as
+clearly the best academic word list does not survive the correction, though
+a full re-run of the original pipeline with the corrected AVL source
+remains the authoritative way to get a final publication-ready number.
 
 **Recommended fix:** re-run the original pipeline's AVL-dependent steps
 (Table 4's three AVL rows, Table 10's AVL and AVL\* rows, and the

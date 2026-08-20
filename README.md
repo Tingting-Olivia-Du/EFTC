@@ -36,6 +36,14 @@ see the critical data-integrity finding below before citing that number.
 > NAWL to be byte-for-byte correct against an independent source; HSWL,
 > CET-4, CET-6, and the corpus show no red flags but couldn't be checked as
 > rigorously; AVL was the only confirmed error.
+>
+> **Update (2026-08-20):** the official BNC/COCA word-family data and
+> supplementary lists were tracked down and recovered, closing most of the
+> "reproducibility gap" (Finding R1) and yielding a validated estimate for
+> the corrected `AVL*` figure: **~92.86%**, down from the paper's reported
+> 94.09% — and now only narrowly ahead of NAWL\* (~92.73%), not the clear
+> win the paper describes. See
+> [`report/level_reconstruction_attempt.md`](report/level_reconstruction_attempt.md).
 
 ## Repository layout
 
@@ -86,6 +94,11 @@ python3 analysis/avl_data_integrity_check.py
 
 # 4. Full audit of every other data source (AWL/NAWL/HSWL/CET-4/CET-6/corpus).
 python3 analysis/data_source_audit.py
+
+# 5. Rebuild Level 2-6 (HSWL/CET-4/CET-6) from the recovered official
+#    BNC/COCA data and re-derive a corrected AVL* estimate.
+python3 analysis/build_bnc_coca_resources.py
+python3 analysis/build_leveled_wordlists.py
 ```
 
 Each script prints a pass/fail summary and writes a detailed CSV to `output/`.
