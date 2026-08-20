@@ -1,0 +1,7 @@
+extra_in_project,identical_to_source,list,missing_from_project,project_size,source_size,status
+0,True,AWL,0,3107,3107,
+0,True,NAWL,0,2598,2598,
+,False,AVL,,18558,6799,"WRONG -- see Finding V1, corrected file provided"
+,,HSWL_level1,,3448,,"plausible (~3,500 officially cited); no authoritative digital source in repo to diff"
+,,CET4_level1,,4543,,sourced from official syllabus via acknowledged third-party OCR; split logic not preserved
+,,CET6_level1,,8074,,sourced from official syllabus via acknowledged third-party OCR; split logic not preserved

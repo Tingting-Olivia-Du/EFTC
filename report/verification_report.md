@@ -4,7 +4,12 @@
 English-medium instruction? Evidence from lexical coverage analysis of English
 finance textbooks"), from the [tdu/EFTC](https://github.com) repository, as of 2026-08-14.
 **Updated 2026-08-19** with a critical data-integrity finding (V1) identified
-after advisor review.
+after advisor review, and again the same day with a full audit of every other
+data source used in the study — see
+[`data_source_audit.md`](data_source_audit.md) for that companion document
+(AWL and NAWL independently confirmed correct; HSWL/CET-4/CET-6/corpus show
+no red flags but aren't as rigorously checkable; the BNC/COCA supplementary
+lists and Level 2–6 expansion remain unverifiable, per Finding R1).
 
 **What this report covers:** (1) a full re-run of every number in the paper that
 can be independently recomputed from the raw files present in the repository,

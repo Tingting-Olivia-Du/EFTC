@@ -25,11 +25,17 @@ see the critical data-integrity finding below before citing that number.
 
 > ⚠️ **Critical finding (2026-08-19):** the word list used throughout the
 > pipeline as "AVL" is not actually the Academic Vocabulary List (Gardner &
-> Davies, 2014) — it's a general-frequency word list that was mislabeled
-> somewhere in the pipeline's history. Standalone AVL token coverage drops
+> Davies, 2014) — it's a general-frequency word list mislabeled as "AVL" in
+> an upstream open-source dependency. Standalone AVL token coverage drops
 > from the paper's reported 86.99% to **50.48%** once recomputed against the
 > real AVL. See `report/verification_report.md` §0/Finding V1 and
 > `analysis/avl_data_integrity_check.py`.
+>
+> A follow-up audit of every other data source in the study
+> ([`report/data_source_audit.md`](report/data_source_audit.md)) found AWL and
+> NAWL to be byte-for-byte correct against an independent source; HSWL,
+> CET-4, CET-6, and the corpus show no red flags but couldn't be checked as
+> rigorously; AVL was the only confirmed error.
 
 ## Repository layout
 
@@ -77,6 +83,9 @@ python3 analysis/verify_cached_tables.py
 # 3. Reproduce the critical AVL data-integrity finding (needs `pip install
 #    openpyxl` to read data/wordlists/families-AVL.xlsx).
 python3 analysis/avl_data_integrity_check.py
+
+# 4. Full audit of every other data source (AWL/NAWL/HSWL/CET-4/CET-6/corpus).
+python3 analysis/data_source_audit.py
 ```
 
 Each script prints a pass/fail summary and writes a detailed CSV to `output/`.
