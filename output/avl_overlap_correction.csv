@@ -1,0 +1,4 @@
+pair,wrong_size_a,wrong_size_b,wrong_overlap_word_count,wrong_total_unique_words,wrong_overlap_rate_pct,correct_size_a,correct_size_b,correct_overlap_word_count,correct_total_unique_words,correct_overlap_rate_pct,paper_rate_pct,paper_overlap,paper_union
+AVL vs CET6_level1,18558,8074,7536,19096,39.463762044407204,6799,8074,2434,12439,19.56748934801833,39.46,7536,19096
+AVL vs AWL,18558,3107,1613,20052,8.044085378017156,6799,3107,1507,8399,17.94261221573997,8.04,1613,20052
+AVL vs NAWL,18558,2598,1067,20089,5.311364428294091,6799,2598,578,8819,6.554031069282232,5.31,1067,20089

@@ -3,6 +3,8 @@
 **Paper checked:** `paper/paper.md` ("Are Chinese finance undergraduates ready for
 English-medium instruction? Evidence from lexical coverage analysis of English
 finance textbooks"), from the [tdu/EFTC](https://github.com) repository, as of 2026-08-14.
+**Updated 2026-08-19** with a critical data-integrity finding (V1) identified
+after advisor review.
 
 **What this report covers:** (1) a full re-run of every number in the paper that
 can be independently recomputed from the raw files present in the repository,
@@ -12,16 +14,66 @@ manuscript text for content, citation, and internal-consistency issues.
 
 ---
 
+## 0. Critical update (2026-08-19): the "AVL" word list is not the AVL
+
+**The word list used throughout the pipeline as "AVL" is not the Academic
+Vocabulary List (Gardner & Davies, 2014).** `archive/scripts/flatten_avl.py`
+built `AVL.json` (18,558 words — the file behind every AVL number in Table 4
+and Table 10) by flattening `archive/wordlist/AVL_nested.json`, which is
+actually a 42-band **general-frequency word list** (band_1: "the, of, be,
+and, a, in, to, that, for, have" — ordinary function words, not academic
+vocabulary), not AVL data.
+
+The real AVL (from the official Gardner & Davies 2014 family/word-form data,
+`data/wordlists/families-AVL.xlsx`) has 1,991 word families / 6,799 word
+forms — roughly a third the size of the 18,558-word file the paper actually
+used. Recomputed with the correct list:
+
+| Metric | Paper (wrong file) | Corrected |
+|---|---|---|
+| AVL size | 18,558 | 6,799 |
+| AVL attestation rate | 81.50% | 82.16% |
+| AVL type coverage | 12.52% | 4.62% |
+| **AVL token coverage** | **86.99%** | **50.48%** |
+| AVL vs. CET-6 overlap | 39.46% | 19.57% |
+| AVL vs. AWL overlap | 8.04% | 17.94% |
+| AVL vs. NAWL overlap | 5.31% | 6.55% |
+
+This invalidates the paper's central claim that "the CET-6 WL (86.72%) and
+the AVL (86.99%) yield similar levels of token coverage" and the framing of
+AVL as the strongest-performing academic word list — the real AVL covers
+about half the corpus's tokens on its own, far below CET-6. The starred
+"AVL\*" combined row (94.09%, the paper's headline best result) cannot be
+recomputed with data currently in the repository (it needs the missing Level
+2–6 / BNC-COCA-supplement composite lists, see Finding R1 below), but given
+this drop in standalone coverage it should be expected to fall substantially
+too, and the relative ranking of AVL vs. AWL vs. NAWL needs to be
+re-examined once the full pipeline is re-run with the corrected AVL source
+file. See Finding V1 for full detail and `analysis/avl_data_integrity_check.py`
+to reproduce.
+
+**This supersedes Finding D1 in severity and should be fixed before anything
+else in this report.**
+
+---
+
 ## 1. Headline result
 
-**No numeric transcription errors were found.** Every one of the 64 checked
-table cells across Tables 2, 4, 5, 6, 7, 8, 9, and 10 matches what the data
-files say, to the 2-decimal precision the paper reports. Where independent
-recomputation from raw inputs was possible (Level-1 word lists, standalone
-AWL/NAWL/AVL, all pairwise overlaps, corpus totals — 15 rows), fresh code
-reproduced the paper's numbers **exactly**, with zero difference.
+**No numeric transcription errors were found against the pipeline's own cached
+output** — but the pipeline's own AVL input data was wrong (see §0/Finding V1
+above), so "matches the paper" and "is correct" turned out to be two different
+things. Every one of the 64 checked table cells across Tables 2, 4, 5, 6, 7, 8,
+9, and 10 matches what the data files say, to the 2-decimal precision the
+paper reports. Where independent recomputation from raw inputs was possible
+(Level-1 word lists, standalone AWL/NAWL/AVL, all pairwise overlaps, corpus
+totals — 15 rows), fresh code reproduced the paper's numbers **exactly**, with
+zero difference from the pipeline's own files — the AVL-related rows among
+these are simply reproducibly wrong, not transcribed incorrectly.
 
-However, the investigation surfaced:
+The investigation also surfaced:
+- **A critical data-integrity bug**: the "AVL" word list used throughout is
+  actually a general-frequency word list, not the Academic Vocabulary List
+  (Finding V1, §0 above).
 - **One real numerical/interpretive error** in the Discussion section (Finding D1).
 - **A reproducibility gap**: the word-family-expanded (Level 2–6) word lists and
   the BNC/COCA supplementary lists that ~60% of the paper's tables depend on no
@@ -32,7 +84,9 @@ However, the investigation surfaced:
   alternatives, a section-numbering collision) that should be cleaned up before
   submission (Findings T1–T4).
 
-None of these findings change the paper's substantive conclusions (HSWL/CET-4/
+Finding V1 **does** change a substantive conclusion of the paper (AVL is not,
+in fact, comparable to CET-6). The rest do not change the paper's other
+substantive conclusions (HSWL/CET-4/
 CET-6/AWL/NAWL/AVL all fall short of the 95% comprehension threshold), but D1
 and R1 are worth fixing/addressing before the manuscript goes out.
 
@@ -92,6 +146,84 @@ reproducible from what's in the repo today (it is not — see R1).
 ---
 
 ## 3. Findings
+
+### V1 — The "AVL" word list is not the Academic Vocabulary List (Critical priority)
+
+**Root cause.** `archive/scripts/flatten_avl.py` generates `AVL.json` (used
+for every AVL number in Table 4 and Table 10) by flattening the keys of
+`archive/wordlist/AVL_nested.json`:
+
+```python
+input_path = './wordlist/AVL_nested.json'
+...
+for band in nested_data.values():
+    word_list.extend(band.keys())
+```
+
+`AVL_nested.json` is structured as 42 numbered "bands" (`band_1` ...
+`band_42`), each containing words with a `frequency` rank and `PoS` tag.
+Inspecting it directly:
+
+```
+band_1 (first 10 words): the, of, be, and, a, in, to, that, for, have
+```
+
+These are the most common function words in English — exactly what a
+*general* frequency word list looks like, and exactly what an *academic*
+vocabulary list should **not** contain (AWL/NAWL/AVL are explicitly built to
+exclude words this basic). `AVL_nested.json` is a general-frequency word
+list that was mislabeled or substituted for the real AVL data at some point
+in the pipeline's history; nothing in the repository indicates where it
+actually came from.
+
+**Scale of the error.** The authoritative AVL (Gardner & Davies, 2014) has
+1,991 word families / 6,799 word forms — this is available in
+`data/wordlists/families-AVL.xlsx` (the official family/word-form spreadsheet,
+column `word` = word form, column `family` = family headword). The `AVL.json`
+actually used has 18,558 entries: **2.7× too large**, and a spot check shows
+it also contains 351 proper nouns/demonyms (*American, Arabic, Australian,
+Afrikaner...*) and ordinary non-academic vocabulary (*bean, wool, grin, canal,
+antelope, poet...*) that have no business in an academic word list at all.
+Only 4,955 of the 18,558 entries (27%) are actually part of the real AVL;
+1,844 real AVL word forms are missing from the file entirely.
+
+**Effect on the paper's numbers**, recomputed with the corrected list
+(`analysis/avl_data_integrity_check.py`, which also regenerates
+`data/wordlists/AVL_correct.json` from the spreadsheet):
+
+| | Paper (`AVL.json`, wrong) | Corrected (`AVL_correct.json`) |
+|---|---|---|
+| Size | 18,558 | 6,799 |
+| Attestation rate | 81.50% | 82.16% |
+| Type coverage | 12.52% | 4.62% |
+| **Token coverage** | **86.99%** | **50.48%** |
+| Overlap vs. CET-6 WL | 39.46% (7,536 words) | 19.57% (2,434 words) |
+| Overlap vs. AWL | 8.04% (1,613 words) | 17.94% (1,507 words) |
+| Overlap vs. NAWL | 5.31% (1,067 words) | 6.55% (578 words) |
+
+**Why this matters for the paper's argument.** Section 4.2 states: "the CET-6
+WL (86.72%) and the AVL (86.99%) yield similar levels of token coverage,
+which further validates the potential of the CET-6 WL as a practical academic
+vocabulary resource" — and the abstract frames AVL as the strongest-performing
+academic word list. With the corrected data, standalone AVL token coverage is
+50.48%, not comparable to CET-6 at all. The starred "AVL\*" combination
+(94.09%, the paper's headline best result) cannot be recomputed with what's
+currently in the repository — it needs the missing Level 2–6 general-list
+expansions and BNC/COCA supplementary lists (Finding R1) — but a standalone
+coverage drop of this size means AVL\* should be expected to fall well below
+94.09% too, and the paper's ranking of AVL above AWL/NAWL needs to be
+re-examined once the full pipeline is re-run with the corrected AVL source.
+
+**Recommended fix:** re-run the original pipeline's AVL-dependent steps
+(Table 4's three AVL rows, Table 10's AVL and AVL\* rows, and the
+discussion/abstract claims built on them) using `data/wordlists/AVL_correct.json`
+(or a fresh export from `families-AVL.xlsx`) in place of the current
+`AVL.json`. It would also be worth checking AWL.json (3,109 words vs. the
+canonical 3,112) and NAWL.json (2,598 vs. canonical 2,604) for similar,
+smaller-scale drift against their authoritative sources, since those came
+from the same general pipeline — the gaps there are small enough to plausibly
+be normal list-version differences, but haven't been traced to an
+authoritative source the way AVL now has been.
 
 ### R1 — Reproducibility gap: source files for the word-family expansion are missing (High priority)
 
@@ -209,28 +341,33 @@ universities due to insufficient course textbooks" or similar.
 See `output/cached_table_verification.csv` for the full row-by-row diff
 (49 rows, all "OK") and `output/level1_coverage_reproduction.csv` /
 `output/overlap_reproduction.csv` for the from-scratch reproduction (15 rows,
-all exact). Summary:
+all exact). "Exact"/"matches cache" below means the paper faithfully
+transcribes the pipeline's own output — see the ⚠️ rows and Finding V1 for
+where that output itself was computed from bad input data.
 
 | Paper table | How verified | Result |
 |---|---|---|
 | Table 2 (corpus composition) | Arithmetic check (subtotals + grand total) + corpus token count reproduced from raw corpus file | ✅ exact |
-| Table 4 (pairwise overlap) | Reproduced from scratch from raw word lists | ✅ exact (9/9) |
+| Table 4 (pairwise overlap) | Reproduced from scratch from raw word lists | ✅ exact (9/9) — but the 3 AVL rows use the wrong AVL file, see Finding V1 ⚠️ |
 | Table 5 (BNC/COCA supplement) | Checked against cached `statistics.csv` (raw supplement files missing from repo, see R1) | ✅ matches cache (5/5) |
 | Table 6 (HSWL) | Level 1 reproduced from scratch; Levels 2–6 checked against cache | ✅ exact / ✅ matches cache (12/12) |
 | Table 7 (CET-4 WL) | Level 1 reproduced from scratch; Levels 2–6 checked against cache | ✅ exact / ✅ matches cache (12/12) |
 | Table 8 (CET-6 WL) | Level 1 reproduced from scratch; Levels 2–6 checked against cache | ✅ exact / ✅ matches cache (12/12) |
 | Table 9 (General Composite) | Checked against cache (depends on Level-6 lists, see R1) | ✅ matches cache (2/2) |
-| Table 10 (academic word lists) | Standalone rows reproduced from scratch; starred rows checked against cache | ✅ exact (3/3) / ✅ matches cache (3/3) |
+| Table 10 (academic word lists) | Standalone rows reproduced from scratch; starred rows checked against cache | ✅ exact (3/3) / ✅ matches cache (3/3) — but the AVL and AVL* rows use the wrong AVL file, see Finding V1 ⚠️ |
 
 ---
 
 ## 5. How to reproduce this check
 
 ```bash
-python3 analysis/run_level1_reproduction.py   # from-scratch reproduction (Tables 2, 4, 6-8 L1, 10 unstarred)
-python3 analysis/verify_cached_tables.py      # cache-consistency check (Tables 5, 6-9, 10 starred)
-python3 analysis/check_citations.py paper/paper.md   # citation/reference cross-check
+python3 analysis/run_level1_reproduction.py    # from-scratch reproduction (Tables 2, 4, 6-8 L1, 10 unstarred)
+python3 analysis/verify_cached_tables.py       # cache-consistency check (Tables 5, 6-9, 10 starred)
+python3 analysis/avl_data_integrity_check.py   # Finding V1: correct-AVL-vs-wrong-AVL comparison
+python3 analysis/check_citations.py paper/paper.md   # citation/reference cross-check (needs paper/paper.md locally)
 ```
 Run these from the repository root.
 
-No third-party dependencies are required (standard library only).
+`avl_data_integrity_check.py` requires `openpyxl` (`pip install openpyxl`) to
+read `data/wordlists/families-AVL.xlsx`; everything else is standard-library
+only.

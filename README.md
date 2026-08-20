@@ -19,19 +19,28 @@ compounds, acronyms).
 **Headline finding:** none of the three general word lists (HSWL, CET-4,
 CET-6) or three academic word lists (AWL, NAWL, AVL) — alone or combined —
 reach the 95% token-coverage threshold generally accepted as necessary for
-adequate reading comprehension. The best-performing combination (AVL +
-general word lists + BNC/COCA supplement) tops out at 94.09%.
+adequate reading comprehension. The paper reports its best-performing
+combination (AVL + general word lists + BNC/COCA supplement) at 94.09% — but
+see the critical data-integrity finding below before citing that number.
+
+> ⚠️ **Critical finding (2026-08-19):** the word list used throughout the
+> pipeline as "AVL" is not actually the Academic Vocabulary List (Gardner &
+> Davies, 2014) — it's a general-frequency word list that was mislabeled
+> somewhere in the pipeline's history. Standalone AVL token coverage drops
+> from the paper's reported 86.99% to **50.48%** once recomputed against the
+> real AVL. See `report/verification_report.md` §0/Finding V1 and
+> `analysis/avl_data_integrity_check.py`.
 
 ## Repository layout
 
 ```
-paper/           the manuscript (paper.md) and the associated tracked-changes docx
 analysis/        clean, dependency-free Python implementation of the paper's
                  coverage/overlap metrics, used to independently verify every
                  numeric table in the paper
 data/            the raw inputs analysis/ runs against: the EFTC corpus
-                 frequency file, the six core word lists, and cached
-                 intermediate pipeline outputs (see report, Finding R1)
+                 frequency file, the six core word lists, the official AVL
+                 source spreadsheet, and cached intermediate pipeline outputs
+                 (see report, Finding R1)
 report/          verification_report.md — the full write-up of the
                  independent data/content check (what matches, what doesn't,
                  and why)
@@ -44,9 +53,10 @@ archive/         the original exploratory research pipeline (corpus
                  textbook prose is excluded from version control (copyright).
 ```
 
-`paper/`, `analysis/`, `data/`, `report/`, and `output/` are the current,
-citable state of the project. `archive/` is historical/exploratory and is not
-required to understand or reproduce the paper's results.
+`analysis/`, `data/`, `report/`, and `output/` are the current, citable state
+of the project. `archive/` is historical/exploratory and is not required to
+understand or reproduce the paper's results. The manuscript itself
+(`paper/paper.md`) is kept local-only, not in this public repository.
 
 ## Quick start: reproducing the coverage numbers
 
@@ -63,6 +73,10 @@ python3 analysis/run_level1_reproduction.py
 #    expanded Level 2-6 lists and BNC/COCA supplementary lists no longer
 #    in the repo, see report) against the pipeline's own cached output.
 python3 analysis/verify_cached_tables.py
+
+# 3. Reproduce the critical AVL data-integrity finding (needs `pip install
+#    openpyxl` to read data/wordlists/families-AVL.xlsx).
+python3 analysis/avl_data_integrity_check.py
 ```
 
 Each script prints a pass/fail summary and writes a detailed CSV to `output/`.
@@ -76,7 +90,9 @@ pipeline scripts, so it functions as an independent check.
 
 - **Independently reproducible from `data/` alone:** corpus totals, Table 4
   (all pairwise overlaps), the Level-1 rows of Tables 6/7/8, and the
-  standalone-list rows of Table 10. All match the paper exactly.
+  standalone-list rows of Table 10. All match the paper exactly — except the
+  3 AVL rows in Table 4 and the AVL row in Table 10, which match the paper
+  but are computed from the wrong AVL data (see the critical finding above).
 - **Only checkable against cached output, not fully re-derivable:** Table 3,
   the Level 2-6 rows of Tables 6/7/8, Table 5, Table 9, and the starred rows
   of Table 10. These need the word-family-expanded word lists and BNC/COCA
@@ -93,6 +109,11 @@ entries) are in [`report/verification_report.md`](report/verification_report.md)
 
 - `data/wordlists/eftc_corpus.json` is a word→frequency dictionary (no
   sentences or continuous prose) — safe to distribute.
+- `data/wordlists/families-AVL.xlsx` is the official Gardner & Davies (2014)
+  AVL family/word-form spreadsheet; `data/wordlists/AVL_correct.json` (word
+  forms extracted from it) and `data/wordlists/AVL.json` (the word list the
+  pipeline actually used, which is *not* the real AVL) are both kept side by
+  side deliberately — see the critical finding above.
 - `archive/` excludes the raw, near-verbatim textbook text that the original
   PDF-extraction pipeline produced (git-ignored; see `.gitignore`). Everything
   that remains there is either code, word lists, or word-frequency data.
