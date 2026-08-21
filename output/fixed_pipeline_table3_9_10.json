@@ -1,0 +1,77 @@
+{
+  "table3": {
+    "HSWL": {
+      "1": 3448,
+      "2": 10587,
+      "3": 14094,
+      "4": 15005,
+      "5": 15616,
+      "6": 17023
+    },
+    "CET4": {
+      "1": 4539,
+      "2": 13683,
+      "3": 17849,
+      "4": 19036,
+      "5": 19752,
+      "6": 21450
+    },
+    "CET6": {
+      "1": 8046,
+      "2": 21573,
+      "3": 26602,
+      "4": 27794,
+      "5": 28516,
+      "6": 29844
+    }
+  },
+  "table9": {
+    "general_composite": {
+      "wordlist_size": 30384,
+      "words_found_in_corpus": 14788,
+      "attestation_rate_pct": 48.670352817272246,
+      "type_coverage_pct": 12.238176025158273,
+      "token_coverage_pct": 87.25489914327935,
+      "matched_token_frequency": 14269962,
+      "total_corpus_tokens": 16354339
+    },
+    "general_composite_plus": {
+      "wordlist_size": 59922,
+      "words_found_in_corpus": 26363,
+      "attestation_rate_pct": 43.99552751910817,
+      "type_coverage_pct": 21.817354243389747,
+      "token_coverage_pct": 92.04664279002655,
+      "matched_token_frequency": 15053620,
+      "total_corpus_tokens": 16354339
+    }
+  },
+  "table10_starred": {
+    "AWL*": {
+      "wordlist_size": 60014,
+      "words_found_in_corpus": 26401,
+      "attestation_rate_pct": 43.991402006198555,
+      "type_coverage_pct": 21.848802085488476,
+      "token_coverage_pct": 92.1132306233838,
+      "matched_token_frequency": 15064510,
+      "total_corpus_tokens": 16354339
+    },
+    "NAWL*": {
+      "wordlist_size": 60629,
+      "words_found_in_corpus": 26523,
+      "attestation_rate_pct": 43.746391990631544,
+      "type_coverage_pct": 21.94976621012124,
+      "token_coverage_pct": 92.72945852473768,
+      "matched_token_frequency": 15165290,
+      "total_corpus_tokens": 16354339
+    },
+    "AVL*": {
+      "wordlist_size": 61055,
+      "words_found_in_corpus": 27203,
+      "attestation_rate_pct": 44.55490950782082,
+      "type_coverage_pct": 22.512517068730087,
+      "token_coverage_pct": 92.86256081642921,
+      "matched_token_frequency": 15187058,
+      "total_corpus_tokens": 16354339
+    }
+  }
+}

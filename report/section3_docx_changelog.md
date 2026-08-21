@@ -1,3 +1,8 @@
+> **Note:** as of 2026-08-21 this changelog also covers
+> `paper/Lexical coverage paper 202608015-Data_Revised.docx` (the actual
+> data-tables document, not just the Section 3 methods redline) — see the
+> entry at the bottom.
+
 # Change Log: `paper/Section3_Methods_suggested_edits.docx`
 
 Tracks what's been changed in the Section 3 ("The Study") redline document
@@ -66,3 +71,51 @@ First version. Marked two confirmed issues, found by close reading of
 
 See `report/verification_report.md` Findings T3/T4 for the original
 rationale (unchanged by this update).
+
+---
+
+# Change Log: `paper/Lexical coverage paper 202608015-Data_Revised.docx`
+
+## 2026-08-21: Tables 3, 6, 7, 8, 9, and Table 10's AWL\*/NAWL\*/AVL\* rows
+## recomputed with the bug-fixed pipeline
+
+Resolves the open question raised in the Section 3 changelog above (and in
+`Section3_Methods_suggested_edits.docx`) in favor of **fixing the code to
+match Table 1's documented design**, rather than revising Table 1 to match
+the code's actual (buggy) behavior. Concretely: `AffixLevelHandlerFixed`
+(non-/un- as Level-3 prefixes) + the real AntBNC lemma database for
+Level 2 (both already built and validated in
+`analysis/java_port_pipeline.py`, see `report/level_reconstruction_attempt.md`
+§7-9) were run end to end and every downstream table was regenerated:
+
+- **Table 3** (word-list sizes): all 18 cells (HSWL/CET-4/CET-6 × Levels
+  1-6) updated.
+- **Tables 6, 7, 8** (HSWL/CET-4/CET-6 coverage by level): all 144 cells
+  (12 rows × 4 metric columns × 3 tables) updated.
+- **Table 9** (General Composite Word List, ± BNC/COCA supplement): both
+  rows updated.
+- **Table 10**: the `AWL*`, `NAWL*`, and `AVL*` rows updated (the
+  standalone `AVL` row and `AVL*`'s previous ground-truth-based estimate,
+  both from the 2026-08-20 AVL data-integrity correction, are superseded
+  by this run's `AVL*` figure for internal consistency — all of Table 9/10
+  is now computed by the same method). The standalone `AWL`/`NAWL`/`AVL`
+  rows above them are untouched (unaffected by the Level construction fix).
+
+Convention: same as elsewhere — strikethrough red = paper's originally
+published value, underlined blue = recomputed value. One explanatory note
+(orange) inserted immediately before Table 3 rather than annotating each
+of the ~178 changed cells individually.
+
+**Headline numbers, before vs. after (token coverage):** HSWL Level 6+
+74.89% → 74.74%; CET-4 Level 6+ 85.17% → 85.05%; CET-6 Level 6+ 91.67% →
+91.95%; General Composite+ 91.78% → 92.05%; AWL\* 91.93% → 92.11%; NAWL\*
+92.50% → 92.73%; **AVL\* 94.09% → 92.86%** (vs. the 2026-08-20 ground-truth-based
+estimate of 92.81% — the two independent methods agree to within 0.05pp).
+None of these changes cross the 95%/98% comprehension thresholds the
+paper's argument depends on, so the paper's qualitative conclusions are
+unaffected; the quantitative table values throughout Tables 3/6/7/8/9/10
+are.
+
+Full old-vs-new data for every cell: `output/fixed_pipeline_table6_7_8.csv`
+and `output/fixed_pipeline_table3_9_10.json`. Reproduce with
+`python3 analysis/build_fixed_tables.py`.
