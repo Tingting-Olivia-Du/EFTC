@@ -296,7 +296,56 @@ CET-6: 21,573 built vs. 16,390 paper). Table 9/10's AVL\* estimate is
 unaffected by this improvement either way, since it's built from Level 6
 (full family), which doesn't depend on the Level-2 lemma step at all.
 
-## 9. Files added
+## 9. All identified bugs fixed, full pipeline rerun
+
+`analysis/java_port_pipeline.py` was updated so its default configuration
+now uses **every fix identified in this document** rather than faithfully
+replicating the original bugs:
+
+- **Level 2**: real AntBNC lemma database (§8), not the regex heuristic.
+- **Level 3**: `AffixLevelHandlerFixed` — `non-`/`un-` moved to prefixes,
+  checked with `startswith`, matching Table 1's documented design (bug #1
+  from §7 is now corrected, not replicated; `AffixLevelHandlerAsFound` is
+  kept in the code for anyone who wants the literal-original-bug behavior).
+- **`buildLevel()`**: already fixed since §7 (each list scans its own
+  Level 6, not a hardcoded reference to HighSchool's).
+
+One quick check first: is the family database itself unambiguous, i.e.
+does every word form belong to exactly one BNC/COCA family (no ties for
+`java_port_pipeline.py`'s reverse lookup to break arbitrarily)? Checked
+directly — **zero words in the 25,000-family database belong to more than
+one family**. So the "first family wins" tie-breaking mentioned as a
+hypothesis in §5 was never actually exercised; it wasn't a source of error
+either.
+
+Rerunning `analysis/java_port_pipeline.py` end to end (Level 1 through
+Table 9/10) with every fix applied:
+
+| | mean diff | max \|diff\| | stdev |
+|---|---|---|---|
+| Faithful port, regex Level 2, buggy Level 3 (§7 original) | −0.10pp | 0.88pp | 0.42pp |
+| + real AntBNC Level 2 (§8) | +0.03pp | 0.52pp | 0.28pp |
+| **+ fixed Level 3 affix rule (this section, all fixes combined)** | **+0.07pp** | **0.52pp** | **0.26pp** |
+| Recovered `gen_leveled/` ground truth (§2, for reference) | +0.13pp | 0.52pp | 0.11pp |
+
+The Level-3 fix nudges the average slightly further from zero (+0.07 vs.
++0.03) but tightens the spread a bit (stdev 0.26 vs. 0.28) — a small,
+mixed improvement, confirming §7's original finding that this particular
+bug was never the dominant error source. Table 9/10, rebuilt from this
+fully-fixed run's own Level 6 (unaffected by the Level 2/3 fixes, since
+Level 6 doesn't depend on either): General Composite 30,384/87.25%
+(paper: 26,411/86.88%), General Composite+ 59,922/92.05% (paper:
+55,801/91.78%), AWL\* 92.11% (paper 91.93%), NAWL\* 92.73% (paper 92.50%),
+AVL\* sanity check 94.13% (paper 94.09%) — all consistent with the earlier
+from-scratch runs, and all still less precise than the ground-truth-based
+Table 9/10 rebuild in §3. **The AVL\* estimate from this fully-fixed
+from-scratch run is 92.86%, matching the §3 ground-truth-based estimate
+(92.81%) to within 0.05pp** — two independent methods, now both using
+every known fix, agreeing closely. §3's ground-truth-based 92.81% remains
+the more precise of the two and is the one carried into the paper/report
+headline figures.
+
+## 10. Files added
 
 ```
 archive/java_source/hyponym/*.java, main/Main.java, Utils/FileUtils.java   recovered Java source (14 files)

@@ -29,14 +29,23 @@ expected on disk but that were never provided:
                                                  | inflection regex for the ~4%
                                                  | of words it doesn't cover.
 
-BUGS FOUND WHILE PORTING (see report/level_reconstruction_attempt.md for
-the writeup) -- both are handled explicitly below, not silently "fixed":
+BUGS FOUND WHILE PORTING (see report/level_reconstruction_attempt.md
+sections 7-9 for the full writeup). As of this version, BOTH are FIXED by
+default (AffixLevelHandlerFixed, used unless you explicitly pass
+AffixLevelHandlerAsFound()) -- the original report initially replicated
+bug #1 faithfully to validate against the paper's published numbers, but
+per-request this module's default configuration now applies every known
+fix and reruns the whole pipeline through Table 9/10 (report section 9):
 
   1. AffixLevelHandler.java sets level3prefixes = {} (empty) and puts
      "non"/"un" into level3suffixes -- i.e. the real code checks
      word.endsWith("un"), not word.startsWith("un"), for Level 3, unlike
-     what Table 1 in the paper describes. REPLICATED FAITHFULLY here,
-     because this is what actually produced the published numbers.
+     what Table 1 in the paper describes. FIXED by default
+     (AffixLevelHandlerFixed moves non-/un- to prefixes); the original,
+     literal Java behavior is still available as AffixLevelHandlerAsFound
+     for comparison. Fixing this turned out to only marginally change the
+     accuracy vs. the paper (report section 9) -- it was not the dominant
+     error source.
 
   2. LevelListHandler.buildLevel() has a hardcoded reference to
      `HighSchool_levelList6.entrySet()` regardless of which list's Levels
@@ -89,10 +98,17 @@ class LevelList(dict):
 
 
 # ---------------------------------------------------------------------------
-# AffixLevel / AffixLevelHandler.java port -- verbatim from the real source,
-# including the Level-3 quirk (see module docstring, bug #1).
+# AffixLevel / AffixLevelHandler.java port. Two variants:
+#   AffixLevelHandlerAsFound  -- verbatim from the real Java source, quirk
+#                                 and all (bug #1: level3prefixes = [], with
+#                                 non-/un- checked as SUFFIXES via endsWith).
+#   AffixLevelHandlerFixed    -- bug #1 corrected: non-/un- moved to
+#                                 level3prefixes, checked via startswith,
+#                                 matching Table 1's documented design.
+#                                 This is now the DEFAULT used by
+#                                 LevelListHandler (see main()).
 # ---------------------------------------------------------------------------
-class AffixLevelHandler:
+class AffixLevelHandlerAsFound:
     level3prefixes = []
     level3suffixes = ["able", "er", "ish", "less", "ly", "ness", "th", "y", "non", "un"]
     level4prefixes = ["in"]
@@ -107,6 +123,16 @@ class AffixLevelHandler:
         prefixes = getattr(self, f"level{level}prefixes")
         suffixes = getattr(self, f"level{level}suffixes")
         return any(word.startswith(p) for p in prefixes) or any(word.endswith(s) for s in suffixes)
+
+
+class AffixLevelHandlerFixed(AffixLevelHandlerAsFound):
+    level3prefixes = ["non", "un"]
+    level3suffixes = ["able", "er", "ish", "less", "ly", "ness", "th", "y"]
+
+
+# Backwards-compatible alias -- older code / callers importing AffixLevelHandler
+# get the as-found (buggy) behavior unless they ask for the fixed one explicitly.
+AffixLevelHandler = AffixLevelHandlerAsFound
 
 
 # ---------------------------------------------------------------------------
@@ -136,8 +162,9 @@ def regular_inflections(headword: str, family_members: set) -> set:
 # LevelListHandler.java port, generalized (see module docstring, bug #2 fix)
 # ---------------------------------------------------------------------------
 class LevelListHandler:
-    def __init__(self, level1_words: set, family_db: dict, family_reverse: dict, lemma_db: dict = None):
-        self.affix = AffixLevelHandler()
+    def __init__(self, level1_words: set, family_db: dict, family_reverse: dict,
+                 lemma_db: dict = None, affix_handler: "AffixLevelHandlerAsFound" = None):
+        self.affix = affix_handler if affix_handler is not None else AffixLevelHandlerFixed()
 
         # Level 1: original word list, no members yet
         self.level1 = LevelList()
@@ -223,7 +250,10 @@ def main():
     family_db, family_reverse = build_family_lookup()
     lemma_db_path = WL / "antbnc_lemma_database.json"
     lemma_db = json.load(open(lemma_db_path, encoding="utf-8")) if lemma_db_path.exists() else None
-    print(f"Level 2 source: {'real AntBNC lemma database' if lemma_db else 'regex heuristic (AntBNC not found)'}\n")
+    affix_handler = AffixLevelHandlerFixed()
+    print(f"Level 2 source: {'real AntBNC lemma database' if lemma_db else 'regex heuristic (AntBNC not found)'}")
+    print(f"Level 3 affix rule: FIXED (non-/un- as prefixes, matching Table 1) "
+          f"-- bug #1 from report section 7 corrected, not replicated\n")
 
     print(f"{'List':6s}{'Lvl':>4s} {'size(ported)':>12s} {'size(GT)':>9s} {'size(paper)':>12s} "
           f"{'token%(ported)':>15s} {'token%(paper)':>14s} {'diff':>7s}")
@@ -232,7 +262,7 @@ def main():
     for name, fname in FILES.items():
         level1_words = set(json.load(open(WL / fname)))
         level1_words = {w.lower() for w in level1_words}
-        handler = LevelListHandler(level1_words, family_db, family_reverse, lemma_db)
+        handler = LevelListHandler(level1_words, family_db, family_reverse, lemma_db, affix_handler)
         levels = {1: handler.level1, 2: handler.level2, 3: handler.level3,
                   4: handler.level4, 5: handler.level5, 6: handler.level6}
         all_levels[name] = {lvl: ll.all_words() for lvl, ll in levels.items()}
@@ -261,6 +291,37 @@ def main():
     print(f"\nToken coverage vs. paper: mean {statistics.mean(diffs):+.3f}pp, "
           f"max|diff| {max(abs(d) for d in diffs):.3f}pp, stdev {statistics.stdev(diffs):.3f}pp (n={len(diffs)})")
     print(f"\nWrote leveled word lists to {WL/'leveled_java_port'}/{{HSWL,CET4,CET6}}/level{{1..6}}.json")
+
+    # --- Downstream: Table 9 (General Composite) and Table 10 starred rows,
+    # rebuilt from THIS run's Level 6 (bug-fixed pipeline output), for a full
+    # "rerun everything from level construction onward" result. ---
+    print("\n=== Downstream: Table 9 / Table 10 rebuilt from this (bug-fixed) run ===")
+    from coverage_lib import load_wordlist
+    supplement = set(w.lower() for w in json.load(open(WL / "bnc_coca_supplement_combined.json")))
+    general_composite = all_levels["HSWL"][6] | all_levels["CET4"][6] | all_levels["CET6"][6]
+    general_composite_plus = general_composite | supplement
+    s9 = coverage_stats(general_composite, corpus)
+    s9p = coverage_stats(general_composite_plus, corpus)
+    print(f"Table 9 General Composite:  size={s9['wordlist_size']:6d} token={s9['token_coverage_pct']:6.2f}  "
+          f"(paper: 26,411 / 86.88)")
+    print(f"Table 9 General Composite+: size={s9p['wordlist_size']:6d} token={s9p['token_coverage_pct']:6.2f}  "
+          f"(paper: 55,801 / 91.78)")
+
+    awl = load_wordlist(WL / "AWL.json")
+    nawl = load_wordlist(WL / "NAWL.json")
+    avl_correct = load_wordlist(WL / "AVL_correct.json")
+    avl_wrong = load_wordlist(WL / "AVL_old_wrong.json")
+    paper10 = {
+        "AWL*": (56254, 91.93), "NAWL*": (56775, 92.50),
+        "AVL* (sanity check, wrong AVL)": (63153, 94.09),
+    }
+    for label, wl in [("AWL*", awl), ("NAWL*", nawl),
+                       ("AVL* (sanity check, wrong AVL)", avl_wrong),
+                       ("AVL* (CORRECTED)", avl_correct)]:
+        s = coverage_stats(general_composite_plus | wl, corpus)
+        ref = paper10.get(label)
+        ref_str = f"  (paper: {ref[0]:,} / {ref[1]:.2f})" if ref else "  (no paper value -- this is the correction)"
+        print(f"{label:32s} size={s['wordlist_size']:6d} token={s['token_coverage_pct']:6.2f}{ref_str}")
 
 
 if __name__ == "__main__":
