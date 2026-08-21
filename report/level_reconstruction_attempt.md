@@ -248,15 +248,55 @@ lemma file: without Tom Cobb's actual tool output, no regular-inflection
 heuristic gets particularly close, and that error propagates into every
 level above it via the cumulative merge.
 
-**Practical conclusion**: this port is a useful, fully transparent,
-reproducible artifact (and would immediately become much more accurate if
-the real `*_lemmas_horizontal.txt` files ever turn up), but for actually
-citable numbers, the recovered `gen_leveled/` ground-truth files (§2-3)
-remain strictly better than anything this repo can compute from first
-principles, precisely because they don't depend on reconstructing the
-missing Level-2 lemmatizer step at all.
+**Practical conclusion (at the time)**: this port is a useful, fully
+transparent, reproducible artifact, but for actually citable numbers, the
+recovered `gen_leveled/` ground-truth files (§2-3) remain strictly better
+than anything this repo can compute from first principles, precisely
+because they don't depend on reconstructing the missing Level-2 lemmatizer
+step at all.
 
-## 8. Files added
+## 8. Found a real substitute for the missing Level-2 lemma file
+
+Tom Cobb's Familizer/Lemmatizer tool (`lextutor.ca/familizer/`) is a live
+web tool, not just a citation — its own documentation states it draws on
+"different lemma databases depending on language (**AntBNC for English**)"
+to distinguish lemmas (same headword, same part of speech, inflections
+only) from families (all derivational forms too, any part of speech).
+AntBNC is Laurence Anthony's automatically-generated English lemma list
+built from the full British National Corpus — the same person who hosts
+the BNC/COCA family lists used everywhere else in this reconstruction.
+Downloaded from `laurenceanthony.net/resources/wordlists/antbnc_lemmas_ver_004.zip`
+and parsed into `data/wordlists/antbnc_lemma_database.json`
+(`analysis/build_antbnc_lemma_db.py`) — 211,920 entries, format
+`headword -> all inflected forms` (e.g. `organize -> organize, organized,
+organizes, organizing` — correctly excluding derivational siblings like
+*organization*; `go -> go, goes, going, gone, went` — correctly handles
+irregulars). 95.7–96.8% of HSWL/CET-4/CET-6's Level-1 words are found
+directly as headwords in it.
+
+Swapping this into `java_port_pipeline.py`'s Level 2 construction (in place
+of the regex inflection heuristic, which remains as a fallback for the
+~4% not covered) tightens the port's accuracy noticeably:
+
+| | mean diff | max \|diff\| | stdev |
+|---|---|---|---|
+| Faithful port, regex-heuristic Level 2 (§7) | −0.10pp | 0.88pp | 0.42pp |
+| Faithful port, **real AntBNC lemma DB** for Level 2 | **+0.03pp** | **0.52pp** | **0.28pp** |
+| Recovered `gen_leveled/` ground truth (§2) | +0.13pp | 0.52pp | 0.11pp |
+
+This is a genuine, non-heuristic improvement (not just a better-tuned
+regex) and the best from-scratch reconstruction achieved in this whole
+exercise, though the recovered ground-truth files are still tighter —
+likely because AntBNC, being automatically generated from raw BNC
+frequency data rather than curated specifically for this kind of academic
+word-list work, is slightly more generous with borderline inflected forms
+than whatever exact lemma set the original study's Familizer/Lemmatizer
+run produced (Level-2 sizes come out consistently larger, most visibly for
+CET-6: 21,573 built vs. 16,390 paper). Table 9/10's AVL\* estimate is
+unaffected by this improvement either way, since it's built from Level 6
+(full family), which doesn't depend on the Level-2 lemma step at all.
+
+## 9. Files added
 
 ```
 archive/java_source/hyponym/*.java, main/Main.java, Utils/FileUtils.java   recovered Java source (14 files)
@@ -264,6 +304,9 @@ data/wordlists/leveled_ground_truth/{HSWL,CET4,CET6}/level{1-6}.json       parse
 analysis/verify_ground_truth_levels.py                                     ground-truth verification + Table 9/10 rebuild
 analysis/java_port_pipeline.py                                             faithful Python port of the Java classes + debugging notes
 data/wordlists/leveled_java_port/{HSWL,CET4,CET6}/level{1-6}.json          output of the Python port (for comparison; gen_leveled is authoritative)
+data/wordlists/antbnc_source/antbnc_lemmas_ver_004.txt                     real AntBNC lemma list (Laurence Anthony)
+data/wordlists/antbnc_lemma_database.json                                  parsed lemma database, used for Level 2
+analysis/build_antbnc_lemma_db.py                                          parses the AntBNC lemma list
 ```
 
 (§5's from-scratch files -- `data/wordlists/bnc_coca_source/`,

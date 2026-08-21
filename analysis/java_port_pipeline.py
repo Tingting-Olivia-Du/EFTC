@@ -17,13 +17,17 @@ expected on disk but that were never provided:
                                                  | in report/level_reconstruction_
                                                  | attempt.md for how that was
                                                  | itself recovered
-  ./data/wordlist/{X}_lemmas_horizontal.txt     | APPROXIMATED: the paper says
-    (Level 2 -- headword + inflectional forms)  | this came from Tom Cobb's
-                                                 | Familizer/Lemmatizer tool,
-                                                 | which isn't available; we use
-                                                 | a regular-inflection pattern
-                                                 | matcher instead (same one
-                                                 | build_leveled_wordlists.py used)
+  ./data/wordlist/{X}_lemmas_horizontal.txt     | data/wordlists/antbnc_lemma_
+    (Level 2 -- headword + inflectional forms)  | database.json -- the real
+                                                 | AntBNC lemma list (Laurence
+                                                 | Anthony), the same resource
+                                                 | Tom Cobb's Familizer/
+                                                 | Lemmatizer tool uses for
+                                                 | English under the hood (see
+                                                 | build_antbnc_lemma_db.py).
+                                                 | Falls back to a regular-
+                                                 | inflection regex for the ~4%
+                                                 | of words it doesn't cover.
 
 BUGS FOUND WHILE PORTING (see report/level_reconstruction_attempt.md for
 the writeup) -- both are handled explicitly below, not silently "fixed":
@@ -132,7 +136,7 @@ def regular_inflections(headword: str, family_members: set) -> set:
 # LevelListHandler.java port, generalized (see module docstring, bug #2 fix)
 # ---------------------------------------------------------------------------
 class LevelListHandler:
-    def __init__(self, level1_words: set, family_db: dict, family_reverse: dict):
+    def __init__(self, level1_words: set, family_db: dict, family_reverse: dict, lemma_db: dict = None):
         self.affix = AffixLevelHandler()
 
         # Level 1: original word list, no members yet
@@ -151,12 +155,21 @@ class LevelListHandler:
             members.discard(w)
             self.level6.add_members(w, members)
 
-        # Level 2: lemmas_horizontal equivalent (approximated -- see module docstring)
+        # Level 2: lemmas_horizontal equivalent. Uses the real AntBNC lemma
+        # database (data/wordlists/antbnc_lemma_database.json, recovered
+        # from Laurence Anthony's site -- see report §9) when available,
+        # since it's a genuine lemma-vs-family distinction (same POS only),
+        # not an approximation. Falls back to the regex heuristic for the
+        # ~4% of words the lemma database doesn't have an entry for.
         self.level2 = LevelList()
         for w in level1_words:
-            hw = family_reverse.get(w, w)
-            fam_members = set(family_db.get(hw, []))
-            self.level2.add_members(w, regular_inflections(hw, fam_members) - {w})
+            if lemma_db is not None and w in lemma_db:
+                forms = set(lemma_db[w]) - {w}
+            else:
+                hw = family_reverse.get(w, w)
+                fam_members = set(family_db.get(hw, []))
+                forms = regular_inflections(hw, fam_members) - {w}
+            self.level2.add_members(w, forms)
         self.level2.merge(self.level1)
 
         # Levels 3-5: iteratively add Level-6 members matching that level's
@@ -208,6 +221,9 @@ FILES = {"HSWL": "HSWL_level1.json", "CET4": "CET4_level1.json", "CET6": "CET6_l
 def main():
     corpus = Corpus(WL / "eftc_corpus.json")
     family_db, family_reverse = build_family_lookup()
+    lemma_db_path = WL / "antbnc_lemma_database.json"
+    lemma_db = json.load(open(lemma_db_path, encoding="utf-8")) if lemma_db_path.exists() else None
+    print(f"Level 2 source: {'real AntBNC lemma database' if lemma_db else 'regex heuristic (AntBNC not found)'}\n")
 
     print(f"{'List':6s}{'Lvl':>4s} {'size(ported)':>12s} {'size(GT)':>9s} {'size(paper)':>12s} "
           f"{'token%(ported)':>15s} {'token%(paper)':>14s} {'diff':>7s}")
@@ -216,7 +232,7 @@ def main():
     for name, fname in FILES.items():
         level1_words = set(json.load(open(WL / fname)))
         level1_words = {w.lower() for w in level1_words}
-        handler = LevelListHandler(level1_words, family_db, family_reverse)
+        handler = LevelListHandler(level1_words, family_db, family_reverse, lemma_db)
         levels = {1: handler.level1, 2: handler.level2, 3: handler.level3,
                   4: handler.level4, 5: handler.level5, 6: handler.level6}
         all_levels[name] = {lvl: ll.all_words() for lvl, ll in levels.items()}

@@ -108,8 +108,8 @@ python3 analysis/build_leveled_wordlists.py
 python3 analysis/verify_ground_truth_levels.py
 
 # 7. A faithful Python port of the actual Java leveling pipeline (debugging
-#    exercise -- documents two real bugs found; less accurate than #6
-#    because it can't reproduce the missing Level-2 lemmatizer file).
+#    exercise -- documents two real bugs found).
+python3 analysis/build_antbnc_lemma_db.py   # real Level-2 lemma data (Laurence Anthony's AntBNC)
 python3 analysis/java_port_pipeline.py
 ```
 
