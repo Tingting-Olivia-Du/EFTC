@@ -196,3 +196,25 @@ Convention unchanged: strikethrough red = previous text, underlined blue
 = corrected text. Verified after editing that no un-struck instance of
 any of the old headline numbers (74.89%, 85.17%, 91.67%, 94.09%, 63,153,
 etc.) remains anywhere in the document body.
+
+## 2026-08-21 (same day): clean (non-redline) version generated
+
+`paper/Lexical coverage paper 202608021-Clean.docx` (local-only) is a
+derived copy of the redline `...202608015-Data_Revised.docx` with all
+track-changes markup resolved: every strikethrough (old/deleted) run
+removed, every underlined-blue (new) run accepted and de-formatted to
+plain text, and the four bracketed meta-notes (`[Update 2: ...]`,
+`[Update: ...]`, `[AVL data-integrity correction applied ...]`, `[Tables
+3, 6, 7, 8, 9, ... recomputed end to end ...]`) deleted entirely, since
+they're process notes for review, not paper content. Verified afterward
+that no strikethrough or reviewer-color (red/blue/orange/green) run
+remains anywhere in the body or tables. This is the version to use for
+anything downstream of review (submission, sharing, further editing) —
+the redline version stays the audit trail of what changed and why.
+
+Note: the numbers baked into this clean copy are the ones described in
+the entries above (the debugged-pipeline reconstruction for Tables
+3/6/7/8/9/10, not the more precise ground-truth-based numbers from
+`report/level_reconstruction_attempt.md` §2-3) — see that report and the
+2026-08-21 entry above if you want to switch to the ground-truth figures
+instead before finalizing.
