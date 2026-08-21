@@ -119,3 +119,80 @@ are.
 Full old-vs-new data for every cell: `output/fixed_pipeline_table6_7_8.csv`
 and `output/fixed_pipeline_table3_9_10.json`. Reproduce with
 `python3 analysis/build_fixed_tables.py`.
+
+## 2026-08-21 (later same day): full-document proofread, prose numbers
+## brought in line with the corrected tables
+
+The previous entry only updated the tables themselves; the surrounding
+prose throughout the Abstract, Results, and Discussion still cited the
+old numbers, and a full read-through of the whole document (not just the
+tables) turned up a few more issues. All fixed in this pass:
+
+**Section numbering (structural, not just the two spots found in the
+original Section 3 review):** every top-level heading (1 Introduction, 2
+Literature Review, 2.1, 2.2, 3 The Study, 3.1, 3.2, 4 Results, 4.1, 4.2, 5
+Discussion and Conclusion) had lost its number entirely — Word's
+paragraph text showed nothing where "1.", "2.1" etc. should be. The
+Results subsections (4.1.1–4.1.4) and "3.2.2 Coverage indicators..."
+were relying on Word's automatic multilevel numbering, which turned out
+to be misconfigured to start counting from "4" at the top level even
+inside Section 3 (the root cause of the original "4.2.1"/"4.2.2" bug —
+it's baked into the numbering definition, not just stray literal text).
+Rather than debug Word's list-numbering XML, every heading was converted
+to a plain, literal, correctly-numbered prefix (the same approach already
+used for "2.3" and "References"), which is unambiguous regardless of how
+Word's internal counters are configured.
+
+**Two corrupted sentences, evidently left over from an earlier manual
+edit:** "...grouped into base lemma levels (Levels 1–2). . Initial word
+lists..." (a stray lone period where a whole sentence about the
+`LevelList`/`TreeMap<String, HashSet<String>>` class had been deleted —
+restored, since the Java source recovered since then confirms that
+sentence is accurate) and "...class was developed in referencing the
+affix hierarchy..." (missing "Java" — restored).
+
+**Every specific percentage/size figure in the Abstract, Results (Tables
+4/6/7/8/9/10 discussion paragraphs), and Discussion** updated to match
+the tables filled in the previous entry. This is the bulk of the change —
+roughly 40 individual numbers across ~10 paragraphs.
+
+**Claims whose truth value changed, not just their number**, rewritten
+rather than patched:
+- Table 4 discussion: AVL–AWL overlap (8.04%→17.94%) is no longer the
+  *lowest* of the three academic-list pairs, it's now the *highest* —
+  the sentence structure was reordered, not just the numbers swapped.
+- Table 10 / Discussion: the claim that "the CET-6 WL (86.72%) and the
+  AVL (86.99%) yield similar levels of token coverage" — the paper's
+  second-most-quoted AVL claim after the headline 94.09% figure — is
+  false once AVL is computed correctly (CET-6 87.02% vs. real AVL
+  50.48%). Rewritten to state the two diverge sharply, and the sentence
+  crediting this (false) comparability to Coxhead (2016) was rewritten
+  to say the opposite: the AVL comparison does *not* support that
+  observation in this corpus.
+- "The addition of the AVL leads to a more substantial increase..." —
+  no longer true (AVL* now beats NAWL* by 0.13pp, not decisively);
+  rewritten to say so explicitly rather than leaving an overstated claim
+  with just the percentage swapped in.
+- "The AVL imposes a greater learning burden... given that it comprises
+  considerably more word families than... CET-6 WL" — false with the
+  corrected AVL size (6,799, smaller than CET-6's own Level-1 list);
+  rewritten.
+- "requires learners to master an additional **[number]** words" — this
+  sentence had literally lost its number in an earlier edit ("an
+  additional  words," with a stray double space); restored as "~1,133
+  words" (the net-new vocabulary the corrected AVL adds on top of the
+  General Composite + BNC/COCA baseline, per this run's own Table 9/10
+  numbers — not the same as the ~7,352 figure in Finding D1 / the
+  ground-truth-based run, since that used a different, more precise
+  Level 6 source; both numbers and why they differ are in
+  `report/level_reconstruction_attempt.md`).
+
+**Two pre-existing typos, unrelated to any of the above, fixed while
+proofreading:** "FETC" → "EFTC" (three occurrences: Table 7 discussion,
+Table 8 discussion, Limitations paragraph) and "-al, -ation,- ous" → "-al,
+-ation, -ous" (stray space).
+
+Convention unchanged: strikethrough red = previous text, underlined blue
+= corrected text. Verified after editing that no un-struck instance of
+any of the old headline numbers (74.89%, 85.17%, 91.67%, 94.09%, 63,153,
+etc.) remains anywhere in the document body.
