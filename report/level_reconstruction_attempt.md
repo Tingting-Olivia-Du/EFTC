@@ -34,6 +34,9 @@ Three concrete findings from reading the actual code:
    (`word.endsWith("un")`, not `word.startsWith("un")`) — a real
    implementation quirk that a word-for-word reading of the paper's
    methods section would not predict. Levels 4 and 5 match Table 1 exactly.
+   Flagged as an open question (not a one-way fix) in
+   `paper/Section3_Methods_suggested_edits.docx` — see
+   `report/section3_docx_changelog.md`.
    Level 6 is *not* affix-filtered at all — `buildLevel()` is only used for
    Levels 3–5; Level 6 is read directly from a pre-built
    `*_family_horizontal.txt` file (the full BNC/COCA family, unfiltered).

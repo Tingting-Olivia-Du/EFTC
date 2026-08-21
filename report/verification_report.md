@@ -359,6 +359,12 @@ course textbooks." Reads as a merge of two edits ("limited... textbooks" /
 "insufficient... textbooks"); likely should read "...is seldom taught at
 universities due to insufficient course textbooks" or similar.
 
+T3 and T4, plus a newer open question about Table 1's Level-3 affix rule
+found after the Java source was recovered, are tracked with a redline
+Word document at `paper/Section3_Methods_suggested_edits.docx` (local-only)
+— see `report/section3_docx_changelog.md` for what's been marked there and
+why.
+
 ---
 
 ## 4. Table-by-table verification detail
