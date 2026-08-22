@@ -288,3 +288,25 @@ than vocabulary a learner would deliberately study. The burden claim may
 be overstated on that basis, but adjusting it would alter the paper's
 pedagogical argument rather than correct an error, so it was left as
 written.
+
+## 2026-08-21 (addendum): learning-burden claim quantified
+
+The item flagged-but-not-changed in the previous entry has now been
+resolved. The "over 60,000 lexical items" burden figure counted the
+entire AVL\* combination (61,055 word forms), of which 29,798 come from
+the BNC/COCA supplementary lists — 22,409 proper names, 6,044 transparent
+compounds, 1,149 acronyms and 196 marginal words. These are items readers
+decode from context or recognise without deliberate study, so counting
+them as learning load overstated the burden by roughly half.
+
+Both the Discussion and the pedagogical paragraph now cite the vocabulary
+that actually requires study — the General Composite Word List plus the
+AVL's net contribution, approximately **31,500 word forms** — with the
+composition of the remainder stated explicitly. "Imposes an unbearable
+learning load" was also tempered to "a load that is impractical for
+standardised EMI curriculum teaching."
+
+This strengthens rather than weakens the paper's argument: a defensible
+31,500-word figure that still falls short of 95% supports the case for a
+discipline-specific FAWL more credibly than an inflated 60,000 that a
+reviewer could challenge.
