@@ -218,3 +218,73 @@ the entries above (the debugged-pipeline reconstruction for Tables
 `report/level_reconstruction_attempt.md` §2-3) — see that report and the
 2026-08-21 entry above if you want to switch to the ground-truth figures
 instead before finalizing.
+
+## 2026-08-21 (final pass): removed an unsupported comparison and an
+## analysis the study never performed
+
+A close review of the Results and Discussion — prompted by the question
+"did we actually run an *excluding* analysis?" — found that we had not,
+and that the sentence built on it drew an invalid inference. Both
+documents updated in sync.
+
+**The phantom analysis.** §4.2 contained: *"Additionally, excluding the
+General Composite Word List and the BNC/COCA supplementary lists, the
+CET-6 WL (87.02%) and the AVL (50.48%) diverge sharply..."* No such
+"excluding" analysis exists anywhere in the study. Those two figures are
+simply the standalone values already reported in Tables 8 and 10; the
+phrasing implies a separate subtraction experiment that was never run.
+
+**The invalid inference.** The sentence concluded that "the standalone
+AVL is considerably weaker than the CET-6 WL as an academic vocabulary
+resource." That does not follow from the data, for two reasons:
+- *Scale*: the figure quoted for CET-6 is its Level-6 word-family-expanded
+  list (29,844 word forms) against the AVL's 6,799 — a 4.4× difference.
+- *Composition* (the more serious problem): raw token coverage cannot
+  fairly compare a general word list against an academic one. The CET-6
+  WL contains 14 of the 15 most frequent function words in the corpus and
+  covers 100% of its top-100 word types; the AVL contains 2 of those 15
+  and covers 58.3%. Those top-100 types alone account for 25.9% of all
+  running tokens. A general list therefore wins this comparison by
+  construction, regardless of either list's quality.
+
+Replaced with a statement of that methodological point: standalone
+figures are not comparable across list types, the AVL's 50.48% reflects
+its selective composition rather than a deficiency, and its contribution
+is properly assessed by incremental gain over a general baseline.
+
+**Same error, second location.** The Discussion used the identical
+comparison to argue that Coxhead's (2016) overlap observation "is not
+supported by the AVL comparison in this corpus." Coxhead's claim concerns
+*overlap*, which is Table 4's data, not token coverage. On the correct
+evidence the claim is in fact **supported**: AVL–CET-6 overlap is 19.57%,
+the highest of any academic list against the CET-6 WL (AWL 10.29%, NAWL
+7.78%), and 5,666 of the AVL's 6,799 word forms (83%) are already
+contained in the general composite resource. Rewritten to cite the
+overlap data and restore the corroboration, which the corrected data
+supports.
+
+**Internal contradiction in the learning-burden argument.** The
+Discussion read "requires learners to master an additional ~1,133 words
+... which constitutes a prohibitively heavy learning burden." ~1,133
+additional word forms is not prohibitive, so the conclusion no longer
+followed from its own premise (it did when the figure was the erroneous
+18,558). Restructured to rest the argument on the aggregate instead: even
+the most inclusive combination examined, at over 60,000 lexical items,
+still fails to reach 95%. The 1,133 figure was moved to §4.2, where it
+explains *why* the AVL's incremental gain is small — a use that supports
+rather than undercuts the surrounding claim.
+
+**Also fixed in this pass:** a sentence fragment ("...demonstrate that
+when supplementing the AWL and the NAWL to the the BNC/COCA supplementary
+lists only yields..."), which additionally mis-stated the baseline (the
+academic lists are added to the General Composite Word List *and* the
+BNC/COCA supplementary lists, not to the supplementary lists alone);
+"overage" → "coverage"; and "General Compositve" → "General Composite".
+
+**One item flagged but not changed** (author's call): the "over 60,000
+lexical items" burden figure includes the 29,798-item BNC/COCA
+supplementary lists, most of which are proper names and acronyms rather
+than vocabulary a learner would deliberately study. The burden claim may
+be overstated on that basis, but adjusting it would alter the paper's
+pedagogical argument rather than correct an error, so it was left as
+written.
