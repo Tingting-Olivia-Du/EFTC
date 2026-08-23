@@ -533,3 +533,41 @@ form that expanding an academic list would contribute.
 
 **A Data Availability Statement was added** before the References,
 pointing to the public repository.
+
+## 2026-08-23 (structure): Limitations promoted to its own section, and a
+## document-structure bug repaired
+
+**Limitations is now Section 6.** The four limitations had been packed
+into a single 2,400-character paragraph at the end of Section 5. They are
+now a numbered top-level section with one paragraph each, which also let
+the fourth — the methodological limitation on the academic-list expansion
+— be developed properly rather than appended.
+
+While splitting them, an error introduced by the previous edit came to
+light: the sentence "Future studies can integrate longitudinal learner
+tracking…" had originally closed the *third* limitation (about not
+measuring learner knowledge), but inserting the fourth limitation ahead of
+it left it trailing the counting-unit discussion, where it read as though
+longitudinal tracking would address a counting-unit problem. It has been
+returned to the third limitation, and the fourth now closes with its own
+forward-looking sentence: that a finer-grained alternative would be to
+expand each list using its own compiler's family criteria and report both
+expansions side by side.
+
+The fourth limitation also now tells readers where to look for
+comparability: the Level-1 rows of Table 10 correspond to the headwords as
+published, so those are the figures to set against previously published
+coverage rates for the AWL, NAWL and AVL.
+
+**Document-structure bug found and repaired.** Sixteen headings had
+silently lost their Heading styles and were rendering as body text — the
+document outline showed only three of nineteen headings. The cause was in
+the earlier heading-numbering pass: `p._p.insert(0, run)` placed the new
+number run *before* the paragraph's `<w:pPr>` element. OOXML requires
+`w:pPr` to be the first child of `w:p`, so the paragraph properties were
+invalidated and the style dropped. Only the two headings edited by a
+different method survived. All heading levels have been restored (Heading 1
+for sections 1–6, Abstract, Data Availability and References; Heading 2 for
+2.1–2.3, 3.1, 3.2, 4.1, 4.2; Heading 3 for 3.2.1, 3.2.2 and 4.1.1–4.1.4)
+and the outline now renders correctly, which also restores navigation, the
+table of contents and any style-driven journal template.
