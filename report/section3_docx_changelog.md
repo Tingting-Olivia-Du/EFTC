@@ -593,3 +593,48 @@ Automatic numbering has therefore been switched off on all 22 headings
 are now fixed text that cannot drift, and unnumbered headings stay
 unnumbered. Verified afterwards that no heading retains a live list
 reference and that none begins with a repeated number.
+
+## 2026-08-23 (methods accuracy): implementation description rewritten to
+## match the Python pipeline
+
+Section 3.2.1 still described the original Java implementation — a
+`LevelList` class built on `TreeMap<String, HashSet<String>>`, an
+`AffixLevelHandler` class "developed in Java", and a `LevelListHandler`
+class — even though every figure now reported in the paper is produced by
+the Python reimplementation. The description did not match the analysis.
+
+Three paragraphs were consolidated into one that states what the pipeline
+actually does, without internal class names, which a methods section does
+not need in any case:
+
+> Each word list was then expanded from its headwords through the six
+> affix levels using a purpose-written Python pipeline. Level 1 comprises
+> the headwords of the source list. Level 2 adds inflectional variants,
+> drawn from the AntBNC lemma list (Anthony, 2021), the lemma database on
+> which the Familizer/Lemmatizer tool (Cobb, 2007) draws for English; for
+> the small proportion of headwords not represented in that database,
+> regular inflectional patterns were generated instead. Level 6 comprises
+> the complete word family of each headword as defined in the BNC/COCA
+> word family lists (Nation, 2017). Levels 3 to 5 were derived from the
+> Level-6 family by admitting those members whose prefixes or suffixes
+> belong to the corresponding level of Table 1, with each level
+> cumulatively including all levels below it.
+
+This also corrects a second inaccuracy. The previous text attributed
+Level-2 lemmatisation to Cobb's Familizer/Lemmatizer tool, but the
+analysis used the AntBNC lemma list directly — the database that tool
+draws on for English — with a regular-inflection fallback for headwords it
+does not cover. The relationship is now stated rather than the tool being
+credited with output it did not produce.
+
+A reference entry for the lemma list was added: Anthony, L. (2021). AntBNC
+lemma list (Version 004) [Data set]. **The year is inferred from the
+timestamp inside the distributed archive (2021-01-03); the download page
+gives no explicit citation, so this should be verified before
+submission.**
+
+The Data Availability Statement now records that the repository archives
+both the Python pipeline used for the reported analyses and the original
+Java implementation from which it was ported, so the historical code
+remains discoverable without the methods section misdescribing what was
+run.
