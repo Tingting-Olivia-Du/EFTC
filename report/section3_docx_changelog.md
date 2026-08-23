@@ -726,3 +726,38 @@ than a mischaracterised one:
 With this, every one of the four problem citations is resolved against a
 verified source, and no claim in the paper now rests on a citation that
 was not read.
+
+## 2026-08-23 (precision): the Tong et al. sentence tightened to verified
+## figures only
+
+The rewrite in the previous entry overreached in one respect and was
+ambiguous in another; both were caught on review.
+
+**Overreach.** It stated that "the small body of rigorous comparative
+studies is concentrated almost entirely in the medical sciences". Tong et
+al. report the disciplinary breakdown only for the ten randomised
+controlled trials (nine in medicine, one in business). They give no
+disciplinary breakdown for all 34 Phase-III comparative studies, so the
+broader claim was not verified.
+
+**Ambiguity.** "Dominated by non-empirical work, and the small body of
+rigorous comparative studies is concentrated … in the medical sciences"
+could be read as saying the medical studies were themselves non-empirical.
+The opposite is true: the medical studies are the rigorous empirical ones,
+while the non-empirical majority is the corpus as a whole.
+
+The sentence now reports only figures taken directly from the paper:
+
+> Empirical work on EMI in China remains a small proportion of the
+> literature: of 1,632 studies reviewed by Tong et al. (2020), only 271
+> were empirical, and of the ten randomised controlled trials identified
+> among them, nine were conducted in medicine.
+
+Both figures are stated verbatim in the source (1,632 → 271 empirical in
+the Phase II description; "only 10 studies (nine in the field of medicine
+and one in business) that were randomized controlled trials"). Nothing in
+the sentence now rests on an inference.
+
+Note for the record: Tong et al. review **bilingual education studies**,
+not word lists. The paper says nothing about medical word lists such as
+the MAWL, and no claim about those is made or implied here.
