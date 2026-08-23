@@ -438,3 +438,43 @@ unit rather than of lexical selection — the same class of error as the
 AVL-versus-CET-6 comparison corrected on 2026-08-21. The asymmetry is now
 stated in §3.2.1, in the Table 10 note, and as a caveat in §4.2 where the
 standalone figures are discussed.
+
+## 2026-08-23 (advisor follow-up): academic word lists rebuilt through all
+## six affix levels
+
+The academic word lists are no longer analysed in their published form.
+`analysis/build_academic_leveled.py` rebuilds all three from their
+headwords through the identical pipeline used for the general lists —
+AntBNC lemma database for Level 2, BNC/COCA family database for Level 6,
+Bauer & Nation affix rules (corrected Level-3 handling) for Levels 3–5.
+
+**Level 1 by table mapping.** Each list's own nested structure supplies its
+headwords: the sublist keys of the AWL distribution, the top-level keys of
+the NAWL distribution, and the `family` column of the AVL spreadsheet.
+These recover the published counts exactly — 570, 963 and 1,991 — which
+validates the extraction. Between 97.6% and 99.5% of those headwords are
+locatable in the BNC/COCA family database, so the expansion has near-full
+coverage of each list.
+
+**This resolves the counting-unit confound.** Rebuilding at a common unit
+raises the NAWL's token coverage from 5.15% in its published lemma form to
+**14.92%** at Level 6 — close to a threefold increase — while the AWL
+(20.19% → 19.64%) and the AVL (50.60% → 51.07%) barely move. The NAWL's
+apparent weakness in the published comparison was therefore largely an
+artefact of it being distributed as lemmas rather than families, exactly as
+the asymmetry noted in the previous entry predicted.
+
+**Table 10 restructured** from six rows to twenty-one: three lists × six
+levels of standalone coverage, followed by the three starred combinations.
+The starred values vary by at most 0.21 percentage points across the six
+levels — the general baseline already contains nearly every form that
+expanding an academic list would add — so they are reported at Level 6
+only, with a note recording the invariance.
+
+**Revised figures.** AWL\* 92.05%, NAWL\* 92.74%, AVL\* 92.87%; the AVL
+still leads but by 0.13 points over the NAWL. Of the 11,906 word forms in
+the Level-6 AVL, 9,818 (82%) are already in the general composite, leaving
+2,088 net-new. The vocabulary requiring deliberate study rises to
+approximately 32,500 word forms. Sections 3.1, 3.2.1, 4.2, the Discussion,
+the pedagogical paragraph, the Abstract and the Table 10 note were all
+updated to match.
