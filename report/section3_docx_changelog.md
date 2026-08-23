@@ -478,3 +478,58 @@ the Level-6 AVL, 9,818 (82%) are already in the general composite, leaving
 approximately 32,500 word forms. Sections 3.1, 3.2.1, 4.2, the Discussion,
 the pedagogical paragraph, the Abstract and the Table 10 note were all
 updated to match.
+
+## 2026-08-23 (full review): methods clarity and remaining gaps
+
+A complete read-through following the six-level rebuild of the academic
+word lists. Three items were requested; seven further gaps were found and
+closed.
+
+**Requested — how the academic lists were used.** §3.2.1 already stated
+that the six-level expansion was applied to them, but not how their
+Level-1 baseline was obtained. It now specifies that the headwords were
+recovered from each list's own published structure (AWL sublist entries,
+NAWL lemma entries, AVL family column), that this reproduces the published
+570 / 963 / 1,991 exactly, and that Levels 2–6 used the same AntBNC lemma
+database and BNC/COCA family database as the general lists. A pointer was
+added noting that Table 3 gives the general-list sizes and Table 10 the
+academic-list sizes.
+
+**Requested — the starred invariance.** Already present in §4.2 and the
+Table 10 note; now also stated in the Discussion, where it carries the
+interpretation that the general baseline already contains nearly every
+form that expanding an academic list would contribute.
+
+**Further gaps closed:**
+
+1. §3.2.1's second paragraph described the affix levels as classifying
+   *corpus* words ("all words were categorised into Levels 3–6 … items
+   failing to match any affix pattern were grouped into base lemma
+   levels"), which is not what the procedure does — the levels classify
+   *word-list members*. Rewritten to describe the actual mechanism.
+2. §3.2.2 did not say which level the General Composite Word List was
+   built at, nor which form of the academic lists was merged into it. Both
+   now specified as Level 6.
+3. The BNC/COCA supplementary lists were defined but never motivated. A
+   rationale now explains why they are reported separately: these
+   categories are largely recognised or decoded in context rather than
+   learned, so reporting coverage with and without them brackets lexis
+   that imposes little learning burden.
+4. RQ2 did not mention affix levels although the analysis answering it is
+   level-based; it now does.
+5. "Boosts token coverage by roughly 5% and type coverage by around 10%"
+   and "performs about 10% better" misuse percentages for what are
+   differences in percentage points. Corrected in both places.
+6. §4.2 gave the AWL's and NAWL's gains across levels in points but not
+   the AVL's, despite calling it the largest; 11.60 points now stated.
+7. **A new limitation added.** The six-level expansion of the academic
+   lists uses the BNC/COCA family database rather than each list's own
+   family definition, so the rebuilt lists exceed their published sizes
+   (Level-6 AWL 3,898 against Coxhead's 3,107; Level-6 AVL 11,906 against
+   6,793). The limitations section now records this and states that
+   coverage figures for the expanded academic lists are estimates of what
+   a learner with the corresponding morphological knowledge would
+   recognise, not properties of the published lists.
+
+**A Data Availability Statement was added** before the References,
+pointing to the public repository.
