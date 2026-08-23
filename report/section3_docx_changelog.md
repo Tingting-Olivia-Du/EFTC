@@ -571,3 +571,25 @@ for sections 1–6, Abstract, Data Availability and References; Heading 2 for
 2.1–2.3, 3.1, 3.2, 4.1, 4.2; Heading 3 for 3.2.1, 3.2.2 and 4.1.1–4.1.4)
 and the outline now renders correctly, which also restores navigation, the
 table of contents and any style-driven journal template.
+
+## 2026-08-23 (heading numbering): automatic numbering disabled
+
+Restoring the Heading styles in the previous entry exposed a duplication:
+headings rendered as "4.1 4.1 Coverage of the general word lists" and
+"(1) 4.1.1 The High School Word List". Every Heading style in this
+document carries an automatic multilevel list, so once the styles were
+valid again the automatic number reappeared alongside the literal number
+written into the text. The corruption had been masking it.
+
+Automatic numbering cannot be used in this document. Abstract, Data
+Availability Statement and References are all Heading 1, so an automatic
+sequence would number them too, and the list definitions are in any case
+misconfigured — both relevant `abstractNum` definitions set the top level
+to `start="4"`, which is the original source of the "4.2.1"/"4.2.2"
+mislabelling found at the very beginning of this review.
+
+Automatic numbering has therefore been switched off on all 22 headings
+(`numId=0`), leaving the literal numbers as the single source. The numbers
+are now fixed text that cannot drift, and unnumbered headings stay
+unnumbered. Verified afterwards that no heading retains a live list
+reference and that none begins with a repeated number.
