@@ -310,3 +310,64 @@ This strengthens rather than weakens the paper's argument: a defensible
 31,500-word figure that still falls short of 95% supports the case for a
 discipline-specific FAWL more credibly than an inflated 60,000 that a
 reviewer could challenge.
+
+## 2026-08-23: full data + content audit
+
+Complete re-verification of every figure and claim in both documents.
+
+**Corpus and Table 2 — verified exact.** Recomputed all three column
+groups from the table itself: 49 + 26 + 19 = 94 books and 8,538,216 +
+4,663,425 + 3,152,698 = 16,354,339 words, matching both the stated total
+and the corpus file (16,354,339 tokens / 120,835 types).
+
+**Case-sensitivity inconsistency found and fixed (the substantive item).**
+The corpus is entirely lowercase after preprocessing, but Table 4 and the
+standalone AVL row of Table 10 were computed from word lists with case
+preserved. Two consequences:
+
+1. *Tables 3 and 4 contradicted each other.* Table 3 reported CET-4
+   Level 1 = 4,539 (lowercased), while Table 4's arithmetic required
+   4,543 (4,543 + 3,448 − 2,862 = 5,129). A reviewer checking the union
+   column would have found the discrepancy. After lowercasing, all three
+   general-list rows reconcile exactly: 4,539 + 3,448 − 2,871 = 5,116 ✓,
+   8,046 + 3,448 − 3,242 = 8,252 ✓, 4,539 + 8,046 − 4,307 = 8,278 ✓.
+2. *The AVL list size was inflated.* 26 of its entries are capitalised
+   (e.g. *American*) and can never match a lowercase corpus, yet were
+   counted in the denominator of the attestation rate.
+
+All word lists are now lowercased consistently. Changes: Table 4 — eight
+of nine rows shift slightly (AWL vs NAWL unchanged); Table 10 — standalone
+AVL 6,799/82.16/4.62/50.48 → 6,793/82.48/4.64/50.60, and AVL\* size/
+attestation 61,055/47.37 → 61,030/44.57 (its token coverage stays 92.86%).
+AWL\* and NAWL\* are unaffected, both lists being already lowercase.
+Dependent prose figures updated accordingly, including the AVL composition
+sentence (now 5,685 of 6,793 already covered, 1,108 net-new) and the
+Discussion's overlap figure (19.65%) and 84% coverage claim.
+
+**Verification performed after the fix.** Every percentage and count in
+the prose was matched programmatically against the tables — all trace
+correctly, and no superseded value (94.09%, 86.99%, 74.89%, 63,153,
+18,558, etc.) survives anywhere in the body.
+
+**Six drafting artifacts fixed.** These were identified in the original
+verification report as findings T1/T2 but had only ever been corrected in
+the Section 3 methods redline, never in the data document:
+- a leftover `xxx` placeholder in §2.1;
+- two unresolved either/or phrasings — "has been consistently/has long
+  been" → "has long been"; "supplemented by/superimposed with" →
+  "supplemented by";
+- a stray `+` after "(Laufer & Sim, 1985)";
+- "covers close 14%" → "covers close to 14%";
+- "In a seminar work" → "In a seminal work".
+
+**Two missing references supplied**, both for word lists central to the
+study and previously un-citable: Browne, Culligan & Phillips (2013) for
+the NAWL and Gardner & Davies (2014) for the AVL, inserted in alphabetical
+position. **Please verify both against your own bibliographic source
+before submission.**
+
+**Four references still missing — author action required.** Cobb (2019),
+Wang et al. (2020), Graves (2021) and Zhang & Liu (2022) are cited in the
+Discussion but absent from the reference list. These were deliberately not
+supplied, as guessing at their details would be worse than leaving the gap
+visible.
