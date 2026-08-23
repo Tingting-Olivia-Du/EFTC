@@ -687,3 +687,42 @@ particular finding should be checked against the full text.**
 Added reference: Hyland, K., & Tse, P. (2007). Is there an "academic
 vocabulary"? TESOL Quarterly, 41(2), 235-253. Reference list now 59
 entries; every in-text citation resolves and every entry is cited.
+
+## 2026-08-23 (verified against source): the Tong et al. (2020) claim was
+## contradicted, not merely unverifiable
+
+The author supplied the full text of Tong, Wang, Min & Tang (2020), which
+had previously been inaccessible. Reading it settles the outstanding
+question — and reverses it.
+
+The sentence read: *"Prior EMI studies predominantly focus on liberal arts
+and general academic disciplines (Tong et al., 2020)."* The paper does not
+support this. It reports the opposite concentration:
+
+- "only 10 studies (**nine in the field of medicine** and one in business)
+  … were randomized controlled trials";
+- of the studies showing significant positive effects, "eight RCTs and two
+  QEDs that **all came from the medical science field** (e.g.,
+  anesthesiology, nephrology, and physiology in Chinese medicine), except
+  for one that was in the field of math";
+- "the six studies that reached a certain level of consensus on the
+  positive outcome in the **medical science disciplines** were overshadowed
+  by abundant, nonempirical research".
+
+The terms *liberal arts* and *humanities* do not occur anywhere in the
+paper.
+
+The sentence has been rewritten to what the source actually establishes,
+which serves the argument better because it identifies a real gap rather
+than a mischaracterised one:
+
+> Prior research on EMI in China has been dominated by non-empirical work,
+> and the small body of rigorous comparative studies is concentrated almost
+> entirely in the medical sciences (Tong et al., 2020). Few studies in any
+> discipline have taken morphological features into account when
+> investigating the coverage of mainstream curriculum- and test-based word
+> lists, and none has done so for English finance textbooks.
+
+With this, every one of the four problem citations is resolved against a
+verified source, and no claim in the paper now rests on a citation that
+was not read.
