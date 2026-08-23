@@ -386,3 +386,55 @@ sources rather than left on trust:
 
 Cobb (2019), Wang et al. (2020), Graves (2021) and Zhang & Liu (2022)
 remain outstanding and are for the author to supply.
+
+## 2026-08-23 (advisor query): academic word lists — sourcing, sizes and
+## counting unit
+
+Two points raised in supervision, both substantiated.
+
+**1. Table 10 sizes did not match the published figures.** Checked against
+the original distributions. The word-family counts match exactly (AWL 570,
+NAWL 963, AVL 1,991); the discrepancies are entirely a matter of how
+"word forms" are counted:
+
+| List | Families | Published forms | Distinct forms used here |
+|---|---|---|---|
+| AWL | 570 ✓ | 3,112 | 3,107 |
+| NAWL | 963 ✓ | 2,604 | 2,598 |
+| AVL | 1,991 ✓ | 7,728 | 6,793 |
+
+The AVL gap of ~930 is fully accounted for: its distribution lists
+family-by-part-of-speech entries, and 824 forms carry more than one tag
+(*level* as noun, adjective and verb; *model* as noun, verb and
+adjective), giving 6,799 + 928 = 7,727 rows. Since the EFTC is an untagged
+type-frequency list, a form can match only once regardless of its tags, so
+coverage must be computed over distinct orthographic forms. The residual
+AWL and NAWL differences (3–6 forms) reflect minor version differences
+between the machine-readable distribution used and the published counts.
+Table 10 now states families in the row labels, labels the size column
+"Size (word forms)", and carries a note explaining the collapse.
+
+**2. The methods section never described the academic word lists at all** —
+neither their provenance and size nor how they were operationalised. Two
+paragraphs added: §3.1 now gives source and size for each list and states
+that coverage is computed over distinct orthographic forms; §3.2.1 now
+states that the academic lists were *not* put through the six-level affix
+expansion, and why.
+
+**A comparability problem surfaced while answering this.** The three lists
+are not distributed at the same counting unit, which the paper had not
+registered:
+
+| List | Derivational members | Counting unit |
+|---|---|---|
+| AWL | 59% | full word family (≈ Level 6) |
+| NAWL | **21%** | **lemma — inflections and spelling variants only (≈ Level 2)** |
+| AVL | 54% | full word family (≈ Level 6) |
+
+The diagnostic is decisive: the NAWL lists *absorb* and *absorption* as
+**separate headwords**, which a family-based list would not. Its lower
+standalone coverage (5.15%) is therefore partly an artefact of counting
+unit rather than of lexical selection — the same class of error as the
+AVL-versus-CET-6 comparison corrected on 2026-08-21. The asymmetry is now
+stated in §3.2.1, in the Table 10 note, and as a caveat in §4.2 where the
+standalone figures are discussed.
