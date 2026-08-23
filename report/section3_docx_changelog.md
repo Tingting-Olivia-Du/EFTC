@@ -638,3 +638,52 @@ both the Python pipeline used for the reported analyses and the original
 Java implementation from which it was ported, so the historical code
 remains discoverable without the methods section misdescribing what was
 run.
+
+## 2026-08-23 (citations): four unreferenced citations resolved
+
+A bidirectional check of citations against the reference list found four
+in-text citations with no entry, and no uncited entries. Each was searched
+for; none could be identified with confidence, so rather than guessing at
+bibliographic details, three were replaced with sources whose relevant
+argument was verified first, and one was corrected as a typo confirmed by
+the author.
+
+| Was | Now | Basis |
+|---|---|---|
+| Wang et al. (2020) | **Tong et al. (2020)** | Author confirmed a typo. Tong, Wang, Min & Tang (2020) has Wang as second author, same year, and was already cited elsewhere. |
+| Graves (2021) | **Hyland & Tse (2007)** | Verified via Crossref abstract |
+| Cobb (2019) | **Hyland & Tse (2007)** + the study's own finding | Verified; sentence rewritten |
+| Zhang & Liu (2022) | **McLean (2021)** | Verified; already in the reference list |
+
+**Verification carried out.** Hyland and Tse's abstract states that
+"individual lexical items on the list often occur and behave in different
+ways across disciplines in terms of range, frequency, collocation, and
+meaning", that this "questions the widely held assumption that students
+need a single core vocabulary for academic study", and recommends "a more
+restricted, discipline-based lexical repertoire". That supports both the
+claim that general vocabulary resources serve disciplinary learning poorly
+and the case for a discipline-specific FAWL. McLean (2021) concludes that
+"the validity with which the CCM [coverage comprehension model] is
+operationalized in research is limited", which supports the limitation
+that coverage figures do not translate directly into comprehension.
+
+**Two claims were narrowed to what the replacement sources actually
+support.** The Cobb sentence had asserted that untargeted large-scale
+memorisation is "inefficient and unfeasible"; since that framing belongs
+to the missing source, the sentence now rests the inefficiency point on
+this study's own finding (a ~32,500-word lexicon still short of 95%) and
+cites Hyland & Tse only for the targeted-versus-general argument they do
+make. The McLean sentence dropped "or productive ability", which McLean
+does not address.
+
+**One item remains unverified.** The claim attributed to Tong et al.
+(2020) — that prior EMI studies concentrate on liberal arts and general
+academic disciplines — could not be checked: SAGE blocks automated access
+and the abstract, DOAJ record and Semantic Scholar entry contain nothing
+about the disciplinary distribution of the reviewed studies. The citation
+identity is confirmed by the author, but **whether that paper reports this
+particular finding should be checked against the full text.**
+
+Added reference: Hyland, K., & Tse, P. (2007). Is there an "academic
+vocabulary"? TESOL Quarterly, 41(2), 235-253. Reference list now 59
+entries; every in-text citation resolves and every entry is cited.
