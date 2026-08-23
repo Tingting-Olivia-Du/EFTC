@@ -791,3 +791,20 @@ Verified afterwards across 24 checkpoints — body text, both header and
 body of all ten tables, table notes, captions and the bibliography — that
 the clean copy's font sizes are identical to the original's, and that no
 paragraph mixes sizes internally.
+
+## 2026-08-23 (formatting): table font sizes standardised
+
+Table font sizes were inconsistent — 9, 10 and 11 pt across different
+tables, with Tables 3 and 10 carrying no explicit size and therefore
+inheriting the body text's 12 pt. That was most conspicuous in Table 10,
+which had grown to 21 data rows in the six-level rebuild and was setting
+them at full body size.
+
+All tables are now 10 pt for both header and body, two points below the
+running text, with one exception: **Table 2 is left at 9 pt** because it
+is the widest table in the paper (12 columns of course-by-course corpus
+composition) and enlarging it risks overflowing the column layout. Say the
+word if it should be brought to 10 pt as well.
+
+Changed: Table 1 (11 → 10), Table 3 (inherited 12 → 10), Table 4 (11 →
+10), Table 9 body (11 → 10), Table 10 body (inherited 12 → 10).
