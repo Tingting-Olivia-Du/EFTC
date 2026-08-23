@@ -761,3 +761,33 @@ the sentence now rests on an inference.
 Note for the record: Tong et al. review **bilingual education studies**,
 not word lists. The paper says nothing about medical word lists such as
 the MAWL, and no claim about those is made or implied here.
+
+## 2026-08-23 (formatting): edited text restored to the original font sizes
+
+The inserted text was rendering smaller than the surrounding prose. The
+cause was mine: every run written during this review was given an explicit
+`Pt(11)`, whereas the document's body text carries no explicit size at all
+and inherits 12 pt from the Normal style. Checked against the untouched
+`202608014-Check Data.docx`, whose 1,847 body runs are **all** unsized and
+which contains **no** 11-point paragraph — so every 11-point run in the
+working copies was introduced by this review, not by the authors.
+
+Two corrections applied to the redline source and carried into the clean
+copy:
+
+- 182 runs in Normal-styled paragraphs reset from 11 pt to unsized, so
+  they inherit 12 pt exactly as the original text does;
+- Table 10's body reset from 10 pt to unsized, matching the original
+  table (its header legitimately carries 10 pt, and was left alone).
+
+A subtlety worth recording: an earlier pass had tried to match each
+paragraph to "its own original runs", but the plain connective text
+written during full-paragraph rewrites carried no review colour and was
+therefore misread as original, which propagated 11 pt instead of
+correcting it. Comparing against the pristine file rather than against the
+working copy is what settled it.
+
+Verified afterwards across 24 checkpoints — body text, both header and
+body of all ten tables, table notes, captions and the bibliography — that
+the clean copy's font sizes are identical to the original's, and that no
+paragraph mixes sizes internally.
