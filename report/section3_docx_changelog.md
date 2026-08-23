@@ -371,3 +371,18 @@ Wang et al. (2020), Graves (2021) and Zhang & Liu (2022) are cited in the
 Discussion but absent from the reference list. These were deliberately not
 supplied, as guessing at their details would be worse than leaving the gap
 visible.
+
+## 2026-08-23 (addendum): references verified against sources
+
+The two reference entries added earlier were checked against authoritative
+sources rather than left on trust:
+
+- **Gardner & Davies (2014)** — confirmed exactly as written via Oxford
+  Academic: *Applied Linguistics*, 35(3), 305–327,
+  https://doi.org/10.1093/applin/amt015.
+- **Browne, Culligan & Phillips (2013)** — corrected to the project's own
+  recommended form, "New academic word list 1.0.
+  http://www.newgeneralservicelist.org/".
+
+Cobb (2019), Wang et al. (2020), Graves (2021) and Zhang & Liu (2022)
+remain outstanding and are for the author to supply.
