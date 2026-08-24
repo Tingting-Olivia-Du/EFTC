@@ -808,3 +808,39 @@ word if it should be brought to 10 pt as well.
 
 Changed: Table 1 (11 → 10), Table 3 (inherited 12 → 10), Table 4 (11 →
 10), Table 9 body (11 → 10), Table 10 body (inherited 12 → 10).
+
+## 2026-08-23 (LaTeX): Overleaf version regenerated and compile-verified
+
+`paper/overleaf/main.tex` had been generated on an earlier draft and no
+longer matched the Word file. Rather than hand-editing it — which would
+let the two versions drift — it was regenerated with the existing
+`generate_from_docx.py`, which reads the clean docx directly.
+
+The regenerated manuscript picks up everything from this review: the
+six-level rebuild of the academic word lists (Table 10 now 21 data rows),
+the new Section 6 on limitations, the Data Availability Statement, the
+corrected citations, the standardised heading numbers and the reduced
+table font sizes.
+
+**Compile-verified rather than assumed.** With no local TeX installation,
+the document was built in a `texlive/texlive` container: two XeLaTeX
+passes, **0 errors, 0 warnings, 0 overfull boxes, 23 pages**. One 7.4 pt
+overfull box in Table 1's "Cumulative" header was fixed at source by
+widening that column in `TABLE_SPECS` (0.14/0.18/0.48/0.10 →
+0.13/0.17/0.46/0.13) and regenerating, so the fix survives future
+regeneration.
+
+Static checks before compiling: brace balance, environment nesting,
+unescaped special characters, and per-row column counts for all ten tables
+(Table 2's `\multicolumn` spans were counted correctly — every row totals
+12 columns).
+
+Content verified against the Word file after compiling: all headings, both
+figure ranges in the abstract, the Table 3/4/10 values, the rewritten Tong
+et al. sentence, the Hyland & Tse and McLean substitutions, the AntBNC
+citation, and 59 reference entries in both.
+
+Note: `main.tex` carries no `\cite` commands and no `\bibliography` — the
+references are typeset directly as hanging-indent paragraphs to match the
+Word layout, so `references.bib` is an optional export rather than a build
+dependency. The README records this so nobody adds a redundant BibTeX pass.
